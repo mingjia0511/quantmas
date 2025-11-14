@@ -1,8 +1,8 @@
 id,name,type,sub_type,available_on_day,region
 asset_1,Snowflake Manor,Real Estate,Residential,1,Frostpeak
 asset_2,Candy Cane Plaza,Real Estate,Commercial,1,Tinseltown
-asset_3,Toy Factory Complex,Real Estate,Industrial,10,Evergreen Valley
-asset_4,Gingerbread Village,Real Estate,Residential,1,Mistletoe Meadows
+asset_3,Toy Factory Complex,Real Estate,Residential,45,Evergreen Valley
+asset_4,Gingerbread Village,Real Estate,Residential,15,Mistletoe Meadows
 asset_5,Ice Rink Center,Real Estate,Commercial,15,Frostpeak
 asset_6,Reindeer Stables,Real Estate,Industrial,1,Frostpeak
 asset_7,Elf Quarters,Real Estate,Residential,20,Tinseltown
@@ -10,7 +10,7 @@ asset_8,Workshop Warehouse,Real Estate,Industrial,5,Evergreen Valley
 asset_9,Sleigh Showroom,Real Estate,Commercial,25,Mistletoe Meadows
 asset_10,Frozen Lake Resort,Real Estate,Residential,30,Evergreen Valley
 asset_11,North Star Mall,Real Estate,Commercial,1,Tinseltown
-asset_12,Gift Wrapping Plant,Real Estate,Industrial,35,Mistletoe Meadows
+asset_12,Gift Wrapping Plant,Real Estate,Industrial,10,Mistletoe Meadows
 asset_13,Aurora Apartments,Real Estate,Residential,40,Frostpeak
-asset_14,Mistletoe Market,Real Estate,Commercial,45,Evergreen Valley
-asset_15,Cookie Factory,Real Estate,Industrial,50,Tinseltown
+asset_14,Mistletoe Market,Real Estate,Residential,50,Evergreen Valley
+asset_15,Cookie Factory,Real Estate,Commercial,5,Tinseltown
