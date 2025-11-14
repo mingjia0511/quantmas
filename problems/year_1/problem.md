@@ -20,7 +20,7 @@ Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 pric
 
 The market is volatile - asset valuations change daily based on factors like:
 - 🎅 Holiday shopping trends
-- 🦌 Reindeer migration patterns  
+- 🦌 Reindeer migration patterns
 - ❄️ Blizzard insurance premiums
 - 🎁 Gift production forecasts
 
@@ -28,7 +28,7 @@ The market is volatile - asset valuations change daily based on factors like:
 
 **Special Note:** Some premium properties come to market after a certain day and can only be purchased on or after their availability date. Think of them as exclusive Christmas listings! 🏡✨
 
-## 📊 Challenge Files & Info 
+## 📊 Challenge Files & Info
 
 **📁 Data Files:**
 - 🏠 `assets.csv` - 15 magical properties with details (id, name, type, sub_type, available_on_day, region)
@@ -69,11 +69,11 @@ Your festive trading decisions should be recorded as a list of daily actions! �
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - buy: id_2
+  - buy: asset_2
 3:
-  - sell: id_1
+  - sell: asset_1
 ```
 
 ---
@@ -117,7 +117,7 @@ The elf with the highest score wins! 🏆
 
 ## 🎁 Good Luck, Chief Investment Elf!
 
-May your portfolio be merry and bright! Remember, this is just the beginning of your 5-year journey to save Christmas through smart investments. Show Santa what you're made of! 
+May your portfolio be merry and bright! Remember, this is just the beginning of your 5-year journey to save Christmas through smart investments. Show Santa what you're made of!
 
 🎅✨ **Ho ho ho, now get out there and make some magical returns!** ✨🎄
 

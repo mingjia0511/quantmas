@@ -30,10 +30,17 @@ Daily Tax Owed = Current Valuation × (Base Tax Rate + (Rate Modifier × Days Si
 - You must pay the **full accumulated tax** when you choose to pay
 - You must settle all taxes before selling an asset
 
-**🎯 Example 1: Paying Daily**ficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
-
+## Difficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
 
 ## 🏛️ The Challenge
+
+**Maximize your total wealth by day 100** while managing tax obligations strategically.
+
+```
+Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 prices)
+```
+
+**New constraint:** All taxes must be paid by day 100, or you face penalties (automatic deduction from final score).
 
 
 ## 📊 Challenge Files & Info
@@ -117,10 +124,10 @@ You now have a magical new action available! 🪄 You can pay taxes on any day i
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - pay_tax: id_1
-  - buy: id_2
+  - pay_tax: asset_1
+  - buy: asset_2
 ```
 
 ---
@@ -173,6 +180,6 @@ Based on the new tax environment, expect:
 
 ## 🎁 Keep Up the Great Work!
 
-The PRS might have their eye on you now, but smart tax planning is just another skill in your Chief Investment Elf toolkit! Master the art of timing and watch your portfolio grow even stronger! 
+The PRS might have their eye on you now, but smart tax planning is just another skill in your Chief Investment Elf toolkit! Master the art of timing and watch your portfolio grow even stronger!
 
 🎄💪 **May your taxes be low and your returns be high!** 💪🎄

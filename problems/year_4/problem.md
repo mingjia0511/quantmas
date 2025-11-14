@@ -7,7 +7,7 @@
 
 Hold onto your pointed hats, Chief Investment Elf! 🧝‍♀️ The North Pole is in full election mode, and things are about to get WILD! 🌪️ At the end of Year 4, a historic election will reshape the entire North Pole economy, dramatically affecting tax rates and asset valuations for Year 5.
 
-But wait—there's more chaos! 📢 To address the scandal around illegal reindeer trafficking, President Santa Claus has enacted the **Reindeer Protection Act**! 🦌⚖️ This well-intentioned but bureaucratic nightmare means ALL transactions now take 30 days to process! 
+But wait—there's more chaos! 📢 To address the scandal around illegal reindeer trafficking, President Santa Claus has enacted the **Reindeer Protection Act**! 🦌⚖️ This well-intentioned but bureaucratic nightmare means ALL transactions now take 30 days to process!
 
 Talk about adding excitement to your trading strategy! Will you adapt and thrive, or will the red tape tangle your portfolio? Time to show your legendary elf skills! 🎯✨
 
@@ -15,7 +15,7 @@ Talk about adding excitement to your trading strategy! Will you adapt and thrive
 
 ## 🗳️ The Challenge
 
-To prevent any shady reindeer business, the **Reindeer Protection Act** requires thorough verification of every transaction! 🔍 Each buy and sell now takes **30 full days** to process (talk about North Pole bureaucracy! 📋). 
+To prevent any shady reindeer business, the **Reindeer Protection Act** requires thorough verification of every transaction! 🔍 Each buy and sell now takes **30 full days** to process (talk about North Pole bureaucracy! 📋).
 
 🎯 **Key Trading Changes:**
 - 📅 30-day processing time for ALL transactions
@@ -88,14 +88,14 @@ Two very different visions for the North Pole's future! 🎭
 
 ### 🎅 **Santa Claus** (Incumbent)
 *"Traditional Values, Cozy Comfort!"*
-- 🏠 **Favors:** Residential & Commercial assets  
+- 🏠 **Favors:** Residential & Commercial assets
 - 🗺️ **Preferred Regions:** Frostpeak & Mistletoe Meadows
 - 📉 **Year 5 Promises:** 25% tax reduction + 30% valuation boost for favored assets
 
-### 😈 **The Grinch** (Challenger)  
+### 😈 **The Grinch** (Challenger)
 *"Industrial Revolution, Business First!"*
 - 🏭 **Favors:** Industrial & Commercial assets
-- 🗺️ **Preferred Regions:** Tinseltown & Evergreen Valley  
+- 🗺️ **Preferred Regions:** Tinseltown & Evergreen Valley
 - 📉 **Year 5 Promises:** 30% tax reduction + 35% valuation boost for favored assets
 
 ## 📊 Challenge Files & Info
@@ -253,4 +253,4 @@ Election speculation is driving extreme volatility:
 
 This is it, Chief Investment Elf! 🚀 Year 4 is your ultimate test of adaptability and strategic thinking. Navigate the bureaucracy, predict the election outcome, and position yourself for whatever Year 5 brings!
 
-🎄🗳️ **May your trades be swift and your predictions be true!** 🗳️🎄  
+🎄🗳️ **May your trades be swift and your predictions be true!** 🗳️🎄

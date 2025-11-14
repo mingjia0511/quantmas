@@ -116,10 +116,10 @@ Another magical action joins your toolkit! 🎩✨ You can now pay regional taxe
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - pay_tax: id_1
-  - pay_region_tax: North
+  - pay_tax: asset_1
+  - pay_region_tax: Frostpeak
 ```
 
 ---

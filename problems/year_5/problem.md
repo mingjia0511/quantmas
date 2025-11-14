@@ -24,13 +24,15 @@ The winning candidate's policies are now in full effect:
 
 The market has stabilized after Year 4's volatility. Clear winners and losers have emerged. Your job: maximize returns in this new reality.
 
-## 📊 Challenge Files & Info - Two Possible Scenarios! 
+## 📊 Challenge Files & Info - Two Possible Scenarios!
+
+**🗳️ How to Know Which Scenario:** The challenge organizers will announce the election winner at the start of Year 5. Use the corresponding data folder for your solution.
 
 ### 🎅 Scenario 1: If Santa Claus Wins (`santa_wins/`)
 *"Cozy Christmas Values Reign Supreme!"*
 
 **📁 New/Modified Files:**
-- 📈 `valuations.csv` - Boosted valuations (+30%) for Residential/Commercial in Frostpeak/Mistletoe Meadows  
+- 📈 `valuations.csv` - Boosted valuations (+30%) for Residential/Commercial in Frostpeak/Mistletoe Meadows
 - 💸 `tax_rates.csv` - Reduced tax rates (-25%) for Residential/Commercial assets
 - 🗺️ `regional_tax_rates.csv` - Reduced rates (-25%) for Frostpeak/Mistletoe Meadows regions
 
@@ -43,7 +45,7 @@ The market has stabilized after Year 4's volatility. Clear winners and losers ha
 - **Favored Assets**: Residential & Commercial in Frostpeak & Mistletoe Meadows
   - Tax rates: -25% reduction
   - Valuations: +30% boost from Year 4
-  
+
 - **Non-Favored Assets**: Everything else
   - Tax rates: Unchanged
   - Valuations: Stagnant or declining
@@ -69,14 +71,14 @@ Industrial properties and Tinseltown/Evergreen assets are being left behind as p
 - 🗺️ `regional_tax_rates.csv` - Reduced rates (-30%) for Tinseltown/Evergreen Valley regions
 
 **🔄 Reused from Previous Years:**
-- 🏠 `assets.csv` (Year 1)  
+- 🏠 `assets.csv` (Year 1)
 - 📋 `compliance_requirements.csv` (Year 3)
 
 **Policy Impact:**
 - **Favored Assets**: Industrial & Commercial in Tinseltown & Evergreen Valley
   - Tax rates: -30% reduction
   - Valuations: +35% boost from Year 4
-  
+
 - **Non-Favored Assets**: Everything else
   - Tax rates: Unchanged
   - Valuations: Stagnant or declining
@@ -101,11 +103,11 @@ Same trusty format as always! Use all the actions you've mastered over the years
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - pay_tax: id_1
+  - pay_tax: asset_1
   - pay_region_tax: Frostpeak
-  - sell: id_2
+  - sell: asset_2
 ```
 
 ---
@@ -114,9 +116,10 @@ Same trusty format as always! Use all the actions you've mastered over the years
 
 🚨 **ALL rules from Years 1-4 still apply!** This includes:
 - All basic trading rules
-- Asset and regional tax requirements  
+- Asset and regional tax requirements
 - Regional compliance limits
-- The Reindeer Protection Act processing delays (if still in effect)
+
+**🎉 GOOD NEWS:** The Reindeer Protection Act has expired! Transactions now execute **immediately** again, just like Year 1. No more 30-day delays!
 
 No new rules—just mastery of everything you've learned! 🎯
 
