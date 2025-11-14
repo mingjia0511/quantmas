@@ -6,6 +6,15 @@ The world is changing rapidly, children are increasingly on their phones and toy
 
 You start with 1 million Frosty Bucks (FSB) from the Pole Retirement Treasury to invest in various assets. The asset valuations change daily and you must make strategic decisions to buy and sell throughout the year to maximize returns. Some properties come to market after a certain day and can only be purchased on or after that day.
 
+### Info 
+
+**Files:**
+- `assets.csv` - 15 assets with properties (id, name, type, sub_type, available_on_day, region)
+- `valuations.csv` - Daily valuations for all assets across 100 days (1,500 rows)
+
+**Starting Capital:** 1,000,000 Frosty Bucks (FSB)
+
+
 ---
 
 ## Input
@@ -52,3 +61,6 @@ The output is a list of days with actions taken on those days. On each day you c
 - You cannot buy an asset you already own (but can sell and re-buy).
 - Asset must be available on the day of purchase (current day ≥ available_on_day).
 - You must own the asset to sell it.
+
+
+

@@ -2,6 +2,22 @@
 
 Your investments have been successful and it's time to start giving back. The Polar Revenue Service (PRS) has been founded and a new tax system on asset holdings has been introduced. You must now pay taxes on the assets you own based on their daily valuations.
 
+
+### Info
+
+**New Files:**
+- `tax_rates.csv` - Tax rates by asset type/subtype that change throughout the year
+
+**Reused from Year 1:**
+- `assets.csv`
+- `valuations.csv`
+
+**New Mechanics:**
+- Daily tax on owned assets based on current valuation
+- Tax can be postponed up to 30 days with increasing base rate modifier
+- Tax formula: `tax = current_valuation * (tax_rate + (base_rate_modifier * days_since_last_payment))`
+
+
 ---
 
 ## Tax calculation

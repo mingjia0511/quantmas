@@ -10,6 +10,32 @@ Not to be outdone, the opposition candidate, the Grinch, is promising tax reduct
 
 In either case tax reductions promise greatly increased valuations for the favored asset types and regions.
 
+### Info
+
+**New Files:**
+- `election_info.csv` - Candidate policies and their impact on Year 5
+
+**Reused from Previous Years:**
+- `assets.csv` (Year 1)
+- `valuations.csv` (Year 1)
+- `tax_rates.csv` (Year 2)
+- `regional_tax_rates.csv` (Year 3)
+- `compliance_requirements.csv` (Year 3)
+
+**New Mechanics:**
+- 30-day processing time for all buy/sell transactions (Reindeer Protection Act)
+- Cannot buy/sell after day 70
+- Taxes still owed during sell processing time
+- Election determines Year 5 conditions
+
+**Election Candidates:**
+- **Santa Claus**: Favors Residential/Commercial assets in Frostpeak/Mistletoe Meadows regions
+  - 25% tax reduction, 30% valuation boost for favored assets in Year 5
+- **The Grinch**: Favors Industrial/Commercial assets in Tinseltown/Evergreen Valley regions
+  - 30% tax reduction, 35% valuation boost for favored assets in Year 5
+
+
+
 **[EXPLAIN WHEN AND HOW THE USERS CAN VOTE]**
 
 Prepare for the aftermath of the upcoming election and adapt your investment strategy.

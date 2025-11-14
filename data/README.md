@@ -33,94 +33,15 @@ data/
 - Year 4 reuses `regional_tax_rates.csv` and `compliance_requirements.csv` from Year 3
 - Year 5 reuses `assets.csv` and `compliance_requirements.csv` from Year 1/3
 
-## Year 1: Basic Asset Trading
 
-**Files:**
-- `assets.csv` - 15 assets with properties (id, name, type, sub_type, available_on_day, region)
-- `valuations.csv` - Daily valuations for all assets across 100 days (1,500 rows)
 
-**Starting Capital:** 1,000,000 Frosty Bucks (FSB)
 
-## Year 2: Polar Revenue Service
-
-**New Files:**
-- `tax_rates.csv` - Tax rates by asset type/subtype that change throughout the year
-
-**Reused from Year 1:**
-- `assets.csv`
-- `valuations.csv`
-
-**New Mechanics:**
-- Daily tax on owned assets based on current valuation
-- Tax can be postponed up to 30 days with increasing base rate modifier
-- Tax formula: `tax = current_valuation * (tax_rate + (base_rate_modifier * days_since_last_payment))`
-
-## Year 3: North Pole Treasury Compliance
-
-**New Files:**
-- `regional_tax_rates.csv` - Regional tax rates for Frostpeak, Tinseltown, Evergreen Valley, Mistletoe Meadows
-- `compliance_requirements.csv` - Regional limits on asset number and total value
-
-**Reused from Previous Years:**
-- `assets.csv` (Year 1)
-- `valuations.csv` (Year 1)
-- `tax_rates.csv` (Year 2)
-
-**New Mechanics:**
-- Regional taxes in addition to asset-type taxes
-- Compliance limits: max number of assets and max total value per region
 
 ## Year 4: Election Year
 
-**New Files:**
-- `election_info.csv` - Candidate policies and their impact on Year 5
-
-**Reused from Previous Years:**
-- `assets.csv` (Year 1)
-- `valuations.csv` (Year 1)
-- `tax_rates.csv` (Year 2)
-- `regional_tax_rates.csv` (Year 3)
-- `compliance_requirements.csv` (Year 3)
-
-**New Mechanics:**
-- 30-day processing time for all buy/sell transactions (Reindeer Protection Act)
-- Cannot buy/sell after day 70
-- Taxes still owed during sell processing time
-- Election determines Year 5 conditions
-
-**Election Candidates:**
-- **Santa Claus**: Favors Residential/Commercial assets in Frostpeak/Mistletoe Meadows regions
-  - 25% tax reduction, 30% valuation boost for favored assets in Year 5
-- **The Grinch**: Favors Industrial/Commercial assets in Tinseltown/Evergreen Valley regions
-  - 30% tax reduction, 35% valuation boost for favored assets in Year 5
 
 ## Year 5: Election Aftermath
 
-**Files (two scenarios):**
-
-### If Santa Wins (`santa_wins/`)
-**New/Modified Files:**
-- `valuations.csv` - Boosted valuations (+30%) for Residential/Commercial in Frostpeak/Mistletoe Meadows
-- `tax_rates.csv` - Reduced tax rates (-25%) for Residential/Commercial
-- `regional_tax_rates.csv` - Reduced rates (-25%) for Frostpeak/Mistletoe Meadows regions
-
-**Reused from Previous Years:**
-- `assets.csv` (Year 1)
-- `compliance_requirements.csv` (Year 3)
-
-**Boosted Assets:** asset_1, asset_4, asset_5, asset_9, asset_13
-
-### If Grinch Wins (`grinch_wins/`)
-**New/Modified Files:**
-- `valuations.csv` - Boosted valuations (+35%) for Industrial/Commercial in Tinseltown/Evergreen Valley
-- `tax_rates.csv` - Reduced tax rates (-30%) for Industrial/Commercial
-- `regional_tax_rates.csv` - Reduced rates (-30%) for Tinseltown/Evergreen Valley regions
-
-**Reused from Previous Years:**
-- `assets.csv` (Year 1)
-- `compliance_requirements.csv` (Year 3)
-
-**Boosted Assets:** asset_2, asset_3, asset_8, asset_11, asset_14, asset_15
 
 ## Asset Details
 

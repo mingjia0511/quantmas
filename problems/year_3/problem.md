@@ -2,6 +2,21 @@
 
 The federal pockets of the PRS are quite full and Santa has a brand new Lamborghini sleigh. However the elves, reindeer and gingerbread men are still struggling to make ends meet. To ensure that the wealth is now more evenly distributed across the North Pole regions, new regional-based taxes and compliance requirements have been introduced. You must now pay regional taxes based on the region of the asset you own and also comply with regional limits on the number and value of assets you can hold in each region.
 
+### Info 
+
+**New Files:**
+- `regional_tax_rates.csv` - Regional tax rates for Frostpeak, Tinseltown, Evergreen Valley, Mistletoe Meadows
+- `compliance_requirements.csv` - Regional limits on asset number and total value
+
+**Reused from Previous Years:**
+- `assets.csv` (Year 1)
+- `valuations.csv` (Year 1)
+- `tax_rates.csv` (Year 2)
+
+**New Mechanics:**
+- Regional taxes in addition to asset-type taxes
+- Compliance limits: max number of assets and max total value per region
+
 ---
 
 ## Input
