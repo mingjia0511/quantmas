@@ -1,0 +1,10 @@
+1:
+- buy: asset_1
+15:
+- buy: asset_4
+30:
+- buy: asset_10
+40:
+- buy: asset_13
+50:
+- buy: asset_14
