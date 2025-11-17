@@ -72,31 +72,31 @@ Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 pric
 
 ### Example Calculation
 
-You own an asset worth 100,000 FSB with base tax rate 1% and rate modifier 0.5%.
+You bought an asset on day 1 worth 100,000 FSB with base tax rate 0.1% and rate modifier 0.05%. Tax starts accruing on day 2.
 
-**Scenario A: Pay on Day 1**
+**Scenario A: Pay on Day 2 (earliest possible)**
 ```
-Tax = 100,000 × (0.01 + 0.005 × 1) = 1,500 FSB
-```
-
-**Scenario B: Wait 5 days, asset value stays 100,000**
-```
-Day 1: 100,000 × (0.01 + 0.005 × 1) = 1,500
-Day 2: 100,000 × (0.01 + 0.005 × 2) = 2,000
-Day 3: 100,000 × (0.01 + 0.005 × 3) = 2,500
-Day 4: 100,000 × (0.01 + 0.005 × 4) = 3,000
-Day 5: 100,000 × (0.01 + 0.005 × 5) = 3,500
-Total: 12,500 FSB
+Tax = 100,000 × (0.001 + 0.0005 × 1) = 150 FSB
 ```
 
-**Scenario C: Wait 5 days, asset value drops to 80,000**
+**Scenario B: Wait until day 6, asset value stays 100,000**
 ```
-Day 1: 100,000 × 0.015 = 1,500
-Day 2: 95,000 × 0.020 = 1,900
-Day 3: 90,000 × 0.025 = 2,250
-Day 4: 85,000 × 0.030 = 2,550
-Day 5: 80,000 × 0.035 = 2,800
-Total: 11,000 FSB (saved 1,500 by waiting!)
+Day 2: 100,000 × (0.001 + 0.0005 × 1) = 150
+Day 3: 100,000 × (0.001 + 0.0005 × 2) = 200
+Day 4: 100,000 × (0.001 + 0.0005 × 3) = 250
+Day 5: 100,000 × (0.001 + 0.0005 × 4) = 300
+Day 6: 100,000 × (0.001 + 0.0005 × 5) = 350
+Total: 1,250 FSB
+```
+
+**Scenario C: Wait until day 6, asset value drops to 80,000**
+```
+Day 2: 100,000 × 0.0015 = 150
+Day 3: 95,000 × 0.0020 = 190
+Day 4: 90,000 × 0.0025 = 225
+Day 5: 85,000 × 0.0030 = 255
+Day 6: 80,000 × 0.0035 = 280
+Total: 1,100 FSB (saved 150 by waiting!)
 ```
 
 ---

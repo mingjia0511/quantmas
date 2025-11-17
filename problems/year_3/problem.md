@@ -56,50 +56,54 @@ Each region has limits to prevent wealth concentration:
 
 **Example 1: Checking Limits Before Purchase**
 ```
-Frostpeak limits: 5 assets max, 2,000,000 FSB total value max
+Frostpeak limits: 3 assets max, 2,000,000 FSB total value max
+Frostpeak has 4 available assets: asset_1, asset_5, asset_6, asset_13
 
 Current holdings:
 - asset_1: 250,000 FSB
 - asset_5: 300,000 FSB
 - asset_6: 450,000 FSB
-- asset_13: 280,000 FSB
-Total: 4 assets, 1,280,000 FSB ✓ Compliant
+Total: 3 assets, 1,000,000 FSB ✓ Compliant (at asset limit)
 
-Can you buy another Frostpeak asset worth 800,000?
-- Assets: 5 ✓ (at limit)
-- Value: 2,080,000 ❌ (exceeds 2M cap)
-Result: CANNOT BUY
+Can you buy asset_13 worth 280,000?
+- Assets: 4 ❌ (exceeds 3 asset limit)
+- Value: 1,280,000 ✓ (under 2M cap)
+Result: CANNOT BUY (too many assets)
 ```
 
 **Example 2: Rising Valuations Causing Violations**
 ```
-Frostpeak limits: 5 assets max, 2,000,000 FSB total value max
+Frostpeak limits: 3 assets max, 2,000,000 FSB total value max
 
 Day 60 holdings (all compliant at purchase):
 - asset_1: 244,896 FSB (bought day 1 at 218,416)
 - asset_5: 409,091 FSB (bought day 15 at 377,870)
 - asset_6: 641,053 FSB (bought day 1 at 591,473)
-- asset_13: 229,512 FSB (bought day 40 at 226,455)
-Total: 4 assets, 1,524,552 FSB ✓ Compliant
+Total: 3 assets, 1,295,040 FSB ✓ Compliant (at asset limit)
 
 Day 100 valuations (market appreciation):
 - asset_1: 331,382 FSB (+35% from day 60)
 - asset_5: 428,987 FSB (+5% from day 60)
 - asset_6: 673,511 FSB (+5% from day 60)
-- asset_13: 362,325 FSB (+58% from day 60)
-Total: 4 assets, 1,796,205 FSB ✓ Still compliant!
+Total: 3 assets, 1,433,880 FSB ✓ Still compliant!
 
-But what if you bought one more asset on day 70?
-- asset_10: 300,000 FSB (bought day 70)
-Day 100 total: 5 assets, 2,096,205 FSB ❌ VIOLATION!
+But what if these assets continue to appreciate?
+Hypothetical day 100 with extreme growth:
+- asset_1: 500,000 FSB
+- asset_5: 650,000 FSB
+- asset_6: 900,000 FSB
+Total: 3 assets, 2,050,000 FSB ❌ VALUE VIOLATION!
 
 Options to avoid penalty:
-1. Don't buy asset_10 on day 70
-2. Sell one asset before day 100 (e.g., sell asset_13 on day 95)
-3. Sell enough to get under 2M limit (e.g., sell asset_1 on day 99)
+1. Sell one asset before day 100 to reduce total value
+2. Sell the most expensive asset (asset_6) on day 95
+3. Monitor valuations closely and rebalance if approaching 2M limit
 
 ⚠️ Key Insight: Even if compliant when you buy, rising valuations 
-can push you over the limit by day 100. Monitor your exposure!
+can push you over the VALUE limit by day 100. Monitor your exposure!
+
+Note: You're already at the 3-asset limit for Frostpeak, so you 
+can't buy asset_13 even if you wanted to!
 ```
 
 ---
@@ -192,13 +196,14 @@ Score = Cash on Hand + Σ(Asset Valuations at day 100) - Tax Penalties - Complia
 
 ## Tips for Success
 
-- 🗺️ **Diversify across regions** - don't hit compliance limits
+- 🗺️ **You can only own 10 assets max** - limits force strategic choices (3+2+3+2)
 - 📊 **Track regional exposure** - know your limits before buying
+- 🎯 **Prioritize Frostpeak** - booming region, but only 3 assets allowed (4 available)
+- ⚠️ **Tinseltown is limited** - only 2 assets allowed, and it's underperforming
 - 💰 **Regional tax timing** - coordinate with asset tax payments
-- 🎯 **Focus on favorable regions** - Frostpeak and Mistletoe Meadows are booming
-- ⚠️ **Avoid Tinseltown** - high taxes, stagnant growth
 - 🔄 **Rebalance strategically** - sell in weak regions, buy in strong ones
 - 🧮 **Calculate total tax burden** - asset tax + regional tax can be substantial
+- 📈 **Monitor valuations** - rising prices can cause value limit violations
 
 ---
 
