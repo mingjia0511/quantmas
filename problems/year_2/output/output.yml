@@ -1,146 +1,146 @@
 1:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 2:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 3:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 4:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 5:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 6:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 7:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 8:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 9:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 10:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 11:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 12:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 13:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 14:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 15:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 16:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 17:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 18:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 19:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
 - pay_tax: asset_15
+- pay_tax: asset_2
 - sell: asset_15
 20:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
+- pay_tax: asset_2
 21:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
+- pay_tax: asset_2
 22:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_11
 - pay_tax: asset_13
+- pay_tax: asset_2
 - sell: asset_11
 23:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_13
+- pay_tax: asset_2
 24:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_13
+- pay_tax: asset_2
 25:
 - pay_tax: asset_1
-- pay_tax: asset_2
 - pay_tax: asset_13
+- pay_tax: asset_2
 - sell: asset_2
 26:
 - pay_tax: asset_1
@@ -190,362 +190,431 @@
 41:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- buy: asset_5
 42:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
 43:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
 44:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
 45:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
 46:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- buy: asset_9
 47:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- buy: asset_3
 48:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 49:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - buy: asset_4
 50:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
 51:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- buy: asset_10
 - buy: asset_14
+- buy: asset_10
+- buy: asset_9
 52:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 53:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 54:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 55:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 56:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 57:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 58:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 59:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 60:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 61:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 62:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 63:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 64:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 65:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 66:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_5
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
+- pay_tax: asset_14
 - pay_tax: asset_10
+- pay_tax: asset_9
 67:
+- pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
+68:
+- pay_tax: asset_1
+- pay_tax: asset_13
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
+69:
+- pay_tax: asset_1
+- pay_tax: asset_13
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 70:
-- sell: asset_5
+- pay_tax: asset_1
+- pay_tax: asset_13
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 71:
 - pay_tax: asset_1
 - pay_tax: asset_13
-- pay_tax: asset_9
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
-- sell: asset_9
+- pay_tax: asset_10
+- pay_tax: asset_9
 72:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 73:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 74:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 75:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 76:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 77:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 78:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 79:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 80:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 81:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 82:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 83:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 84:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 85:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 86:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 87:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 88:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 89:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 90:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 91:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 92:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 93:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 94:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 95:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
 96:
 - pay_tax: asset_1
 - pay_tax: asset_13
+- pay_tax: asset_3
 - pay_tax: asset_4
-- pay_tax: asset_10
 - pay_tax: asset_14
-97:
-- pay_tax: asset_1
-- pay_tax: asset_13
-- pay_tax: asset_4
 - pay_tax: asset_10
-- pay_tax: asset_14
-98:
-- pay_tax: asset_1
-- pay_tax: asset_13
-- pay_tax: asset_4
-- pay_tax: asset_10
-- pay_tax: asset_14
-- sell: asset_14
-99:
-- pay_tax: asset_1
-- pay_tax: asset_13
-- pay_tax: asset_4
-- pay_tax: asset_10
-- sell: asset_4
-100:
-- pay_tax: asset_1
-- pay_tax: asset_13
-- pay_tax: asset_10
-- sell: asset_13
+- pay_tax: asset_9
 - sell: asset_1
-- sell: asset_10
+97:
+- pay_tax: asset_13
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
+- sell: asset_13
+98:
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
+99:
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
+100:
+- pay_tax: asset_3
+- pay_tax: asset_4
+- pay_tax: asset_14
+- pay_tax: asset_10
+- pay_tax: asset_9
