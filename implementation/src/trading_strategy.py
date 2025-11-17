@@ -1,6 +1,6 @@
 """
-Trading strategy module for Quantmas Year 1 challenge.
-Implements intelligent trading decisions based on market analysis.
+Trading strategy module for Quantmas challenges.
+Implements intelligent trading decisions based on market analysis and tax optimization.
 """
 import numpy as np
 from typing import Dict, List, Tuple, Optional
@@ -9,12 +9,13 @@ from portfolio_tracker import PortfolioTracker
 
 
 class TradingStrategy:
-    """Advanced trading strategy based on momentum, mean reversion, and value analysis."""
+    """Advanced trading strategy with tax optimization for Year 2+."""
     
-    def __init__(self, data_loader: DataLoader, portfolio: PortfolioTracker):
-        """Initialize strategy with data loader and portfolio tracker."""
+    def __init__(self, data_loader: DataLoader, portfolio: PortfolioTracker, tax_strategy=None):
+        """Initialize strategy with data loader, portfolio tracker, and optional tax strategy."""
         self.data_loader = data_loader
         self.portfolio = portfolio
+        self.tax_strategy = tax_strategy
         self.asset_rankings = {}
         self._analyze_assets()
     
@@ -39,7 +40,7 @@ class TradingStrategy:
             # Score based on multiple factors
             score = self._calculate_asset_score(
                 total_return, max_gain_potential, volatility,
-                asset_info['sub_type'], asset_info['available_on_day']
+                asset_info['sub_type'], asset_info['available_on_day'], asset_id
             )
             
             self.asset_rankings[asset_id] = {
@@ -56,12 +57,13 @@ class TradingStrategy:
             }
     
     def _calculate_asset_score(self, total_return: float, max_gain_potential: float, 
-                              volatility: float, sub_type: str, available_day: int) -> float:
-        """Calculate composite score for asset attractiveness."""
+                              volatility: float, sub_type: str, available_day: int, asset_id: str = None) -> float:
+        """Calculate composite score for asset attractiveness, including tax considerations."""
         score = 0.0
         
-        # Heavily weight total return (40%)
-        score += total_return * 0.4
+        # Heavily weight total return (35% in Year 2, 40% in Year 1)
+        weight_return = 0.35 if self.portfolio.year >= 2 else 0.4
+        score += total_return * weight_return
         
         # Reward high gain potential (25%)
         score += max_gain_potential * 0.25
@@ -69,17 +71,72 @@ class TradingStrategy:
         # Slightly penalize volatility (10%)
         score -= volatility * 0.1
         
-        # Bonus for residential assets (15%)
-        if sub_type == "Residential":
-            score += 0.15
-        elif sub_type == "Commercial":
-            score -= 0.1  # Penalty for poor performing commercial
+        # Asset type preferences adjusted for Year 2 tax environment
+        if self.portfolio.year >= 2:
+            # Industrial assets have lower tax rates - more attractive in Year 2
+            if sub_type == "Industrial":
+                score += 0.2  # Big bonus for tax efficiency
+            elif sub_type == "Residential":
+                score += 0.05  # Small bonus
+            elif sub_type == "Commercial":
+                score -= 0.15  # Penalty for high tax rates
+        else:
+            # Year 1 preferences
+            if sub_type == "Residential":
+                score += 0.15
+            elif sub_type == "Commercial":
+                score -= 0.1
         
         # Bonus for early availability (10%)
         early_availability_bonus = max(0, (20 - available_day) / 20 * 0.1)
         score += early_availability_bonus
         
+        # Year 2+: Consider average tax burden (5% weight)
+        if self.portfolio.year >= 2 and asset_id:
+            try:
+                # Calculate average tax rate for this asset
+                avg_tax_rate = self._calculate_average_tax_rate(asset_id)
+                tax_penalty = avg_tax_rate * 0.05  # 5% weight for tax considerations
+                score -= tax_penalty
+            except:
+                pass  # If we can't calculate tax rate, ignore this factor
+        
         return score
+    
+    def _calculate_average_tax_rate(self, asset_id: str) -> float:
+        """Calculate the average tax rate for an asset over the year."""
+        if self.portfolio.year < 2 or not self.data_loader.tax_rates_df is not None:
+            return 0.0
+        
+        asset_info = self.data_loader.get_asset_info(asset_id)
+        asset_type = asset_info['type']
+        asset_sub_type = asset_info['sub_type']
+        
+        # Get all tax rates for this asset type
+        rates = self.data_loader.tax_rates_df[
+            (self.data_loader.tax_rates_df['asset_type'] == asset_type) &
+            (self.data_loader.tax_rates_df['asset_sub_type'] == asset_sub_type)
+        ]
+        
+        if rates.empty:
+            return 0.0
+        
+        # Calculate weighted average (weight by number of days each rate is in effect)
+        total_weighted_rate = 0.0
+        total_days = 0
+        
+        for i, row in rates.iterrows():
+            start_day = row['day']
+            if i < len(rates) - 1:
+                end_day = rates.iloc[i + 1]['day'] - 1
+            else:
+                end_day = 100
+            
+            days = end_day - start_day + 1
+            total_weighted_rate += row['tax_rate'] * days
+            total_days += days
+        
+        return total_weighted_rate / total_days if total_days > 0 else 0.0
     
     def _calculate_momentum(self, asset_id: str, current_day: int, window: int = 5) -> float:
         """Calculate price momentum over recent days."""

@@ -1,23 +1,25 @@
 """
-Data loading module for Quantmas Year 1 challenge.
-Handles loading and parsing of assets and valuations data.
+Data loading module for Quantmas challenges.
+Handles loading and parsing of assets, valuations, and tax rates data.
 """
 import pandas as pd
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 
 
 class DataLoader:
-    """Handles loading and processing of asset and valuation data."""
+    """Handles loading and processing of asset, valuation, and tax data."""
     
-    def __init__(self, data_dir: str):
-        """Initialize with data directory path."""
+    def __init__(self, data_dir: str, year: int = 1):
+        """Initialize with data directory path and year."""
         self.data_dir = Path(data_dir)
+        self.year = year
         self.assets_df = None
         self.valuations_df = None
+        self.tax_rates_df = None
     
-    def load_data(self) -> Tuple[pd.DataFrame, pd.DataFrame]:
-        """Load assets and valuations data from CSV files."""
+    def load_data(self) -> Tuple[pd.DataFrame, pd.DataFrame, Optional[pd.DataFrame]]:
+        """Load assets, valuations, and optionally tax rates data from CSV files."""
         assets_path = self.data_dir / "assets.csv"
         valuations_path = self.data_dir / "valuations.csv"
         
@@ -29,7 +31,12 @@ class DataLoader:
         self.assets_df = pd.read_csv(assets_path)
         self.valuations_df = pd.read_csv(valuations_path)
         
-        return self.assets_df, self.valuations_df
+        # Load tax rates for Year 2 and beyond
+        tax_rates_path = self.data_dir / "tax_rates.csv"
+        if tax_rates_path.exists() and self.year >= 2:
+            self.tax_rates_df = pd.read_csv(tax_rates_path)
+        
+        return self.assets_df, self.valuations_df, self.tax_rates_df
     
     def get_asset_info(self, asset_id: str) -> Dict:
         """Get asset information by ID."""
@@ -91,3 +98,32 @@ class DataLoader:
             asset_history = asset_history[asset_history['day'] <= up_to_day]
         
         return asset_history.sort_values('day')
+    
+    def get_tax_rate(self, asset_id: str, day: int) -> Tuple[float, float]:
+        """Get tax rate and rate modifier for an asset on a specific day."""
+        if self.tax_rates_df is None:
+            return 0.0, 0.0  # No taxes in Year 1
+        
+        # Get asset type info
+        asset_info = self.get_asset_info(asset_id)
+        asset_type = asset_info['type']
+        asset_sub_type = asset_info['sub_type']
+        
+        # Find the most recent tax rate entry for this asset type/subtype
+        relevant_rates = self.tax_rates_df[
+            (self.tax_rates_df['asset_type'] == asset_type) &
+            (self.tax_rates_df['asset_sub_type'] == asset_sub_type) &
+            (self.tax_rates_df['day'] <= day)
+        ].sort_values('day', ascending=False)
+        
+        if relevant_rates.empty:
+            raise ValueError(f"No tax rate found for {asset_type}/{asset_sub_type} up to day {day}")
+        
+        latest_rate = relevant_rates.iloc[0]
+        return float(latest_rate['tax_rate']), float(latest_rate['base_rate_modifier'])
+    
+    def calculate_daily_tax(self, asset_id: str, current_valuation: float, day: int, days_since_last_payment: int) -> float:
+        """Calculate daily tax owed for an asset."""
+        tax_rate, rate_modifier = self.get_tax_rate(asset_id, day)
+        effective_rate = tax_rate + (rate_modifier * days_since_last_payment)
+        return current_valuation * effective_rate
