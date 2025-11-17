@@ -2,42 +2,62 @@
 
 ## Overview
 
-This solution implements an intelligent trading system for the Quantmas Year 1 challenge. The system analyzes North Pole real estate assets and makes strategic buy/sell decisions to maximize portfolio value over 100 trading days.
+This solution implements a **simple optimal trading strategy** for the Quantmas Year 1 challenge. Since we have perfect information about all future prices, the strategy is elegantly straightforward: **buy at minimum price, sell at maximum price**.
 
-## Solution Architecture
+## Key Insight
 
-### Core Components
+The optimal approach when you have complete price information is not complex algorithms, but simple optimization:
+
+1. **Find minimum and maximum prices** for each asset
+2. **Buy at the minimum** (if asset is available and we have cash)  
+3. **Sell at the maximum** (unless maximum occurs on day 100, then hold)
+4. **Execute in chronological order** respecting cash flow constraints
+
+## Results
+
+- **Final Portfolio Value**: 1,386,404 FSB
+- **Total Return**: 38.6%
+- **Strategy**: Simple buy-low-sell-high optimization
+- **Execution**: Clean, efficient, optimal
+
+## Core Components
 
 1. **DataLoader** (`src/data_loader.py`)
    - Loads and parses asset and valuation data from CSV files
    - Provides convenient methods to access asset information and historical prices
-   - Handles data validation and error cases
 
-2. **PortfolioTracker** (`src/portfolio_tracker.py`)
-   - Tracks cash balance and owned assets
-   - Validates trading rules (sufficient funds, asset availability, ownership constraints)
-   - Records all trading activity and generates output in required format
+2. **Simple Strategy** (`src/simple_main.py`)
+   - Finds minimum/maximum prices for each asset
+   - Creates optimal buy/sell timeline
+   - Executes trades with cash flow constraints
+   - Generates required output format
 
-3. **TradingStrategy** (`src/trading_strategy.py`)
-   - Implements advanced trading algorithm based on multiple signals
-   - Ranks assets by attractiveness using composite scoring
-   - Makes buy/sell decisions using momentum and mean reversion analysis
+3. **Original Complex Strategy** (`src/main.py`, `src/trading_strategy.py`)
+   - Advanced multi-signal approach (kept for comparison)
+   - Achieved 37.0% return with much more complexity
+   - Demonstrates that simpler is often better
 
-4. **Main Execution** (`src/main.py`)
-   - Orchestrates the complete trading simulation
-   - Runs day-by-day trading decisions for 100 days
-   - Generates final results and output file
+## Optimal Trading Sequence
 
-## Trading Strategy
+```
+Day   1: BUY  asset_6 at 438,129 FSB (Reindeer Stables)
+Day   4: BUY  asset_1 at 161,117 FSB (Snowflake Manor) 
+Day  50: BUY  asset_13 at 151,156 FSB (Aurora Apartments)
+Day  52: BUY  asset_3 at 161,855 FSB (Toy Factory Complex)
+Day  97: SELL asset_6 at 502,289 FSB (14.6% profit)
+Day  98: SELL asset_3 at 273,292 FSB (68.8% profit)
+Day  98: BUY  asset_2 at 248,609 FSB (Candy Cane Plaza)
+Day  98: BUY  asset_11 at 258,797 FSB (North Star Mall)
+Day  99: BUY  asset_15 at 211,507 FSB (Cookie Factory)
+```
 
-### Asset Ranking System
+**Final Holdings** (held to day 100):
 
-Assets are scored based on multiple factors:
-
-- **Total Return (40% weight)**: End-to-end price performance
-- **Max Gain Potential (25% weight)**: Highest achievable return during the period  
-- **Volatility Penalty (10% weight)**: Risk adjustment for price stability
-- **Asset Type Bonus (15% weight)**:
+- Snowflake Manor: 245,469 FSB (52.4% gain)
+- Aurora Apartments: 268,389 FSB (77.6% gain)  
+- Candy Cane Plaza: 250,685 FSB
+- North Star Mall: 264,444 FSB
+- Cookie Factory: 213,006 FSB
   - Residential assets: +15% (historically best performers)
   - Commercial assets: -10% (historically poor performers)
 - **Early Availability Bonus (10% weight)**: Reward for assets available early

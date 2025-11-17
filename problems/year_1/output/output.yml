@@ -1,54 +1,16 @@
 1:
+- buy: asset_6
+4:
 - buy: asset_1
-15:
-- buy: asset_4
-20:
-- buy: asset_7
-30:
-- buy: asset_10
-40:
+50:
 - buy: asset_13
-95:
-- sell: asset_13
-- sell: asset_10
-- sell: asset_4
-- sell: asset_1
-- sell: asset_7
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
-96:
-- sell: asset_13
-- sell: asset_1
-- sell: asset_4
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
+52:
+- buy: asset_3
 97:
-- sell: asset_13
-- sell: asset_1
-- sell: asset_4
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
+- sell: asset_6
 98:
-- sell: asset_13
-- sell: asset_1
-- sell: asset_4
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
+- sell: asset_3
+- buy: asset_2
+- buy: asset_11
 99:
-- sell: asset_13
-- sell: asset_1
-- sell: asset_4
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
-100:
-- sell: asset_13
-- sell: asset_1
-- sell: asset_4
-- buy: asset_4
-- buy: asset_1
-- buy: asset_13
+- buy: asset_15

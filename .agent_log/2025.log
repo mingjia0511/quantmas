@@ -276,3 +276,110 @@ This verification session follows extensive development work including:
 - Comprehensive proofreading and cross-checking (Summary 41)
 
 The challenge is 95% complete with excellent design quality. The remaining 5% consists of critical file management issues that must be resolved before launch.
+
+---
+
+## Session: Strategy Optimization - Simple is Better (2025-11-17)
+
+### User Insight
+- "I notice the strategy is quite complex, with calculating volatility etc. In the end it's simple right? Buy at min, sell at max. That's all we need to do."
+- User pointed out that with perfect information, the optimal strategy should be straightforward
+- "Unless max for a property is day 100 in which case we don't have to sell."
+
+### Process Overview
+
+#### 1. User's Realization
+- Questioned the complexity of momentum analysis, volatility calculations, and composite scoring
+- Recognized that with complete price history, the solution is simple optimization
+- Emphasized the core principle: buy low, sell high with perfect timing
+
+#### 2. Simple Strategy Implementation
+- Created `optimal_strategy.py` to analyze perfect buy/sell points for each asset
+- Implemented `simple_main.py` with straightforward algorithm:
+  - Find minimum price and day for each asset
+  - Find maximum price and day for each asset  
+  - Buy at minimum if asset is available and affordable
+  - Sell at maximum unless maximum occurs on day 100 (then hold)
+  - Execute trades in chronological order respecting cash constraints
+
+#### 3. Performance Comparison
+- **Simple Strategy**: 1,386,404 FSB (38.6% return)
+- **Complex Strategy**: 1,369,702 FSB (37.0% return)
+- **Improvement**: +16,702 FSB (+1.6 percentage points)
+
+### Key Assumptions Validated
+
+1. **Perfect Information Assumption**: Since we have complete price data, prediction algorithms are unnecessary
+2. **Optimization vs Prediction**: The problem is optimization (maximize known outcomes) not prediction (estimate unknown futures)
+3. **Cash Flow Constraints**: Only limiting factor is available cash and timing of trades
+
+### Issues Encountered and Resolutions
+
+#### Issue 1: YAML Output with Numpy Types
+- **Problem**: Numpy int64 types in YAML output created unreadable format
+- **Resolution**: Explicitly convert to Python int types before YAML serialization
+- **Learning**: Always ensure clean data types for output formats
+
+#### Issue 2: Over-Engineering Recognition
+- **Problem**: Initial complex approach with multiple signals was unnecessarily sophisticated
+- **Resolution**: Rebuilt with simple min/max optimization approach
+- **Guidance**: User's insight that "simple is better" was correct
+
+### Technical Decisions Made
+
+1. **Algorithm Simplification**: Replaced multi-signal approach with min/max optimization
+2. **Code Structure**: Kept original complex code for comparison/learning purposes
+3. **Output Format**: Maintained same YAML structure but with simpler generation
+
+### Results Achieved
+
+#### Optimal Trading Sequence
+```
+Day   1: BUY  asset_6 at 438,129 FSB (Reindeer Stables)
+Day   4: BUY  asset_1 at 161,117 FSB (Snowflake Manor) 
+Day  50: BUY  asset_13 at 151,156 FSB (Aurora Apartments)
+Day  52: BUY  asset_3 at 161,855 FSB (Toy Factory Complex)
+Day  97: SELL asset_6 at 502,289 FSB (14.6% profit)
+Day  98: SELL asset_3 at 273,292 FSB (68.8% profit)
+Day  98: BUY  asset_2 at 248,609 FSB (Candy Cane Plaza)
+Day  98: BUY  asset_11 at 258,797 FSB (North Star Mall)
+Day  99: BUY  asset_15 at 211,507 FSB (Cookie Factory)
+```
+
+#### Final Portfolio Value: 1,386,404 FSB (38.6% return)
+- Cash: 144,411 FSB
+- Assets: 1,241,993 FSB (5 properties held to day 100)
+
+### Strategy Effectiveness
+
+The simple approach proved superior because:
+1. **Perfect Information**: No need for prediction when you have complete data
+2. **Optimal Timing**: Buy exactly at minimum, sell exactly at maximum
+3. **No Risk Premium**: Complex algorithms add no value in zero-uncertainty environment
+4. **Cash Flow Optimization**: Simple timeline execution with constraint handling
+
+### Learnings Captured
+
+1. **Simplicity Wins**: When you have perfect information, complex algorithms are counterproductive
+2. **User Insights Matter**: External perspective can identify over-engineering quickly
+3. **Performance > Complexity**: Simple solution outperformed sophisticated approach
+4. **Problem Type Recognition**: Optimization problems don't need prediction algorithms
+5. **Documentation Value**: Keeping both approaches shows learning progression
+
+### Files Updated
+- Created `src/simple_main.py` (optimal simple strategy)
+- Created `src/optimal_strategy.py` (analysis tool)
+- Updated `problems/year_1/output/output.yml` (improved results)
+- Updated `implementation/README.md` (reflects simple approach)
+- Updated `implementation/docs/strategy.md` (documents insight)
+
+### Agent Performance Assessment
+
+Successfully recognized and implemented user's insight:
+✅ Simplified strategy from complex multi-signal to optimal min/max
+✅ Achieved better performance (38.6% vs 37.0% return)
+✅ Maintained clean code structure and documentation
+✅ Validated that simple solutions can outperform complex ones
+✅ Demonstrated adaptability and willingness to restart approach
+
+**Key Lesson**: Sometimes the best engineering decision is recognizing when you're over-engineering.
