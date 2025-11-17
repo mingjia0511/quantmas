@@ -1,5 +1,5 @@
 # 🏆 Year 5: Election Aftermath - The Final Chapter!
-## Difficulty: ⭐⭐⭐⭐⭐ (Legendary Master Elf! 👑)
+## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
 
 *"This is it. Five years of trading, taxing, and political maneuvering come down to this final year. Don't blow it."* - Your inner voice
 
@@ -103,12 +103,18 @@ Same trusty format as always! Use all the actions you've mastered over the years
 
 ```yaml
 1:
-  - buy: asset_1
-2:
-  - pay_tax: asset_1
+  - buy: asset_1  # Completes day 31, price locked at day 1
+10:
+  - sell: asset_2  # Completes day 40, price locked at day 10
+31:
+  - pay_tax: asset_1  # Now own it, taxes start
+40:
   - pay_region_tax: Frostpeak
-  - sell: asset_2
+70:
+  - buy: asset_5  # Last chance! Completes day 100
 ```
+
+**Remember:** 30-day delays still apply! Plan your final moves carefully.
 
 ---
 
@@ -118,8 +124,14 @@ Same trusty format as always! Use all the actions you've mastered over the years
 - All basic trading rules
 - Asset and regional tax requirements
 - Regional compliance limits
+- **⏰ 30-day transaction delays (Reindeer Protection Act still in effect!)**
+- **🚫 No trading after day 70**
 
-**🎉 GOOD NEWS:** The Reindeer Protection Act has expired! Transactions now execute **immediately** again, just like Year 1. No more 30-day delays!
+**📋 Key Reminders:**
+- Buy/sell transactions take 30 days to complete
+- Prices locked at initiation day
+- Taxes owed during sell processing periods
+- Plan 30 days ahead for all trades
 
 No new rules—just mastery of everything you've learned! 🎯
 
@@ -151,7 +163,8 @@ This is it. This number determines everything:
 - 📊 **Maximize favored assets** - they have the best returns
 - 💰 **Exit non-favored assets** - they're dead weight
 - 🗺️ **Regional focus** - concentrate in winning regions
-- ⏰ **No delays** - immediate execution is back
+- ⏰ **30-day delays still apply** - plan ahead, day 70 is your last chance!
+- 📈 **Time the market** - lock in prices before peaks/crashes
 - 🧮 **Final tax settlement** - don't leave money on the table
 - 🏆 **This is your legacy** - make every trade count
 
@@ -161,27 +174,75 @@ This is it. This number determines everything:
 
 ### If Santa Wins:
 
-**🚀 Booming:**
+**🚀 Booming (Favored Assets):**
 - Residential properties: +30% boost, -25% taxes
 - Commercial in Frostpeak/Mistletoe: +30% boost, -25% taxes
 - **Best performers**: asset_1, asset_4, asset_5, asset_9, asset_13
+- **Pattern**: Rally to day 40 (PEAK), dip to day 60, strong rally to day 100
+- **⏰ Timing Strategy**: 
+  - Sell at day 10 to lock in day 40 peak prices (+55% from start)
+  - OR hold through dip and sell at day 70 for final rally (completes day 100)
+  - Buy at day 30 (completes day 60) to catch the dip before final rally
 
-**📉 Declining:**
-- Industrial properties: Stagnant
-- Tinseltown/Evergreen commercial: Weak
-- **Underperformers**: asset_6, asset_8, asset_12
+**📉 Declining (Non-Favored Assets):**
+- Industrial properties: Brief rally, then steady decline
+- **Underperformers**: asset_2, asset_6, asset_11
+- **Pattern**: Rally to day 30 (peak +15%), then decline to day 100 (-20% from peak)
+- **⏰ Timing Strategy**: 
+  - Sell at day 1 to lock in day 31 prices (near peak, avoid decline)
+  - DO NOT hold past day 30 - values crash!
+  - Exit these immediately if you own them from Year 4
+
+**Mixed:**
+- Commercial in Tinseltown/Evergreen: Moderate growth
+- Residential in other regions: Slow steady growth
 
 ### If Grinch Wins:
 
-**🚀 Booming:**
+**🚀 Booming (Favored Assets):**
 - Industrial properties: +35% boost, -30% taxes
 - Commercial in Tinseltown/Evergreen: +35% boost, -30% taxes
-- **Best performers**: asset_2, asset_6, asset_8, asset_11, asset_12, asset_15
+- **Best performers**: asset_2, asset_6, asset_8, asset_11, asset_14, asset_15
+- **Pattern**: Strong rally to day 45 (PEAK), dip to day 65, recovery to day 100
+- **⏰ Timing Strategy**:
+  - Sell at day 15 to lock in day 45 peak prices (+65% from start)
+  - OR hold through dip and sell at day 70 for final rally (completes day 100)
+  - Buy at day 35 (completes day 65) to catch the dip before recovery
 
-**📉 Declining:**
-- Residential properties: Stagnant
-- Frostpeak/Mistletoe residential: Weak
-- **Underperformers**: asset_1, asset_4, asset_7, asset_13
+**📉 Declining (Non-Favored Assets):**
+- Residential properties: Brief rally, then decline
+- **Underperformers**: asset_1, asset_4, asset_5, asset_7, asset_9, asset_13
+- **Pattern**: Rally to day 25 (peak +12%), then decline to day 100 (-26% from peak)
+- **⏰ Timing Strategy**:
+  - Sell immediately (day 1) to lock in day 31 prices before decline
+  - DO NOT hold past day 25 - values crash!
+  - Exit these immediately if you own them from Year 4
+
+---
+
+## 🎯 Critical Timing Insights
+
+**The 30-day delay creates MASSIVE opportunities:**
+
+1. **Lock in Peak Prices**: Sell 30 days before the peak to capture maximum value
+2. **Avoid Crashes**: Exit declining assets immediately to lock in prices before they fall
+3. **Buy the Dip**: Initiate buys 30 days before valleys to catch recovery rallies
+4. **Day 70 Deadline**: Last chance to trade - plan your final positions carefully!
+
+**Example (Santa Wins):**
+```
+Day 1: Own asset_2 (Industrial) worth 328,382 FSB
+       → Sell immediately! (completes day 31 at ~372,000 FSB)
+       → If you wait until day 31 to sell, it completes day 61 at ~320,000 FSB
+       → Timing difference: +52,000 FSB (+16% gain from good timing!)
+
+Day 10: Sell asset_1 (Residential) at 451,478 FSB
+        → Completes day 40 at peak (516,336 FSB locked in!)
+        → If you sell at day 40, it completes day 70 at 483,767 FSB
+        → Timing difference: +32,569 FSB (+7% gain from good timing!)
+```
+
+**Master the timing, master Year 5!** ⏰💰
 
 ---
 

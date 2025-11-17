@@ -1,4 +1,5 @@
 # 🎄 Year 2: The Tax Collector Cometh 💰
+## Difficulty: ⭐⭐⭐⭐⭐ (Legendary Master Elf! 👑)
 
 *"Nothing is certain except death, taxes, and elves complaining about both."* - Benjamin Frost-lin
 
@@ -28,9 +29,7 @@ Daily Tax Owed = Current Valuation × (Base Tax Rate + (Rate Modifier × Days Si
 - You can delay payment for up to **30 days**
 - Each day you delay, the rate modifier increases your effective tax rate
 - You must pay the **full accumulated tax** when you choose to pay
-- You must settle all taxes before selling an asset
-
-## Difficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
+- **🆕 You can pay tax and sell an asset on the same day!** (Order doesn't matter)
 
 ## 🏛️ The Challenge
 
@@ -128,7 +127,12 @@ You now have a magical new action available! 🪄 You can pay taxes on any day i
 2:
   - pay_tax: asset_1
   - buy: asset_2
+10:
+  - pay_tax: asset_1  # Pay accumulated tax
+  - sell: asset_1     # Sell on same day (order doesn't matter!)
 ```
+
+**💡 Pro Tip:** You can pay tax and sell an asset on the same day! This is useful when you need to sell an asset to raise cash for the tax payment itself.
 
 ---
 
@@ -136,11 +140,11 @@ You now have a magical new action available! 🪄 You can pay taxes on any day i
 
 🚨 **All Year 1 rules still apply, PLUS:**
 - 💰 You must have enough Frosty Bucks to pay the tax
-- 🏠 You must own the asset to pay tax on it
+- 🏠 You must own the asset to pay tax on it (or be selling it on the same day)
 - ⏰ Tax must be paid within 30 days of the last tax payment for the asset
 - 🗓️ All tax must be paid by the end of the year
 - 💯 You must pay the tax owed for an asset in full on the day you choose to pay it
-- 🤝 You must settle all outstanding tax before selling an asset
+- 🤝 **You can pay tax and sell an asset on the same day** (no specific order required)
 
 ---
 

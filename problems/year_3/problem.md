@@ -1,11 +1,13 @@
 # ⚖️ Year 3: Regional Reckoning 🗺️
-## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
+## Difficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
 
 *"All real estate is local... especially when the local government is run by elves with agendas."* - Frosty Buffett
 
 🎅 **Plot Twist Alert, Chief Investment Elf!** 🎅
 
 The PRS coffers are overflowing, and Santa just bought himself a shiny new Lamborghini sleigh! 🏎️✨ But hold your reindeer—while the higher-ups are living large, our hardworking elves, faithful reindeer, and sweet gingerbread citizens are still struggling to make ends meet! 😢
+
+The North Pole tried "trickle-down economics" for two years. Results: Santa got a Lamborghini, elves got... well, they're still waiting for the trickle. 💧⏳
 
 Fear not! The North Pole Treasury has introduced a brilliant solution: **regional wealth redistribution**! 🗺️💝 New regional-based taxes and compliance requirements ensure prosperity flows to every corner of our magical realm.
 
@@ -52,7 +54,7 @@ Each region has limits to prevent wealth concentration:
 - When buying an asset (must not exceed limits after purchase)
 - At day 100 (violations result in penalties)
 
-**Example:**
+**Example 1: Checking Limits Before Purchase**
 ```
 Frostpeak limits: 5 assets max, 2,000,000 FSB total value max
 
@@ -67,6 +69,37 @@ Can you buy another Frostpeak asset worth 800,000?
 - Assets: 5 ✓ (at limit)
 - Value: 2,080,000 ❌ (exceeds 2M cap)
 Result: CANNOT BUY
+```
+
+**Example 2: Rising Valuations Causing Violations**
+```
+Frostpeak limits: 5 assets max, 2,000,000 FSB total value max
+
+Day 60 holdings (all compliant at purchase):
+- asset_1: 244,896 FSB (bought day 1 at 218,416)
+- asset_5: 409,091 FSB (bought day 15 at 377,870)
+- asset_6: 641,053 FSB (bought day 1 at 591,473)
+- asset_13: 229,512 FSB (bought day 40 at 226,455)
+Total: 4 assets, 1,524,552 FSB ✓ Compliant
+
+Day 100 valuations (market appreciation):
+- asset_1: 331,382 FSB (+35% from day 60)
+- asset_5: 428,987 FSB (+5% from day 60)
+- asset_6: 673,511 FSB (+5% from day 60)
+- asset_13: 362,325 FSB (+58% from day 60)
+Total: 4 assets, 1,796,205 FSB ✓ Still compliant!
+
+But what if you bought one more asset on day 70?
+- asset_10: 300,000 FSB (bought day 70)
+Day 100 total: 5 assets, 2,096,205 FSB ❌ VIOLATION!
+
+Options to avoid penalty:
+1. Don't buy asset_10 on day 70
+2. Sell one asset before day 100 (e.g., sell asset_13 on day 95)
+3. Sell enough to get under 2M limit (e.g., sell asset_1 on day 99)
+
+⚠️ Key Insight: Even if compliant when you buy, rising valuations 
+can push you over the limit by day 100. Monitor your exposure!
 ```
 
 ---
@@ -120,7 +153,13 @@ Another magical action joins your toolkit! 🎩✨ You can now pay regional taxe
 2:
   - pay_tax: asset_1
   - pay_region_tax: Frostpeak
+10:
+  - pay_tax: asset_1          # Pay asset tax
+  - pay_region_tax: Frostpeak # Pay regional tax
+  - sell: asset_1             # Sell on same day (order doesn't matter!)
 ```
+
+**💡 Pro Tip:** You can pay both asset tax and regional tax and sell an asset all on the same day! This is useful when you need to sell assets to raise cash for tax payments.
 
 ---
 
@@ -128,11 +167,12 @@ Another magical action joins your toolkit! 🎩✨ You can now pay regional taxe
 
 🚨 **All Year 1 & 2 rules still apply, PLUS:**
 - 💰 You must have enough Frosty Bucks to pay regional taxes
-- 🏠 You must own assets in a region to pay its regional tax
+- 🏠 You must own assets in a region to pay its regional tax (or be selling them on the same day)
 - ⏰ Regional tax must be paid within 30 days of the last payment
-- ⚖️ You must comply with regional asset number and value limits at all times
+- ⚖️ You must comply with regional asset number and value limits when buying
+- 📊 Compliance is also checked at day 100 (rising valuations can cause violations!)
 - 🗓️ All regional tax must be paid by end of year
-- 🤝 You must settle all taxes (asset AND regional) before selling an asset
+- 🤝 **You can pay taxes (asset AND regional) and sell an asset on the same day** (no specific order required)
 
 ---
 

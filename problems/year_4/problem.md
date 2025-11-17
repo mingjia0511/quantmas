@@ -1,5 +1,5 @@
 # 🗳️ Year 4: Election Year Chaos!
-## Difficulty: ⭐⭐⭐⭐⭐ (Legendary Elf Challenge! 🦄)
+## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
 
 *"In politics, nothing is certain except uncertainty, volatility, and elves hedging their bets."* - Winston Frost-chill
 
@@ -21,7 +21,6 @@ To prevent any shady reindeer business, the **Reindeer Protection Act** requires
 - 📅 30-day processing time for ALL transactions
 - 💰 Buy/sell prices locked in on the day you initiate the action
 - 💸 You still owe taxes during the processing period if selling
-- 🚫 No trading allowed after day 70 (to ensure everything clears by year-end)
 
 ## Transaction Processing Mechanics
 
@@ -47,12 +46,13 @@ Day 20: Initiate sell of asset_6 at 450,000 FSB
         - You still own the asset
         - Must continue paying taxes
         - Transaction is "pending"
+        - Can pay final taxes on day 20 (same day as sell initiation)
 
 Day 50: Transaction completes (20 + 30 = 50)
         - Cash received: 450,000 FSB
         - You no longer own asset_6
         - Price locked at day 20 value (450,000)
-        - Must have paid all taxes before day 50
+        - All taxes must be paid by day 50 (can be paid on day 20 or any day before day 50)
 ```
 
 ### Strategic Implications
@@ -97,6 +97,58 @@ Two very different visions for the North Pole's future! 🎭
 - 🏭 **Favors:** Industrial & Commercial assets
 - 🗺️ **Preferred Regions:** Tinseltown & Evergreen Valley
 - 📉 **Year 5 Promises:** 30% tax reduction + 35% valuation boost for favored assets
+
+---
+
+## 📰 Campaign News & Sentiment Analysis
+
+**⚠️ IMPORTANT:** Don't just look at the candidates' platforms—watch the news cycle! 📺
+
+Throughout Year 4, various news events and scandals will emerge that could affect each candidate's chances. A candidate with strong policies might face reputation damage from unexpected controversies, while a weaker candidate might gain momentum from positive press coverage.
+
+### What to Watch For:
+
+**🗞️ News Sentiment Indicators:**
+- **Positive Coverage:** Policy announcements, endorsements, successful rallies
+- **Negative Coverage:** Scandals, gaffes, controversial statements, investigations
+- **Neutral/Mixed:** Debates, routine campaign events
+
+**📊 Reputation Risk Factors:**
+- **Santa's Vulnerabilities:** 
+  - Incumbent fatigue after years in office
+  - Past policy failures (remember the trickle-down economics disaster?)
+  - Potential scandals about gift distribution favoritism
+  - Luxury spending (that Lamborghini sleigh didn't age well...)
+
+- **Grinch's Vulnerabilities:**
+  - Controversial past (literally tried to steal Christmas once)
+  - Harsh industrial policies might alienate voters
+  - Reputation for being "anti-Christmas spirit"
+  - Business dealings under scrutiny
+
+### Strategic Implications
+
+**Don't assume the favorite will win!** 🎲
+
+A candidate leading in early polls might:
+- Face a scandal that tanks their support
+- Make a gaffe that shifts momentum
+- Get caught in a controversy that changes everything
+
+**Example Scenario:**
+```
+Day 20: Santa leads polls 60-40
+        → Market prices in Santa victory
+        → Santa-favored assets surge +30%
+
+Day 35: BREAKING: Santa caught in gift-giving scandal! 🚨
+        → News sentiment turns negative
+        → Polls shift to 45-55 (Grinch leading)
+        → Santa-favored assets crash -20%
+        → Grinch-favored assets rally +25%
+```
+
+**💡 Pro Tip:** A candidate with better policies isn't guaranteed to win if they face reputation damage. Monitor news sentiment throughout the year—it might matter more than the platforms themselves!
 
 ## 📊 Challenge Files & Info
 
@@ -161,20 +213,19 @@ Your `output.yml` works the same, but remember the 30-day delay!
 10:
   - buy: asset_1  # Completes day 40, price locked at day 10
 20:
-  - sell: asset_6  # Completes day 50, price locked at day 20
-30:
-  - pay_tax: asset_6  # Still own it until day 50!
+  - pay_tax: asset_6       # Pay final taxes
+  - pay_region_tax: Frostpeak  # Pay regional taxes
+  - sell: asset_6          # Sell on same day! Completes day 50, price locked at day 20
 40:
   - pay_tax: asset_1  # Now own it, taxes start
-50:
-  - pay_region_tax: Frostpeak
 70:
   - buy: asset_13  # Last chance! Completes day 100
 ```
 
 **Critical Notes:**
 - Plan 30 days ahead
-- Pay taxes on assets you're selling (until transaction completes)
+- You can pay taxes and sell on the same day (order doesn't matter)
+- Taxes must be paid before the sell transaction completes (day 50 in example above)
 - No transactions after day 70
 - Pending transactions show in your portfolio
 
@@ -214,29 +265,34 @@ Score = Cash on Hand + Σ(Asset Valuations at day 100) - Tax Penalties - Complia
 
 - 📅 **Plan 30 days ahead** - market will change while you wait
 - 🎯 **Position for Year 5** - bet on an election outcome
+- 📰 **Monitor news sentiment** - scandals and reputation matter more than platforms!
 - 📊 **Lock in peaks** - sell when prices spike (30 days before they drop)
 - 💰 **Manage cash flow** - pending buys tie up future cash
 - ⏰ **Day 70 deadline** - last chance to reposition
-- 🗳️ **Hedge your bets** - or go all-in on one candidate
+- 🗳️ **Hedge your bets** - or go all-in on one candidate (risky!)
 - 🧮 **Track pending transactions** - don't lose track of what's coming
+- 🚨 **Watch for October surprises** - late-breaking scandals can flip everything
+- 📈 **Trade the volatility** - news-driven price swings create opportunities
 
 ---
 
 ## Market Context for Year 4
 
-Election speculation is driving extreme volatility:
+Election speculation AND news sentiment are driving extreme volatility:
 
 **Santa-Favored Assets** (Residential/Commercial in Frostpeak/Mistletoe)
 - Days 1-30: Surge on polling data (+30-40%)
 - Days 31-50: Correction on uncertainty (-10-15%)
 - Days 51-70: Rally on late momentum (+20-30%)
 - Days 71-100: Consolidation
+- **⚠️ Scandal Risk:** Watch for negative news that could crash prices
 
 **Grinch-Favored Assets** (Industrial/Commercial in Tinseltown/Evergreen)
 - Days 1-30: Speculation rally (+25-35%)
 - Days 31-50: Volatility on debates (-5-10%)
 - Days 51-70: Strong finish (+15-25%)
 - Days 71-100: Consolidation
+- **⚠️ Scandal Risk:** Past controversies could resurface
 
 **Non-Favored Assets**
 - Stagnant or declining (-5% to +5%)
@@ -244,10 +300,11 @@ Election speculation is driving extreme volatility:
 - Poor Year 5 prospects
 
 **Strategy Considerations:**
-- **All-in on Santa**: Max returns if he wins, disaster if he loses
-- **All-in on Grinch**: Max returns if he wins, disaster if he loses
-- **Hedged**: Moderate returns regardless of outcome
+- **All-in on Santa**: Max returns if he wins, disaster if he loses (or faces scandal)
+- **All-in on Grinch**: Max returns if he wins, disaster if he loses (or faces scandal)
+- **Hedged**: Moderate returns regardless of outcome, protected from scandal risk
 - **Cash-heavy**: Safe but misses upside
+- **News-driven trading**: Buy the dips after scandals, sell the peaks after good news
 
 ## 🎁 The Final Countdown!
 
