@@ -1,0 +1,3148 @@
+- asset_id: asset_1
+  available_day: 1
+  buy_day: 0
+  buy_price: 174733.0
+  currently_owned: true
+  gross_profit: 90373.0
+  name: Snowflake Manor
+  net_profit: 53642.43505
+  net_roi: 30.69965893677783
+  payment_schedule:
+  - cost: 262.0995
+    day: 1
+  - cost: 272.712
+    day: 2
+  - cost: 272.427
+    day: 3
+  - cost: 261.009
+    day: 4
+  - cost: 268.4205
+    day: 5
+  - cost: 274.03950000000003
+    day: 6
+  - cost: 264.741
+    day: 7
+  - cost: 280.383
+    day: 8
+  - cost: 275.32800000000003
+    day: 9
+  - cost: 276.552
+    day: 10
+  - cost: 297.534
+    day: 11
+  - cost: 300.291
+    day: 12
+  - cost: 288.2265
+    day: 13
+  - cost: 296.2305
+    day: 14
+  - cost: 288.7155
+    day: 15
+  - cost: 313.7595
+    day: 16
+  - cost: 308.04
+    day: 17
+  - cost: 295.815
+    day: 18
+  - cost: 298.8195
+    day: 19
+  - cost: 323.931
+    day: 20
+  - cost: 304.494
+    day: 21
+  - cost: 314.1705
+    day: 22
+  - cost: 314.3325
+    day: 23
+  - cost: 334.2135
+    day: 24
+  - cost: 367.1052
+    day: 25
+  - cost: 364.5345
+    day: 26
+  - cost: 375.4608
+    day: 27
+  - cost: 358.7067
+    day: 28
+  - cost: 363.14025
+    day: 29
+  - cost: 376.5597
+    day: 30
+  - cost: 364.81335
+    day: 31
+  - cost: 378.9753
+    day: 32
+  - cost: 360.0036
+    day: 33
+  - cost: 365.11365
+    day: 34
+  - cost: 358.3833
+    day: 35
+  - cost: 355.1427
+    day: 36
+  - cost: 355.83735
+    day: 37
+  - cost: 358.25955
+    day: 38
+  - cost: 337.17915
+    day: 39
+  - cost: 347.99325
+    day: 40
+  - cost: 334.8444
+    day: 41
+  - cost: 350.0475
+    day: 42
+  - cost: 326.0268
+    day: 43
+  - cost: 320.30295
+    day: 44
+  - cost: 309.31065
+    day: 45
+  - cost: 330.7359
+    day: 46
+  - cost: 302.4384
+    day: 47
+  - cost: 322.49085
+    day: 48
+  - cost: 313.77885
+    day: 49
+  - cost: 327.6882
+    day: 50
+  - cost: 347.8194
+    day: 51
+  - cost: 337.473
+    day: 52
+  - cost: 329.2578
+    day: 53
+  - cost: 329.9724
+    day: 54
+  - cost: 357.5034
+    day: 55
+  - cost: 356.4126
+    day: 56
+  - cost: 350.1144
+    day: 57
+  - cost: 360.9594
+    day: 58
+  - cost: 352.3824
+    day: 59
+  - cost: 352.6506
+    day: 60
+  - cost: 354.5532
+    day: 61
+  - cost: 363.2976
+    day: 62
+  - cost: 376.9524
+    day: 63
+  - cost: 352.1808
+    day: 64
+  - cost: 353.646
+    day: 65
+  - cost: 355.9806
+    day: 66
+  - cost: 382.4334
+    day: 67
+  - cost: 363.00419999999997
+    day: 68
+  - cost: 384.876
+    day: 69
+  - cost: 365.553
+    day: 70
+  - cost: 389.763
+    day: 71
+  - cost: 371.8728
+    day: 72
+  - cost: 387.6588
+    day: 73
+  - cost: 395.34299999999996
+    day: 74
+  - cost: 416.6253
+    day: 75
+  - cost: 419.33385
+    day: 76
+  - cost: 441.7998
+    day: 77
+  - cost: 423.23775
+    day: 78
+  - cost: 443.93699999999995
+    day: 79
+  - cost: 432.74985
+    day: 80
+  - cost: 456.1518
+    day: 81
+  - cost: 447.53864999999996
+    day: 82
+  - cost: 437.61705
+    day: 83
+  - cost: 462.13635
+    day: 84
+  - cost: 458.16614999999996
+    day: 85
+  - cost: 449.69534999999996
+    day: 86
+  - cost: 458.6868
+    day: 87
+  - cost: 458.3709
+    day: 88
+  - cost: 467.1108
+    day: 89
+  - cost: 461.33684999999997
+    day: 90
+  - cost: 471.7206
+    day: 91
+  - cost: 468.8658
+    day: 92
+  - cost: 469.69259999999997
+    day: 93
+  - cost: 476.2251
+    day: 94
+  - cost: 491.9265
+    day: 95
+  - cost: 507.45045
+    day: 96
+  - cost: 506.91029999999995
+    day: 97
+  - cost: 500.02875
+    day: 98
+  - cost: 503.47634999999997
+    day: 99
+  - cost: 516.9567
+    day: 100
+  sell_day: 100
+  sell_price: 265106.0
+  sub_type: Residential
+  total_tax_cost: 36730.56495
+  worth_trading: true
+- asset_id: asset_2
+  available_day: 1
+  buy_day: 0
+  buy_price: 335740.0
+  currently_owned: true
+  gross_profit: 84080.0
+  name: Candy Cane Plaza
+  net_profit: 63532.617999999995
+  net_roi: 18.923160183475307
+  payment_schedule:
+  - cost: 738.628
+    day: 1
+  - cost: 727.6654000000001
+    day: 2
+  - cost: 721.5780000000001
+    day: 3
+  - cost: 747.0496
+    day: 4
+  - cost: 766.5306
+    day: 5
+  - cost: 748.5500000000001
+    day: 6
+  - cost: 771.9954
+    day: 7
+  - cost: 780.571
+    day: 8
+  - cost: 784.1152000000001
+    day: 9
+  - cost: 808.6914
+    day: 10
+  - cost: 808.0138000000001
+    day: 11
+  - cost: 798.4284
+    day: 12
+  - cost: 810.3370000000001
+    day: 13
+  - cost: 830.1700000000001
+    day: 14
+  - cost: 823.1982
+    day: 15
+  - cost: 852.1018
+    day: 16
+  - cost: 860.5982
+    day: 17
+  - cost: 856.2114
+    day: 18
+  - cost: 873.7784
+    day: 19
+  - cost: 891.1650000000001
+    day: 20
+  - cost: 874.1656
+    day: 21
+  - cost: 885.8938
+    day: 22
+  - cost: 888.1356000000001
+    day: 23
+  - cost: 913.2332
+    day: 24
+  - cost: 986.577
+    day: 25
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - i8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    GQAAAAAAAAA=
+  sell_price: 419820.0
+  sub_type: Commercial
+  total_tax_cost: 20547.382000000005
+  worth_trading: true
+- asset_id: asset_3
+  available_day: 45
+  buy_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    NAAAAAAAAAA=
+  buy_price: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    06oCAAAAAAA=
+  currently_owned: false
+  gross_profit: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id002 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAABi/UA=
+  name: Toy Factory Complex
+  net_profit: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    nDOiNC50+EA=
+  net_roi: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    DEoH0HSmTEA=
+  payment_schedule:
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      BoGVQ4ukdUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8WPMXUuedUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      vHSTGAR0dUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      VTAqqRPSdUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      0LNZ9bmedUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      63O1FftZdUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6SYxCKyidUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      PZtVn6uldkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      U5YhjnX3dUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Gi/dJAZfdkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8WPMXUsKdkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      IbByaJE3dkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      46WbxCDYdkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      UI2XbhK7d0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      sb/snjxKeEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Ece6uI08d0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      S8gHPZtfeEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      pb3BFyavd0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      rdhfdk8WeEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2F92Tx6ueUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      +DHmriVGeEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Dwu1pnkfekA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      owG8BRLGfEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      jzF3LSEbe0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      b/CFydT5fEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      0SLb+X4xfEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6Egu/yHGfEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dXEbDeApfkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ETY8vdIlfUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6Egu/yHofkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      /fZ14BxsfkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JsKGp9e1fUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      7MA5I8rAfkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ONbFbfQkgEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2or9ZfeMfkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8h/Sb99Pf0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      pgpGJXWjf0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      CKwcWmQbgEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      oWez6rOugEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      H/RsVr0MgUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      UUmdgKY6gUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      eccpOlLGgEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6+I2GkDVgEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2T15WOi0gUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      l/+QfjvUgUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ukkMAmv8gUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YgAAAAAAAAA=
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    YgAAAAAAAAA=
+  sell_price: 295155.0
+  sub_type: Residential
+  total_tax_cost: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    kDF3LUe300A=
+  worth_trading: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id003 !!python/object/apply:numpy.dtype
+    args:
+    - b1
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AQ==
+- asset_id: asset_4
+  available_day: 15
+  buy_day: 15
+  buy_price: 165430.0
+  currently_owned: false
+  gross_profit: 82048.0
+  name: Gingerbread Village
+  net_profit: 53642.71885
+  net_roi: 32.42623396602792
+  payment_schedule:
+  - cost: 270.6345
+    day: 16
+  - cost: 267.0315
+    day: 17
+  - cost: 262.6515
+    day: 18
+  - cost: 258.0975
+    day: 19
+  - cost: 273.0195
+    day: 20
+  - cost: 259.0185
+    day: 21
+  - cost: 274.92
+    day: 22
+  - cost: 268.43850000000003
+    day: 23
+  - cost: 279.936
+    day: 24
+  - cost: 298.32495
+    day: 25
+  - cost: 300.8577
+    day: 26
+  - cost: 312.46875
+    day: 27
+  - cost: 318.2058
+    day: 28
+  - cost: 312.3483
+    day: 29
+  - cost: 332.67135
+    day: 30
+  - cost: 335.31795
+    day: 31
+  - cost: 304.94475
+    day: 32
+  - cost: 314.6253
+    day: 33
+  - cost: 314.0412
+    day: 34
+  - cost: 319.7601
+    day: 35
+  - cost: 304.05705
+    day: 36
+  - cost: 305.4216
+    day: 37
+  - cost: 285.0012
+    day: 38
+  - cost: 299.14665
+    day: 39
+  - cost: 289.3275
+    day: 40
+  - cost: 289.5156
+    day: 41
+  - cost: 284.83785
+    day: 42
+  - cost: 289.8654
+    day: 43
+  - cost: 283.08555
+    day: 44
+  - cost: 262.6701
+    day: 45
+  - cost: 276.46245
+    day: 46
+  - cost: 274.51215
+    day: 47
+  - cost: 282.58395
+    day: 48
+  - cost: 249.06255
+    day: 49
+  - cost: 285.2442
+    day: 50
+  - cost: 297.54179999999997
+    day: 51
+  - cost: 295.02
+    day: 52
+  - cost: 277.9128
+    day: 53
+  - cost: 307.3662
+    day: 54
+  - cost: 301.6998
+    day: 55
+  - cost: 300.9636
+    day: 56
+  - cost: 314.31419999999997
+    day: 57
+  - cost: 300.6522
+    day: 58
+  - cost: 294.4206
+    day: 59
+  - cost: 311.58
+    day: 60
+  - cost: 309.8034
+    day: 61
+  - cost: 306.8082
+    day: 62
+  - cost: 325.94939999999997
+    day: 63
+  - cost: 330.8598
+    day: 64
+  - cost: 337.4262
+    day: 65
+  - cost: 335.6604
+    day: 66
+  - cost: 338.2704
+    day: 67
+  - cost: 319.2102
+    day: 68
+  - cost: 337.8078
+    day: 69
+  - cost: 332.8092
+    day: 70
+  - cost: 342.50939999999997
+    day: 71
+  - cost: 330.5304
+    day: 72
+  - cost: 355.62239999999997
+    day: 73
+  - cost: 357.6294
+    day: 74
+  - cost: 372.57284999999996
+    day: 75
+  - cost: 386.8488
+    day: 76
+  - cost: 402.34544999999997
+    day: 77
+  - cost: 395.04465
+    day: 78
+  - cost: 381.9192
+    day: 79
+  - cost: 390.59085
+    day: 80
+  - cost: 400.21215
+    day: 81
+  - cost: 420.57599999999996
+    day: 82
+  - cost: 411.2511
+    day: 83
+  - cost: 407.87174999999996
+    day: 84
+  - cost: 427.1319
+    day: 85
+  - cost: 408.25784999999996
+    day: 86
+  - cost: 421.8708
+    day: 87
+  - cost: 444.86325
+    day: 88
+  - cost: 434.53215
+    day: 89
+  - cost: 440.00385
+    day: 90
+  - cost: 437.18609999999995
+    day: 91
+  - cost: 446.6241
+    day: 92
+  - cost: 432.18629999999996
+    day: 93
+  - cost: 438.93915
+    day: 94
+  - cost: 445.93965
+    day: 95
+  - cost: 460.0206
+    day: 96
+  - cost: 458.26754999999997
+    day: 97
+  - cost: 457.16774999999996
+    day: 98
+  - cost: 482.58209999999997
+    day: 99
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    YwAAAAAAAAA=
+  sell_price: 247478.0
+  sub_type: Residential
+  total_tax_cost: 28405.281150000003
+  worth_trading: true
+- asset_id: asset_5
+  available_day: 15
+  buy_day: 15
+  buy_price: 321813.0
+  currently_owned: false
+  gross_profit: 31875.0
+  name: Ice Rink Center
+  net_profit: -10764.623800000023
+  net_roi: -3.3449934589342334
+  payment_schedule:
+  - cost: 734.0828
+    day: 16
+  - cost: 718.8082
+    day: 17
+  - cost: 745.0674
+    day: 18
+  - cost: 732.0786
+    day: 19
+  - cost: 739.3892000000001
+    day: 20
+  - cost: 756.7428000000001
+    day: 21
+  - cost: 721.7562
+    day: 22
+  - cost: 717.9744000000001
+    day: 23
+  - cost: 719.2834
+    day: 24
+  - cost: 757.7763
+    day: 25
+  - cost: 773.3004000000001
+    day: 26
+  - cost: 764.9156
+    day: 27
+  - cost: 769.7895
+    day: 28
+  - cost: 764.10955
+    day: 29
+  - cost: 738.95515
+    day: 30
+  - cost: 763.78995
+    day: 31
+  - cost: 749.1706
+    day: 32
+  - cost: 737.6767500000001
+    day: 33
+  - cost: 751.6381
+    day: 34
+  - cost: 737.9775500000001
+    day: 35
+  - cost: 739.6484
+    day: 36
+  - cost: 730.26955
+    day: 37
+  - cost: 710.86325
+    day: 38
+  - cost: 706.5486500000001
+    day: 39
+  - cost: 725.2288
+    day: 40
+  - cost: 708.8516500000001
+    day: 41
+  - cost: 720.4888500000001
+    day: 42
+  - cost: 722.73545
+    day: 43
+  - cost: 747.04385
+    day: 44
+  - cost: 742.55535
+    day: 45
+  - cost: 725.6659000000001
+    day: 46
+  - cost: 757.7316500000001
+    day: 47
+  - cost: 750.2187
+    day: 48
+  - cost: 759.7738
+    day: 49
+  - cost: 792.365
+    day: 50
+  - cost: 817.855
+    day: 51
+  - cost: 799.46
+    day: 52
+  - cost: 813.9
+    day: 53
+  - cost: 807.96
+    day: 54
+  - cost: 820.625
+    day: 55
+  - cost: 807.695
+    day: 56
+  - cost: 807.02
+    day: 57
+  - cost: 820.015
+    day: 58
+  - cost: 820.71
+    day: 59
+  - cost: 818.1825
+    day: 60
+  - cost: 853.405
+    day: 61
+  - cost: 839.9125
+    day: 62
+  - cost: 848.605
+    day: 63
+  - cost: 843.0025
+    day: 64
+  - cost: 836.725
+    day: 65
+  - cost: 856.8625000000001
+    day: 66
+  - cost: 864.0500000000001
+    day: 67
+  - cost: 875.8000000000001
+    day: 68
+  - cost: 869.3475
+    day: 69
+  - cost: 884.22
+    day: 70
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    RgAAAAAAAAA=
+  sell_price: 353688.0
+  sub_type: Commercial
+  total_tax_cost: 42639.62380000002
+  worth_trading: false
+- asset_id: asset_6
+  available_day: 1
+  buy_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AQAAAAAAAAA=
+  buy_price: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    WzgHAAAAAAA=
+  currently_owned: false
+  gross_profit: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    AAAAANDq8EA=
+  name: Reindeer Stables
+  net_profit: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    ADLmrjMf3cA=
+  net_roi: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    unNJmXo1GcA=
+  payment_schedule:
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      L90kBoEJi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ONbFbTT7ikA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      SL99HTgoi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      gZVDi2wIi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      PujZrPo/i0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      sgxxrItGi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      fvs6cM4/i0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      h4Va07xVi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      b/CFyVQ/i0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      gQTFjzERi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      gCbChqdri0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      DAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      9gZfmEwOi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      DQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      GlHaG3wei0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      DgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      kst/SL9qi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      DwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      z2bV52pIi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      CmgibHg5i0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      cRsN4C2Gi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      rdhfdk+Ii0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      /5B++zpRi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dy0hH/Smi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2T15WKici0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      i2zn+6lli0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      /Bhz1xLRi0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      lPYGX9jkjUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      mggbnt4ZjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      UPwYc5f6jUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      l24Sg0AVjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      v+yePGxQjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      R3L5D6lrjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Gi/dJMb9jUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      0m9fB84HjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Qxzr4rZTjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      zTtO0ZFzjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6ZWyDLFrjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      SzeJQWCejkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      KO0NvrA7jkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      7C+7J09JjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      3nGKjmSnjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      u5aQD3qGjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RPrt60DXjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      f9k9eZjOjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      rwPnjCjYjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      g8DKoUW4jkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Dr4wmeq1jkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      j8L1KBzZjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Qj7o2Sy6jkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8PRKWQbxjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      z2bV52rSjkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      rWnecQqVkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Di2yna+ZkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      bVZ9rra9kEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      VMGopE6wkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      AG+BBIXpkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      okW28z3AkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      OgFNhM2wkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      HHxhMtX4kEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6nO1FTvxkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dQKaCFvKkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      PL1SluHTkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      rwPnjCj+kEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      PujZrLrVkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      XdxGA7gZkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      uI0G8JbikEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      guLHmPslkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      1jTvOMXskEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      c9cS8kHtkEA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ibDh6dUwkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      i/1l9+QwkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      tDf4wmQTkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      61G4HsUskUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      arx0kxgxkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      nRGlvYFIkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      UGuad9wvkUA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      a7x0kziUkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      W2Q734+VkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      okW2831mkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      W2Q730+lkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      MgisHPqLkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hMDKocVukkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      t/P91DiTkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      oBov3USjkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      IbByaNGRkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      SgwCKyfGkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Fa5H4TqdkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      7nw/NV6skkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      X7pJDIKVkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dZMYBLaikkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      u0kMAmvLkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      B4GVQ0vJkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JQaBlWPNkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      gpVDi2zOkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JQaBlWP6kkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XQAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      MN0kBiHekkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XgAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      IbByaPHjkkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XwAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      fj81Xvr/kkA=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YAAAAAAAAAA=
+  - cost: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id002
+    - !!binary |
+      aZHtfD8Sk0A=
+    day: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YQAAAAAAAAA=
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    YQAAAAAAAAA=
+  sell_price: 542472.0
+  sub_type: Industrial
+  total_tax_cost: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    gIy565wy+EA=
+  worth_trading: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id003
+  - !!binary |
+    AA==
+- asset_id: asset_7
+  available_day: 20
+  buy_day: 20
+  buy_price: 222802.0
+  currently_owned: false
+  gross_profit: 68225.0
+  name: Elf Quarters
+  net_profit: 34049.12195
+  net_roi: 15.282233530219658
+  payment_schedule:
+  - cost: 349.3965
+    day: 21
+  - cost: 354.9855
+    day: 22
+  - cost: 337.173
+    day: 23
+  - cost: 345.25350000000003
+    day: 24
+  - cost: 392.61585
+    day: 25
+  - cost: 382.1004
+    day: 26
+  - cost: 385.67925
+    day: 27
+  - cost: 402.77655
+    day: 28
+  - cost: 410.5332
+    day: 29
+  - cost: 406.46925
+    day: 30
+  - cost: 382.8924
+    day: 31
+  - cost: 381.82485
+    day: 32
+  - cost: 380.64015
+    day: 33
+  - cost: 385.4301
+    day: 34
+  - cost: 383.6019
+    day: 35
+  - cost: 371.78955
+    day: 36
+  - cost: 365.44035
+    day: 37
+  - cost: 389.25975
+    day: 38
+  - cost: 385.4367
+    day: 39
+  - cost: 375.39645
+    day: 40
+  - cost: 369.2238
+    day: 41
+  - cost: 379.2195
+    day: 42
+  - cost: 361.06125
+    day: 43
+  - cost: 366.27195
+    day: 44
+  - cost: 346.50495
+    day: 45
+  - cost: 338.14275
+    day: 46
+  - cost: 336.9201
+    day: 47
+  - cost: 357.5913
+    day: 48
+  - cost: 355.54365
+    day: 49
+  - cost: 387.081
+    day: 50
+  - cost: 369.9108
+    day: 51
+  - cost: 369.2826
+    day: 52
+  - cost: 367.29179999999997
+    day: 53
+  - cost: 373.48199999999997
+    day: 54
+  - cost: 391.3902
+    day: 55
+  - cost: 376.7994
+    day: 56
+  - cost: 397.1214
+    day: 57
+  - cost: 388.7622
+    day: 58
+  - cost: 395.8992
+    day: 59
+  - cost: 382.536
+    day: 60
+  - cost: 385.6374
+    day: 61
+  - cost: 405.3798
+    day: 62
+  - cost: 396.2214
+    day: 63
+  - cost: 404.6922
+    day: 64
+  - cost: 406.0944
+    day: 65
+  - cost: 414.0972
+    day: 66
+  - cost: 418.4874
+    day: 67
+  - cost: 417.38579999999996
+    day: 68
+  - cost: 417.28319999999997
+    day: 69
+  - cost: 413.1522
+    day: 70
+  - cost: 434.44259999999997
+    day: 71
+  - cost: 425.8854
+    day: 72
+  - cost: 441.57959999999997
+    day: 73
+  - cost: 447.41339999999997
+    day: 74
+  - cost: 481.88009999999997
+    day: 75
+  - cost: 482.74784999999997
+    day: 76
+  - cost: 478.55145
+    day: 77
+  - cost: 498.33225
+    day: 78
+  - cost: 476.1627
+    day: 79
+  - cost: 491.42339999999996
+    day: 80
+  - cost: 482.7888
+    day: 81
+  - cost: 488.7987
+    day: 82
+  - cost: 494.7423
+    day: 83
+  - cost: 501.9885
+    day: 84
+  - cost: 494.02079999999995
+    day: 85
+  - cost: 507.5148
+    day: 86
+  - cost: 516.9021
+    day: 87
+  - cost: 525.86235
+    day: 88
+  - cost: 508.71599999999995
+    day: 89
+  - cost: 512.90265
+    day: 90
+  - cost: 521.85315
+    day: 91
+  - cost: 537.16455
+    day: 92
+  - cost: 547.46835
+    day: 93
+  - cost: 540.83835
+    day: 94
+  - cost: 548.7416999999999
+    day: 95
+  - cost: 531.4042499999999
+    day: 96
+  - cost: 545.8674
+    day: 97
+  - cost: 538.95465
+    day: 98
+  - cost: 546.2651999999999
+    day: 99
+  - cost: 567.50265
+    day: 100
+  sell_day: 100
+  sell_price: 291027.0
+  sub_type: Residential
+  total_tax_cost: 34175.87805
+  worth_trading: true
+- asset_id: asset_8
+  available_day: 5
+  buy_day: 5
+  buy_price: 507416.0
+  currently_owned: false
+  gross_profit: 67252.0
+  name: Workshop Warehouse
+  net_profit: -37265.586800000005
+  net_roi: -7.344188358270139
+  payment_schedule:
+  - cost: 903.4506
+    day: 6
+  - cost: 905.4288
+    day: 7
+  - cost: 910.8611999999999
+    day: 8
+  - cost: 920.1168
+    day: 9
+  - cost: 917.8254
+    day: 10
+  - cost: 919.3068
+    day: 11
+  - cost: 916.4628
+    day: 12
+  - cost: 913.3901999999999
+    day: 13
+  - cost: 913.4784
+    day: 14
+  - cost: 925.3638
+    day: 15
+  - cost: 913.4388
+    day: 16
+  - cost: 913.941
+    day: 17
+  - cost: 916.6032
+    day: 18
+  - cost: 927.1062
+    day: 19
+  - cost: 933.8274
+    day: 20
+  - cost: 923.7024
+    day: 21
+  - cost: 924.2064
+    day: 22
+  - cost: 928.5282
+    day: 23
+  - cost: 939.4037999999999
+    day: 24
+  - cost: 1005.6832499999999
+    day: 25
+  - cost: 1010.9677499999999
+    day: 26
+  - cost: 1009.8348
+    day: 27
+  - cost: 1013.78355
+    day: 28
+  - cost: 1008.9007499999999
+    day: 29
+  - cost: 1019.7466499999999
+    day: 30
+  - cost: 1015.6048499999999
+    day: 31
+  - cost: 1010.7903
+    day: 32
+  - cost: 1022.0223
+    day: 33
+  - cost: 1013.5866
+    day: 34
+  - cost: 1020.6416999999999
+    day: 35
+  - cost: 1023.20205
+    day: 36
+  - cost: 1032.3807
+    day: 37
+  - cost: 1024.6840499999998
+    day: 38
+  - cost: 1034.046
+    day: 39
+  - cost: 1029.3621
+    day: 40
+  - cost: 1031.3238
+    day: 41
+  - cost: 1028.1492
+    day: 42
+  - cost: 1029.0111
+    day: 43
+  - cost: 1033.97775
+    day: 44
+  - cost: 1046.1047999999998
+    day: 45
+  - cost: 1042.87365
+    day: 46
+  - cost: 1036.8189
+    day: 47
+  - cost: 1038.2112
+    day: 48
+  - cost: 1040.8515
+    day: 49
+  - cost: 1130.0562
+    day: 50
+  - cost: 1122.9582
+    day: 51
+  - cost: 1133.6325
+    day: 52
+  - cost: 1134.483
+    day: 53
+  - cost: 1136.2491
+    day: 54
+  - cost: 1136.4801
+    day: 55
+  - cost: 1123.7247
+    day: 56
+  - cost: 1140.6339
+    day: 57
+  - cost: 1140.9783
+    day: 58
+  - cost: 1140.9362999999998
+    day: 59
+  - cost: 1145.4429
+    day: 60
+  - cost: 1150.2267
+    day: 61
+  - cost: 1143.6200999999999
+    day: 62
+  - cost: 1134.588
+    day: 63
+  - cost: 1143.9666
+    day: 64
+  - cost: 1153.8282
+    day: 65
+  - cost: 1149.3845999999999
+    day: 66
+  - cost: 1142.7003
+    day: 67
+  - cost: 1148.8763999999999
+    day: 68
+  - cost: 1145.2854
+    day: 69
+  - cost: 1150.8020999999999
+    day: 70
+  - cost: 1153.8534
+    day: 71
+  - cost: 1148.4878999999999
+    day: 72
+  - cost: 1149.288
+    day: 73
+  - cost: 1158.7568999999999
+    day: 74
+  - cost: 1251.6412500000001
+    day: 75
+  - cost: 1251.2160000000001
+    day: 76
+  - cost: 1251.2632500000002
+    day: 77
+  - cost: 1240.9830000000002
+    day: 78
+  - cost: 1252.305
+    day: 79
+  - cost: 1250.0887500000001
+    day: 80
+  - cost: 1248.24375
+    day: 81
+  - cost: 1247.8590000000002
+    day: 82
+  - cost: 1249.5285000000001
+    day: 83
+  - cost: 1250.63775
+    day: 84
+  - cost: 1253.7495000000001
+    day: 85
+  - cost: 1261.1340000000002
+    day: 86
+  - cost: 1257.5295
+    day: 87
+  - cost: 1263.5347500000003
+    day: 88
+  - cost: 1269.90675
+    day: 89
+  - cost: 1270.3275
+    day: 90
+  - cost: 1272.2467500000002
+    day: 91
+  - cost: 1277.32275
+    day: 92
+  - cost: 1266.534
+    day: 93
+  - cost: 1272.1927500000002
+    day: 94
+  - cost: 1282.0185000000001
+    day: 95
+  - cost: 1282.7880000000002
+    day: 96
+  - cost: 1283.238
+    day: 97
+  - cost: 1285.5757500000002
+    day: 98
+  - cost: 1284.4777500000002
+    day: 99
+  - cost: 1293.0030000000002
+    day: 100
+  sell_day: 100
+  sell_price: 574668.0
+  sub_type: Industrial
+  total_tax_cost: 104517.5868
+  worth_trading: false
+- asset_id: asset_9
+  available_day: 25
+  buy_day: 25
+  buy_price: 377139.0
+  currently_owned: false
+  gross_profit: 13727.0
+  name: Sleigh Showroom
+  net_profit: -31587.83275
+  net_roi: -8.375647374045114
+  payment_schedule:
+  - cost: 867.3568
+    day: 26
+  - cost: 885.61395
+    day: 27
+  - cost: 868.35085
+    day: 28
+  - cost: 861.6933
+    day: 29
+  - cost: 878.571
+    day: 30
+  - cost: 870.6938
+    day: 31
+  - cost: 856.5233000000001
+    day: 32
+  - cost: 845.3514
+    day: 33
+  - cost: 868.09235
+    day: 34
+  - cost: 869.71385
+    day: 35
+  - cost: 831.4182500000001
+    day: 36
+  - cost: 853.1816
+    day: 37
+  - cost: 857.94505
+    day: 38
+  - cost: 833.3593500000001
+    day: 39
+  - cost: 821.0218500000001
+    day: 40
+  - cost: 820.03015
+    day: 41
+  - cost: 841.7982000000001
+    day: 42
+  - cost: 809.78885
+    day: 43
+  - cost: 818.03265
+    day: 44
+  - cost: 820.6505500000001
+    day: 45
+  - cost: 808.95695
+    day: 46
+  - cost: 819.7152500000001
+    day: 47
+  - cost: 837.4765500000001
+    day: 48
+  - cost: 836.0313
+    day: 49
+  - cost: 871.5875
+    day: 50
+  - cost: 871.565
+    day: 51
+  - cost: 900.58
+    day: 52
+  - cost: 877.9325
+    day: 53
+  - cost: 881.7275
+    day: 54
+  - cost: 918.4350000000001
+    day: 55
+  - cost: 892.875
+    day: 56
+  - cost: 908.8275
+    day: 57
+  - cost: 903.82
+    day: 58
+  - cost: 901.3025
+    day: 59
+  - cost: 914.7125
+    day: 60
+  - cost: 911.74
+    day: 61
+  - cost: 917.35
+    day: 62
+  - cost: 928.2475000000001
+    day: 63
+  - cost: 925.48
+    day: 64
+  - cost: 925.26
+    day: 65
+  - cost: 923.2375000000001
+    day: 66
+  - cost: 933.815
+    day: 67
+  - cost: 956.3175
+    day: 68
+  - cost: 944.4200000000001
+    day: 69
+  - cost: 953.9225
+    day: 70
+  - cost: 966.4575
+    day: 71
+  - cost: 954.2275
+    day: 72
+  - cost: 946.0675
+    day: 73
+  - cost: 954.5675
+    day: 74
+  - cost: 1013.1957
+    day: 75
+  - cost: 1035.7949
+    day: 76
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    TAAAAAAAAAA=
+  sell_price: 390866.0
+  sub_type: Commercial
+  total_tax_cost: 45314.83275
+  worth_trading: false
+- asset_id: asset_10
+  available_day: 30
+  buy_day: 30
+  buy_price: 254680.0
+  currently_owned: false
+  gross_profit: 68191.0
+  name: Frozen Lake Resort
+  net_profit: 34630.390450000006
+  net_roi: 13.597608940631384
+  payment_schedule:
+  - cost: 432.2043
+    day: 31
+  - cost: 414.40575
+    day: 32
+  - cost: 414.1929
+    day: 33
+  - cost: 420.6906
+    day: 34
+  - cost: 429.02475
+    day: 35
+  - cost: 405.4842
+    day: 36
+  - cost: 418.5192
+    day: 37
+  - cost: 409.893
+    day: 38
+  - cost: 416.03925
+    day: 39
+  - cost: 418.7766
+    day: 40
+  - cost: 400.01115
+    day: 41
+  - cost: 394.3005
+    day: 42
+  - cost: 383.85105
+    day: 43
+  - cost: 379.44885
+    day: 44
+  - cost: 391.6638
+    day: 45
+  - cost: 385.8228
+    day: 46
+  - cost: 380.21775
+    day: 47
+  - cost: 397.2672
+    day: 48
+  - cost: 375.7347
+    day: 49
+  - cost: 408.5118
+    day: 50
+  - cost: 399.1212
+    day: 51
+  - cost: 414.0594
+    day: 52
+  - cost: 415.27799999999996
+    day: 53
+  - cost: 410.35859999999997
+    day: 54
+  - cost: 411.5358
+    day: 55
+  - cost: 421.9722
+    day: 56
+  - cost: 425.23199999999997
+    day: 57
+  - cost: 445.3812
+    day: 58
+  - cost: 425.0142
+    day: 59
+  - cost: 454.12919999999997
+    day: 60
+  - cost: 441.5814
+    day: 61
+  - cost: 444.978
+    day: 62
+  - cost: 438.2658
+    day: 63
+  - cost: 450.9018
+    day: 64
+  - cost: 438.2298
+    day: 65
+  - cost: 455.7636
+    day: 66
+  - cost: 449.3646
+    day: 67
+  - cost: 446.8536
+    day: 68
+  - cost: 477.3708
+    day: 69
+  - cost: 458.23859999999996
+    day: 70
+  - cost: 462.5856
+    day: 71
+  - cost: 485.6904
+    day: 72
+  - cost: 490.3866
+    day: 73
+  - cost: 477.4608
+    day: 74
+  - cost: 519.5775
+    day: 75
+  - cost: 517.2297
+    day: 76
+  - cost: 537.7359
+    day: 77
+  - cost: 539.6664
+    day: 78
+  - cost: 535.314
+    day: 79
+  - cost: 542.5095
+    day: 80
+  - cost: 544.4984999999999
+    day: 81
+  - cost: 537.85875
+    day: 82
+  - cost: 556.8068999999999
+    day: 83
+  - cost: 550.1184
+    day: 84
+  - cost: 557.24175
+    day: 85
+  - cost: 554.0827499999999
+    day: 86
+  - cost: 555.906
+    day: 87
+  - cost: 587.4218999999999
+    day: 88
+  - cost: 583.4341499999999
+    day: 89
+  - cost: 579.4522499999999
+    day: 90
+  - cost: 572.1378
+    day: 91
+  - cost: 594.95475
+    day: 92
+  - cost: 599.8336499999999
+    day: 93
+  - cost: 608.7081
+    day: 94
+  - cost: 597.5735999999999
+    day: 95
+  - cost: 591.591
+    day: 96
+  - cost: 614.04135
+    day: 97
+  - cost: 627.0108
+    day: 98
+  - cost: 610.49235
+    day: 99
+  - cost: 629.59845
+    day: 100
+  sell_day: 100
+  sell_price: 322871.0
+  sub_type: Residential
+  total_tax_cost: 33560.609549999994
+  worth_trading: true
+- asset_id: asset_11
+  available_day: 1
+  buy_day: 0
+  buy_price: 346795.0
+  currently_owned: true
+  gross_profit: 76851.0
+  name: North Star Mall
+  net_profit: 58251.6302
+  net_roi: 16.79713669458902
+  payment_schedule:
+  - cost: 762.9490000000001
+    day: 1
+  - cost: 777.8144000000001
+    day: 2
+  - cost: 770.9988000000001
+    day: 3
+  - cost: 779.5920000000001
+    day: 4
+  - cost: 782.2914000000001
+    day: 5
+  - cost: 808.8762
+    day: 6
+  - cost: 801.548
+    day: 7
+  - cost: 812.053
+    day: 8
+  - cost: 831.8860000000001
+    day: 9
+  - cost: 821.3678000000001
+    day: 10
+  - cost: 835.4214000000001
+    day: 11
+  - cost: 842.3668
+    day: 12
+  - cost: 867.7394
+    day: 13
+  - cost: 864.7650000000001
+    day: 14
+  - cost: 883.0228000000001
+    day: 15
+  - cost: 872.6388000000001
+    day: 16
+  - cost: 904.6928
+    day: 17
+  - cost: 906.4264000000001
+    day: 18
+  - cost: 920.0818
+    day: 19
+  - cost: 912.4566000000001
+    day: 20
+  - cost: 908.3602000000001
+    day: 21
+  - cost: 932.0212
+    day: 22
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    FgAAAAAAAAA=
+  sell_price: 423646.0
+  sub_type: Commercial
+  total_tax_cost: 18599.3698
+  worth_trading: true
+- asset_id: asset_12
+  available_day: 10
+  buy_day: 10
+  buy_price: 557919.0
+  currently_owned: false
+  gross_profit: 68712.0
+  name: Gift Wrapping Plant
+  net_profit: -40460.88780000001
+  net_roi: -7.252107886628706
+  payment_schedule:
+  - cost: 1022.9688
+    day: 11
+  - cost: 1010.6333999999999
+    day: 12
+  - cost: 1021.9302
+    day: 13
+  - cost: 1020.285
+    day: 14
+  - cost: 1012.7357999999999
+    day: 15
+  - cost: 1024.5546
+    day: 16
+  - cost: 1029.5208
+    day: 17
+  - cost: 1014.8724
+    day: 18
+  - cost: 1020.7457999999999
+    day: 19
+  - cost: 1030.1184
+    day: 20
+  - cost: 1027.6001999999999
+    day: 21
+  - cost: 1037.4858
+    day: 22
+  - cost: 1022.2235999999999
+    day: 23
+  - cost: 1026.1278
+    day: 24
+  - cost: 1114.6531499999999
+    day: 25
+  - cost: 1125.07395
+    day: 26
+  - cost: 1124.4012
+    day: 27
+  - cost: 1114.2027
+    day: 28
+  - cost: 1124.2257
+    day: 29
+  - cost: 1135.3017
+    day: 30
+  - cost: 1137.83865
+    day: 31
+  - cost: 1133.87625
+    day: 32
+  - cost: 1121.8193999999999
+    day: 33
+  - cost: 1134.1355999999998
+    day: 34
+  - cost: 1138.4646
+    day: 35
+  - cost: 1142.28465
+    day: 36
+  - cost: 1141.8654
+    day: 37
+  - cost: 1134.1044
+    day: 38
+  - cost: 1143.77445
+    day: 39
+  - cost: 1146.69555
+    day: 40
+  - cost: 1139.3986499999999
+    day: 41
+  - cost: 1135.0833
+    day: 42
+  - cost: 1140.4614
+    day: 43
+  - cost: 1137.20685
+    day: 44
+  - cost: 1153.5927
+    day: 45
+  - cost: 1158.9357
+    day: 46
+  - cost: 1140.5706
+    day: 47
+  - cost: 1157.1729
+    day: 48
+  - cost: 1158.0153
+    day: 49
+  - cost: 1249.8129
+    day: 50
+  - cost: 1251.1317
+    day: 51
+  - cost: 1253.9982
+    day: 52
+  - cost: 1238.7941999999998
+    day: 53
+  - cost: 1242.3746999999998
+    day: 54
+  - cost: 1255.1532
+    day: 55
+  - cost: 1258.9877999999999
+    day: 56
+  - cost: 1254.0738
+    day: 57
+  - cost: 1245.8837999999998
+    day: 58
+  - cost: 1259.7774
+    day: 59
+  - cost: 1268.8346999999999
+    day: 60
+  - cost: 1269.471
+    day: 61
+  - cost: 1268.7087
+    day: 62
+  - cost: 1264.0047
+    day: 63
+  - cost: 1272.8142
+    day: 64
+  - cost: 1270.1954999999998
+    day: 65
+  - cost: 1260.8316
+    day: 66
+  - cost: 1260.6320999999998
+    day: 67
+  - cost: 1262.9421
+    day: 68
+  - cost: 1285.5969
+    day: 69
+  - cost: 1284.2486999999999
+    day: 70
+  - cost: 1283.268
+    day: 71
+  - cost: 1286.0357999999999
+    day: 72
+  - cost: 1283.4948
+    day: 73
+  - cost: 1283.5557
+    day: 74
+  - cost: 1363.8195
+    day: 75
+  - cost: 1385.1180000000002
+    day: 76
+  - cost: 1382.535
+    day: 77
+  - cost: 1369.2937500000003
+    day: 78
+  - cost: 1380.6832500000003
+    day: 79
+  - cost: 1394.9437500000001
+    day: 80
+  - cost: 1374.0457500000002
+    day: 81
+  - cost: 1381.5810000000001
+    day: 82
+  - cost: 1394.62875
+    day: 83
+  - cost: 1387.3500000000001
+    day: 84
+  - cost: 1396.3545000000001
+    day: 85
+  - cost: 1401.6330000000003
+    day: 86
+  - cost: 1385.1765000000003
+    day: 87
+  - cost: 1394.8740000000003
+    day: 88
+  - cost: 1394.7390000000003
+    day: 89
+  - cost: 1405.9395000000002
+    day: 90
+  - cost: 1393.22025
+    day: 91
+  - cost: 1392.5430000000001
+    day: 92
+  - cost: 1395.0900000000001
+    day: 93
+  - cost: 1397.1082500000002
+    day: 94
+  - cost: 1403.9977500000002
+    day: 95
+  - cost: 1399.9162500000002
+    day: 96
+  - cost: 1409.6047500000002
+    day: 97
+  - cost: 1409.1930000000002
+    day: 98
+  - cost: 1409.9197500000002
+    day: 99
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    YwAAAAAAAAA=
+  sell_price: 626631.0
+  sub_type: Industrial
+  total_tax_cost: 109172.88780000001
+  worth_trading: false
+- asset_id: asset_13
+  available_day: 40
+  buy_day: 0
+  buy_price: 181164.0
+  currently_owned: true
+  gross_profit: 108696.0
+  name: Aurora Apartments
+  net_profit: 73691.70164999999
+  net_roi: 40.676791001523476
+  payment_schedule:
+  - cost: 271.746
+    day: 1
+  - cost: 264.681
+    day: 2
+  - cost: 278.979
+    day: 3
+  - cost: 266.09250000000003
+    day: 4
+  - cost: 277.6005
+    day: 5
+  - cost: 271.197
+    day: 6
+  - cost: 265.1355
+    day: 7
+  - cost: 271.9605
+    day: 8
+  - cost: 264.924
+    day: 9
+  - cost: 268.2675
+    day: 10
+  - cost: 275.6535
+    day: 11
+  - cost: 268.047
+    day: 12
+  - cost: 271.383
+    day: 13
+  - cost: 264.38100000000003
+    day: 14
+  - cost: 262.3005
+    day: 15
+  - cost: 267.2865
+    day: 16
+  - cost: 264.69
+    day: 17
+  - cost: 269.5785
+    day: 18
+  - cost: 268.356
+    day: 19
+  - cost: 258.129
+    day: 20
+  - cost: 262.86
+    day: 21
+  - cost: 268.206
+    day: 22
+  - cost: 270.6435
+    day: 23
+  - cost: 257.0775
+    day: 24
+  - cost: 283.6878
+    day: 25
+  - cost: 283.7736
+    day: 26
+  - cost: 284.18115
+    day: 27
+  - cost: 284.7438
+    day: 28
+  - cost: 286.62315
+    day: 29
+  - cost: 282.47175
+    day: 30
+  - cost: 297.92565
+    day: 31
+  - cost: 288.8424
+    day: 32
+  - cost: 279.02325
+    day: 33
+  - cost: 287.96295
+    day: 34
+  - cost: 288.37545
+    day: 35
+  - cost: 283.9683
+    day: 36
+  - cost: 274.7745
+    day: 37
+  - cost: 294.70155
+    day: 38
+  - cost: 285.35265
+    day: 39
+  - cost: 284.4534
+    day: 40
+  - cost: 283.8693
+    day: 41
+  - cost: 287.41185
+    day: 42
+  - cost: 276.17535
+    day: 43
+  - cost: 277.72635
+    day: 44
+  - cost: 272.94135
+    day: 45
+  - cost: 279.5364
+    day: 46
+  - cost: 271.2138
+    day: 47
+  - cost: 273.7845
+    day: 48
+  - cost: 277.93425
+    day: 49
+  - cost: 293.8464
+    day: 50
+  - cost: 297.558
+    day: 51
+  - cost: 297.9576
+    day: 52
+  - cost: 311.283
+    day: 53
+  - cost: 321.6348
+    day: 54
+  - cost: 326.1276
+    day: 55
+  - cost: 318.654
+    day: 56
+  - cost: 318.06
+    day: 57
+  - cost: 330.73199999999997
+    day: 58
+  - cost: 344.9952
+    day: 59
+  - cost: 330.498
+    day: 60
+  - cost: 338.56739999999996
+    day: 61
+  - cost: 358.7796
+    day: 62
+  - cost: 335.8548
+    day: 63
+  - cost: 356.1948
+    day: 64
+  - cost: 356.8014
+    day: 65
+  - cost: 365.4792
+    day: 66
+  - cost: 349.3944
+    day: 67
+  - cost: 357.759
+    day: 68
+  - cost: 362.54879999999997
+    day: 69
+  - cost: 364.32
+    day: 70
+  - cost: 366.6888
+    day: 71
+  - cost: 391.5792
+    day: 72
+  - cost: 386.82
+    day: 73
+  - cost: 385.5132
+    day: 74
+  - cost: 442.99125
+    day: 75
+  - cost: 440.11499999999995
+    day: 76
+  - cost: 456.63345
+    day: 77
+  - cost: 445.97864999999996
+    day: 78
+  - cost: 447.7824
+    day: 79
+  - cost: 469.24604999999997
+    day: 80
+  - cost: 474.27315
+    day: 81
+  - cost: 476.6268
+    day: 82
+  - cost: 466.17285
+    day: 83
+  - cost: 480.71594999999996
+    day: 84
+  - cost: 474.46035
+    day: 85
+  - cost: 483.13394999999997
+    day: 86
+  - cost: 498.04364999999996
+    day: 87
+  - cost: 512.23185
+    day: 88
+  - cost: 488.4477
+    day: 89
+  - cost: 494.10465
+    day: 90
+  - cost: 503.52315
+    day: 91
+  - cost: 517.9082999999999
+    day: 92
+  - cost: 524.082
+    day: 93
+  - cost: 542.7434999999999
+    day: 94
+  - cost: 538.7674499999999
+    day: 95
+  - cost: 534.1089
+    day: 96
+  - cost: 561.17295
+    day: 97
+  - cost: 545.81475
+    day: 98
+  - cost: 551.7154499999999
+    day: 99
+  - cost: 565.227
+    day: 100
+  sell_day: 100
+  sell_price: 289860.0
+  sub_type: Residential
+  total_tax_cost: 35004.29835000001
+  worth_trading: true
+- asset_id: asset_14
+  available_day: 50
+  buy_day: 50
+  buy_price: 193617.0
+  currently_owned: false
+  gross_profit: 117266.0
+  name: Mistletoe Market
+  net_profit: 95116.6712
+  net_roi: 49.12619821606574
+  payment_schedule:
+  - cost: 343.9278
+    day: 51
+  - cost: 350.6454
+    day: 52
+  - cost: 363.2652
+    day: 53
+  - cost: 368.604
+    day: 54
+  - cost: 374.9346
+    day: 55
+  - cost: 371.5038
+    day: 56
+  - cost: 376.57079999999996
+    day: 57
+  - cost: 361.4112
+    day: 58
+  - cost: 363.9348
+    day: 59
+  - cost: 381.5442
+    day: 60
+  - cost: 371.8926
+    day: 61
+  - cost: 391.2012
+    day: 62
+  - cost: 395.2368
+    day: 63
+  - cost: 399.77639999999997
+    day: 64
+  - cost: 382.79879999999997
+    day: 65
+  - cost: 385.731
+    day: 66
+  - cost: 393.6852
+    day: 67
+  - cost: 418.851
+    day: 68
+  - cost: 402.1902
+    day: 69
+  - cost: 416.8764
+    day: 70
+  - cost: 416.3994
+    day: 71
+  - cost: 432.9378
+    day: 72
+  - cost: 431.37899999999996
+    day: 73
+  - cost: 442.7496
+    day: 74
+  - cost: 484.10699999999997
+    day: 75
+  - cost: 473.78369999999995
+    day: 76
+  - cost: 483.67409999999995
+    day: 77
+  - cost: 476.01255
+    day: 78
+  - cost: 498.7749
+    day: 79
+  - cost: 513.2633999999999
+    day: 80
+  - cost: 508.6029
+    day: 81
+  - cost: 514.4217
+    day: 82
+  - cost: 527.97615
+    day: 83
+  - cost: 532.0808999999999
+    day: 84
+  - cost: 532.3188
+    day: 85
+  - cost: 516.9723
+    day: 86
+  - cost: 519.40395
+    day: 87
+  - cost: 550.9569
+    day: 88
+  - cost: 548.5369499999999
+    day: 89
+  - cost: 559.55835
+    day: 90
+  - cost: 538.6251
+    day: 91
+  - cost: 557.3334
+    day: 92
+  - cost: 564.3358499999999
+    day: 93
+  - cost: 566.45355
+    day: 94
+  - cost: 590.0251499999999
+    day: 95
+  - cost: 570.3945
+    day: 96
+  - cost: 577.44765
+    day: 97
+  - cost: 606.22185
+    day: 98
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    YgAAAAAAAAA=
+  sell_price: 310883.0
+  sub_type: Residential
+  total_tax_cost: 22149.3288
+  worth_trading: true
+- asset_id: asset_15
+  available_day: 5
+  buy_day: 0
+  buy_price: 302470.0
+  currently_owned: true
+  gross_profit: 68281.0
+  name: Cookie Factory
+  net_profit: 54317.9168
+  net_roi: 17.958117102522564
+  payment_schedule:
+  - cost: 665.4340000000001
+    day: 1
+  - cost: 675.6574
+    day: 2
+  - cost: 694.6126
+    day: 3
+  - cost: 692.9274
+    day: 4
+  - cost: 691.768
+    day: 5
+  - cost: 699.2370000000001
+    day: 6
+  - cost: 706.7654
+    day: 7
+  - cost: 715.3806000000001
+    day: 8
+  - cost: 730.7784
+    day: 9
+  - cost: 730.5914
+    day: 10
+  - cost: 736.2542000000001
+    day: 11
+  - cost: 754.2018
+    day: 12
+  - cost: 743.6066000000001
+    day: 13
+  - cost: 752.3802000000001
+    day: 14
+  - cost: 778.8132
+    day: 15
+  - cost: 793.1638
+    day: 16
+  - cost: 797.1260000000001
+    day: 17
+  - cost: 788.7330000000001
+    day: 18
+  - cost: 815.6522
+    day: 19
+  sell_day: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    EwAAAAAAAAA=
+  sell_price: 370751.0
+  sub_type: Commercial
+  total_tax_cost: 13963.083200000003
+  worth_trading: true
