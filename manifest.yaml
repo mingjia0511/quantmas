@@ -1,11 +1,11 @@
 project_info:
   coding:
-    language: "<your_programming_language_here (typescript|python|csharp)>"
-    build_tool: "<your_build_tool_here>"
-    test_framework: "<your_test_framework_here>"
-    code_coverage_tool: "<your_code_coverage_tool_here>"
-    linter: "<your_linter_here>"
-    formatting_tool: "<your_formatting_tool_here>"
+    language: "python"
+    build_tool: "pip"
+    test_framework: "pytest"
+    code_coverage_tool: "pytest-cov"
+    linter: "pylint"
+    formatting_tool: "black"
   docs:
     root:
       - "./implementation/docs/"
