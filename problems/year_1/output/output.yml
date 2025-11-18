@@ -1,0 +1,16 @@
+1:
+- buy: asset_1
+44:
+- buy: asset_4
+45:
+- buy: asset_13
+46:
+- buy: asset_10
+47:
+- buy: asset_3
+100:
+- sell: asset_1
+- sell: asset_4
+- sell: asset_13
+- sell: asset_10
+- sell: asset_3
