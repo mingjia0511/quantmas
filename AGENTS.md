@@ -20,14 +20,23 @@ These will be logged in .agent_log/[year].log
 </important>
 
 
+## Before Beginning
 
-# AGENT SPECIFIC INFO
+<important>
+In the `./manifest.yaml` we have provided the basic information about the language, frameworks etc that are to be used.  
+Before you do ANYTHING ensure that these values have been collected, and if not guide the user through setting this up
+</important>
 
-> TODO: specify your coding standards, working process etc here. 
 
-Here are som hints to get you started:
+# AGENT FLOW
 
-- Use TDD
-- Capture learnings
-- Commit regularly
-- Follow good design and dev practices
+Ensure that the environment is setup to use the tools specified in `manifest.yaml`
+
+For each submission:
+
+1. Ensure test coverage > 80% 
+2. Ensure documentation is up to date
+3. Ensure the source code is up to date, all test pass
+4. Ensure that the code has been executed and the final result is in the correct outout
+5. Run `sh .test-and-submit.sh [year_no]` to publish the submission
+
