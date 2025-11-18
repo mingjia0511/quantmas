@@ -1,13 +1,13 @@
 asset_type,asset_sub_type,day,tax_rate,base_rate_modifier
-Real Estate,Residential,1,0.0075,0.00375
-Real Estate,Commercial,1,0.01125,0.00525
-Real Estate,Industrial,1,0.012,0.006
-Real Estate,Residential,25,0.00825,0.004125
-Real Estate,Commercial,25,0.012,0.005625
-Real Estate,Industrial,25,0.013,0.0065
-Real Estate,Residential,50,0.009,0.0045
-Real Estate,Commercial,50,0.01275,0.006
-Real Estate,Industrial,50,0.014,0.007
-Real Estate,Residential,75,0.00975,0.004875
-Real Estate,Commercial,75,0.0135,0.006375
-Real Estate,Industrial,75,0.015,0.0075
+Real Estate,Residential,1,0.00075,0.000375
+Real Estate,Commercial,1,0.001125,0.000525
+Real Estate,Industrial,1,0.0012,0.0006
+Real Estate,Residential,25,0.000825,0.0004125
+Real Estate,Commercial,25,0.0012,0.0005625
+Real Estate,Industrial,25,0.0013,0.00065
+Real Estate,Residential,50,0.0009,0.00045
+Real Estate,Commercial,50,0.001275,0.0006
+Real Estate,Industrial,50,0.0014,0.0007
+Real Estate,Residential,75,0.000975,0.0004875
+Real Estate,Commercial,75,0.001350,0.0006375
+Real Estate,Industrial,75,0.0015,0.00075

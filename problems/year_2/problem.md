@@ -1,13 +1,7 @@
-# 🎄 Year 2: Polar Revenue ServiceThe tax is owed daily on the properties you own based on the **current valuation** of your asset (not what you paid for it! 📈). However, you can postpone payment for up to 30 days... but beware! 😱 
+# 🎄 Year 2: The Tax Collector Cometh 💰
+## Difficulty: ⭐⭐⭐⭐⭐ (Legendary Master Elf! 👑)
 
-The longer you wait, the higher the tax rate becomes due to a base rate modifier that increases with each day you delay payment. This might be worth the risk if you expect the asset's valuation to drop significantly! 📉💭
-
-**🧮 Tax Formula:**
-```
-tax = current_valuation × (tax_rate + (base_rate_modifier × days_since_last_payment))
-```
-
-**🎯 Example 1: Paying Daily**ficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
+*"Nothing is certain except death, taxes, and elves complaining about both."* - Benjamin Frost-lin
 
 🎅 **Congratulations, Chief Investment Elf!** 🎅
 
@@ -17,9 +11,35 @@ The newly founded **Polar Revenue Service (PRS)** has arrived with jingle bells 
 
 But wait—there's a twist! 🎭 You can play the postponement game for up to 30 days, though it'll cost you more the longer you wait. Will you pay up front or gamble on market timing? The choice is yours, brave elf! ❄️💰
 
----
+The market has also matured since Year 1. The wild housing boom has cooled, retail remains volatile, and industrial properties continue their steady performance. Tax pressure is dampening speculation - investors are fleeing to quality. 📉💭
+
+## Tax Mechanics
+
+### How Taxes Work
+
+Taxes accrue **daily** on every asset you own, based on the asset's **current market valuation** (not purchase price).
+
+**Tax Formula:**
+```
+Daily Tax Owed = Current Valuation × (Base Tax Rate + (Rate Modifier × Days Since Last Payment))
+```
+
+**Key Points:**
+- Tax starts accruing the day after you buy an asset
+- You can delay payment for up to **30 days**
+- Each day you delay, the rate modifier increases your effective tax rate
+- You must pay the **full accumulated tax** when you choose to pay
+- **🆕 You can pay tax and sell an asset on the same day!** (Order doesn't matter)
 
 ## 🏛️ The Challenge
+
+**Maximize your total wealth by day 100** while managing tax obligations strategically.
+
+```
+Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 prices)
+```
+
+**New constraint:** All taxes must be paid by day 100, or you face penalties (automatic deduction from final score).
 
 
 ## 📊 Challenge Files & Info
@@ -38,26 +58,46 @@ But wait—there's a twist! 🎭 You can play the postponement game for up to 30
 
 ---
 
-## 🧮 Tax Calculation Magic
+### Tax Payment Strategy
 
-The tax is owed daily on the properties you own based on the current valuation of your asset (not the valuation at the time it was bought). However, you can postpone the payment of the tax for up to 30 days. The longer you wait to pay, the higher the tax rate becomes due to a base rate modifier that increases with each day you delay payment. This might be worth it however if you expect the asset’s valuation to decrease significantly in the coming days.
+**Pay Early (Days 1-10):**
+- Lower effective tax rate
+- Preserves predictability
+- Costs more cash upfront
 
-**Tax Formula:**
-tax = current_valuation * (tax_rate + (base_rate_modifier * days_since_last_payment))
+**Pay Late (Days 20-30):**
+- Higher effective tax rate
+- Gamble on asset value dropping
+- Risk of cash flow problems
 
+### Example Calculation
 
-**Example 1:**
+You bought an asset on day 1 worth 100,000 FSB with base tax rate 0.1% and rate modifier 0.05%. Tax starts accruing on day 2.
 
-- day 1: valuation = 100,000, tax rate 1%, base modifier 0.5%
-  - tax owed = 100000 × (0.01 + (0.005 × 1)) = 1,500 FSB 💰
-- day 2: valuation = 200,000  
-  - tax owed = 200000 × (0.01 + (0.005 × 1)) = 3,000 FSB 💰
-- day 3: valuation = 300,000  
-  - tax owed = 300000 × (0.01 + (0.005 × 1)) = 4,500 FSB 💰
-- day 4: valuation = 350,000  
-  - tax owed = 350000 × (0.01 + (0.005 × 1)) = 5,250 FSB 💰
+**Scenario A: Pay on Day 2 (earliest possible)**
+```
+Tax = 100,000 × (0.001 + 0.0005 × 1) = 150 FSB
+```
 
-**(The pattern continues with more complex examples involving postponement...)**
+**Scenario B: Wait until day 6, asset value stays 100,000**
+```
+Day 2: 100,000 × (0.001 + 0.0005 × 1) = 150
+Day 3: 100,000 × (0.001 + 0.0005 × 2) = 200
+Day 4: 100,000 × (0.001 + 0.0005 × 3) = 250
+Day 5: 100,000 × (0.001 + 0.0005 × 4) = 300
+Day 6: 100,000 × (0.001 + 0.0005 × 5) = 350
+Total: 1,250 FSB
+```
+
+**Scenario C: Wait until day 6, asset value drops to 80,000**
+```
+Day 2: 100,000 × 0.0015 = 150
+Day 3: 95,000 × 0.0020 = 190
+Day 4: 90,000 × 0.0025 = 225
+Day 5: 85,000 × 0.0030 = 255
+Day 6: 80,000 × 0.0035 = 280
+Total: 1,100 FSB (saved 150 by waiting!)
+```
 
 ---
 
@@ -65,10 +105,13 @@ tax = current_valuation * (tax_rate + (base_rate_modifier * days_since_last_paym
 
 ### 💸 `tax_rates.csv`
 
-| asset_type  | asset_sub_type | day | tax_rate | base_rate_modifier |
-|-------------|----------------|-----|----------|---------------------|
-| Real Estate | Residential    | 1   | 0.01     | 0.005               |
-| Real Estate | Commercial     | 2   | 0.015    | 0.007               |
+| Column | Description |
+|--------|-------------|
+| `asset_type` | Type of asset (e.g., "Real Estate") |
+| `asset_sub_type` | Sub-category: Residential, Commercial, or Industrial |
+| `day` | Day when this tax rate becomes effective |
+| `tax_rate` | Base daily tax rate (as decimal, e.g., 0.01 = 1%) |
+| `base_rate_modifier` | Additional rate per day of delay (as decimal) |
 
 ---
 
@@ -80,11 +123,16 @@ You now have a magical new action available! 🪄 You can pay taxes on any day i
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - pay_tax: id_1
-  - buy: id_2
+  - pay_tax: asset_1
+  - buy: asset_2
+10:
+  - pay_tax: asset_1  # Pay accumulated tax
+  - sell: asset_1     # Sell on same day (order doesn't matter!)
 ```
+
+**💡 Pro Tip:** You can pay tax and sell an asset on the same day! This is useful when you need to sell an asset to raise cash for the tax payment itself.
 
 ---
 
@@ -92,16 +140,50 @@ You now have a magical new action available! 🪄 You can pay taxes on any day i
 
 🚨 **All Year 1 rules still apply, PLUS:**
 - 💰 You must have enough Frosty Bucks to pay the tax
-- 🏠 You must own the asset to pay tax on it
+- 🏠 You must own the asset to pay tax on it (or be selling it on the same day)
 - ⏰ Tax must be paid within 30 days of the last tax payment for the asset
 - 🗓️ All tax must be paid by the end of the year
 - 💯 You must pay the tax owed for an asset in full on the day you choose to pay it
-- 🤝 You must settle all outstanding tax before selling an asset
+- 🤝 **You can pay tax and sell an asset on the same day** (no specific order required)
 
 ---
 
+## Scoring
+
+Your performance is measured by **Total Wealth on Day 100**:
+
+```
+Score = Cash on Hand + Σ(Valuation of Each Owned Asset on Day 100) - Unpaid Tax Penalties
+```
+
+**Penalty for unpaid taxes:** 2× the tax owed (don't let this happen!)
+
+---
+
+## Tips for Success
+
+- 📊 **Monitor valuations closely** - falling prices reduce tax burden
+- ⏰ **Time your tax payments** - pay before assets spike in value
+- 💰 **Maintain cash reserves** - tax bills can be substantial
+- 🎯 **Consider tax efficiency** - industrial assets have lower tax rates
+- 🔄 **Active trading helps** - sell before tax accumulates too much
+- 📉 **Use market dips** - wait to pay tax if you expect prices to fall
+- 🧮 **Calculate total tax burden** - don't get caught without cash on day 100
+
+---
+
+## Market Context for Year 2
+
+Based on the new tax environment, expect:
+
+- **Residential properties**: Modest growth (+8% from Year 1), tax pressure dampens speculation
+- **Commercial properties**: Continued volatility, higher tax rates hurt performance
+- **Industrial properties**: Defensive plays, lower tax rates make them attractive
+- **Overall market**: More conservative, "flight to quality" behavior
+- **Tax-driven sell-offs**: Watch for dips around days 25, 50, 75 (common payment periods)
+
 ## 🎁 Keep Up the Great Work!
 
-The PRS might have their eye on you now, but smart tax planning is just another skill in your Chief Investment Elf toolkit! Master the art of timing and watch your portfolio grow even stronger! 
+The PRS might have their eye on you now, but smart tax planning is just another skill in your Chief Investment Elf toolkit! Master the art of timing and watch your portfolio grow even stronger!
 
 🎄💪 **May your taxes be low and your returns be high!** 💪🎄

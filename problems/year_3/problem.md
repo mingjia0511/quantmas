@@ -1,17 +1,112 @@
-# ⚖️ Year 3: North Pole Treasury Compliance  
-## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
+# ⚖️ Year 3: Regional Reckoning 🗺️
+## Difficulty: ⭐⭐⭐☆☆ (Getting Spicy! 🌶️)
+
+*"All real estate is local... especially when the local government is run by elves with agendas."* - Frosty Buffett
 
 🎅 **Plot Twist Alert, Chief Investment Elf!** 🎅
 
 The PRS coffers are overflowing, and Santa just bought himself a shiny new Lamborghini sleigh! 🏎️✨ But hold your reindeer—while the higher-ups are living large, our hardworking elves, faithful reindeer, and sweet gingerbread citizens are still struggling to make ends meet! 😢
 
+The North Pole tried "trickle-down economics" for two years. Results: Santa got a Lamborghini, elves got... well, they're still waiting for the trickle. 💧⏳
+
 Fear not! The North Pole Treasury has introduced a brilliant solution: **regional wealth redistribution**! 🗺️💝 New regional-based taxes and compliance requirements ensure prosperity flows to every corner of our magical realm.
 
 Now you must navigate both regular asset taxes AND regional taxes, plus comply with strict regional investment limits. It's like juggling snowballs while riding a unicycle—challenging but totally doable for an elf of your caliber! 🤹‍♀️❄️
 
+**The regional divide is real:**
+- **Frostpeak**: Booming tech hub, aurora tourism, premium real estate
+- **Tinseltown**: Struggling retail district, high taxes driving investors away
+- **Evergreen Valley**: Steady industrial growth, moderate policies
+- **Mistletoe Meadows**: Compliance-friendly, attracting new development
+
+Your investment strategy must now account for regional performance, tax burdens, and portfolio limits. The days of concentrating all your wealth in one region are over.
+
 ---
 
 ## 🌍 The Challenge
+
+## Regional Mechanics
+
+### Regional Tax System
+
+In addition to asset-type taxes (from Year 2), you now pay **regional taxes** based on where your properties are located.
+
+**Regional Tax Formula:**
+```
+Regional Tax = Σ(All Assets in Region) × (Regional Tax Rate + Regional Rate Modifier × Days Since Last Payment)
+```
+
+**Key Differences from Asset Tax:**
+- Calculated on **total regional holdings**, not individual assets
+- Separate 30-day payment window per region
+- Must be paid before selling any asset in that region
+
+### Compliance Requirements
+
+Each region has limits to prevent wealth concentration:
+
+| Limit Type | Description |
+|------------|-------------|
+| `max_asset_number` | Maximum number of properties you can own in this region |
+| `max_asset_value` | Maximum total value of all properties in this region |
+
+**Compliance is checked:**
+- When buying an asset (must not exceed limits after purchase)
+- At day 100 (violations result in penalties)
+
+**Example 1: Checking Limits Before Purchase**
+```
+Frostpeak limits: 3 assets max, 2,000,000 FSB total value max
+Frostpeak has 4 available assets: asset_1, asset_5, asset_6, asset_13
+
+Current holdings:
+- asset_1: 250,000 FSB
+- asset_5: 300,000 FSB
+- asset_6: 450,000 FSB
+Total: 3 assets, 1,000,000 FSB ✓ Compliant (at asset limit)
+
+Can you buy asset_13 worth 280,000?
+- Assets: 4 ❌ (exceeds 3 asset limit)
+- Value: 1,280,000 ✓ (under 2M cap)
+Result: CANNOT BUY (too many assets)
+```
+
+**Example 2: Rising Valuations Causing Violations**
+```
+Frostpeak limits: 3 assets max, 2,000,000 FSB total value max
+
+Day 60 holdings (all compliant at purchase):
+- asset_1: 244,896 FSB (bought day 1 at 218,416)
+- asset_5: 409,091 FSB (bought day 15 at 377,870)
+- asset_6: 641,053 FSB (bought day 1 at 591,473)
+Total: 3 assets, 1,295,040 FSB ✓ Compliant (at asset limit)
+
+Day 100 valuations (market appreciation):
+- asset_1: 331,382 FSB (+35% from day 60)
+- asset_5: 428,987 FSB (+5% from day 60)
+- asset_6: 673,511 FSB (+5% from day 60)
+Total: 3 assets, 1,433,880 FSB ✓ Still compliant!
+
+But what if these assets continue to appreciate?
+Hypothetical day 100 with extreme growth:
+- asset_1: 500,000 FSB
+- asset_5: 650,000 FSB
+- asset_6: 900,000 FSB
+Total: 3 assets, 2,050,000 FSB ❌ VALUE VIOLATION!
+
+Options to avoid penalty:
+1. Sell one asset before day 100 to reduce total value
+2. Sell the most expensive asset (asset_6) on day 95
+3. Monitor valuations closely and rebalance if approaching 2M limit
+
+⚠️ Key Insight: Even if compliant when you buy, rising valuations 
+can push you over the VALUE limit by day 100. Monitor your exposure!
+
+Note: You're already at the 3-asset limit for Frostpeak, so you 
+can't buy asset_13 even if you wanted to!
+```
+
+---
 
 ## 📊 Challenge Files & Info
 
@@ -34,17 +129,19 @@ Now you must navigate both regular asset taxes AND regional taxes, plus comply w
 
 ### 🗺️ `regional_tax_rates.csv`
 
-| region | tax_rate | base_rate_modifier |
-|--------|-----------|----------------------|
-| North  | 0.01      | 0.005                |
-| South  | 0.015     | 0.007                |
+| Column | Description |
+|--------|-------------|
+| `region` | Region name (Frostpeak, Tinseltown, Evergreen Valley, Mistletoe Meadows) |
+| `tax_rate` | Base daily regional tax rate (as decimal) |
+| `base_rate_modifier` | Additional rate per day of delay (as decimal) |
 
 ### 📋 `compliance_requirements.csv`
 
-| region | max_asset_number | max_asset_value |
-|--------|-------------------|-----------------|
-| North  | 5                 | 1000000         |
-| South  | 3                 | 500000          |
+| Column | Description |
+|--------|-------------|
+| `region` | Region name |
+| `max_asset_number` | Maximum number of assets allowed in this region |
+| `max_asset_value` | Maximum total value (FSB) of assets in this region |
 
 ---
 
@@ -56,11 +153,17 @@ Another magical action joins your toolkit! 🎩✨ You can now pay regional taxe
 
 ```yaml
 1:
-  - buy: id_1
+  - buy: asset_1
 2:
-  - pay_tax: id_1
-  - pay_region_tax: North
+  - pay_tax: asset_1
+  - pay_region_tax: Frostpeak
+10:
+  - pay_tax: asset_1          # Pay asset tax
+  - pay_region_tax: Frostpeak # Pay regional tax
+  - sell: asset_1             # Sell on same day (order doesn't matter!)
 ```
+
+**💡 Pro Tip:** You can pay both asset tax and regional tax and sell an asset all on the same day! This is useful when you need to sell assets to raise cash for tax payments.
 
 ---
 
@@ -68,16 +171,62 @@ Another magical action joins your toolkit! 🎩✨ You can now pay regional taxe
 
 🚨 **All Year 1 & 2 rules still apply, PLUS:**
 - 💰 You must have enough Frosty Bucks to pay regional taxes
-- 🏠 You must own assets in a region to pay its regional tax
+- 🏠 You must own assets in a region to pay its regional tax (or be selling them on the same day)
 - ⏰ Regional tax must be paid within 30 days of the last payment
-- ⚖️ You must comply with regional asset number and value limits at all times
+- ⚖️ You must comply with regional asset number and value limits when buying
+- 📊 Compliance is also checked at day 100 (rising valuations can cause violations!)
 - 🗓️ All regional tax must be paid by end of year
-- 🤝 You must settle all taxes (asset AND regional) before selling an asset
+- 🤝 **You can pay taxes (asset AND regional) and sell an asset on the same day** (no specific order required)
 
 ---
 
-## 🎁 You're Becoming a True Master!
+## Scoring
 
-Balancing multiple tax systems while staying compliant across regions—you're really showing your elf expertise now! Keep up the fantastic work, and remember: a well-diversified, compliant portfolio is a happy portfolio! 
+Your performance is measured by **Total Wealth on Day 100**:
+
+```
+Score = Cash on Hand + Σ(Asset Valuations at day 100) - Tax Penalties - Compliance Penalties
+```
+
+**Penalties:**
+- Unpaid taxes: 2× the tax owed
+- Compliance violations: 10% of excess value
+
+---
+
+## Tips for Success
+
+- 🗺️ **You can only own 10 assets max** - limits force strategic choices (3+2+3+2)
+- 📊 **Track regional exposure** - know your limits before buying
+- 🎯 **Prioritize Frostpeak** - booming region, but only 3 assets allowed (4 available)
+- ⚠️ **Tinseltown is limited** - only 2 assets allowed, and it's underperforming
+- 💰 **Regional tax timing** - coordinate with asset tax payments
+- 🔄 **Rebalance strategically** - sell in weak regions, buy in strong ones
+- 🧮 **Calculate total tax burden** - asset tax + regional tax can be substantial
+- 📈 **Monitor valuations** - rising prices can cause value limit violations
+
+---
+
+## Market Context for Year 3
+
+Regional policies are creating dramatic divergence:
+
+**🚀 Frostpeak** (Favorable policies)
+- Residential: +35% from Year 1
+- Commercial: +35% from Year 1
+- Industrial: +35% from Year 1
+- **Strategy**: Premium region, but watch compliance limits
+
+**📉 Tinseltown** (High taxes, stagnation)
+- All asset types: -1% to +8% from Year 1
+- **Strategy**: Avoid or exit positions early
+
+**📈 Evergreen Valley** (Moderate growth)
+- All asset types: +12-21% from Year 1
+- **Strategy**: Solid middle ground, good compliance limits
+
+**🌱 Mistletoe Meadows** (Compliance-friendly)
+- All asset types: +18-27% from Year 1
+- **Strategy**: Attractive growth with reasonable limits
 
 🎄🏆 **Regional harmony through smart investing—you've got this!** 🏆🎄
