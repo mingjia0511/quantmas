@@ -32,7 +32,7 @@ Day 10: Initiate buy of asset_1 at 200,000 FSB
         - Cash is NOT deducted yet
         - You do NOT own the asset yet
         - Transaction is "pending"
-
+`
 Day 40: Transaction completes (10 + 30 = 40)
         - Cash deducted: 200,000 FSB
         - You now own asset_1

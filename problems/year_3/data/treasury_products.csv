@@ -1,0 +1,6 @@
+product,tenor_days,annual_yield,display_name
+repo_overnight,1,0.025,Overnight Snowbank
+mmf_fund,1,0.028,Frosty Money Market
+t_bill_7d,7,0.032,Weekly Icicle Bond
+t_bill_14d,14,0.035,Fortnight Frost Note
+t_bill_30d,30,0.04,Monthly Blizzard Bill

@@ -1,0 +1,26 @@
+day,amount,description,type
+5,150000,Settlement from Year 2 asset sale,settlement
+10,-33648,Operational expenses,operations
+15,-135302,Estimated tax liability,tax_estimate
+20,-30819,Operational expenses,operations
+20,-60000,Property maintenance,maintenance
+25,166237,Industrial asset dividends,dividend
+30,-39012,Operational expenses,operations
+30,-84165,Estimated tax liability,tax_estimate
+35,-40000,Compliance audit fees,compliance
+40,-38024,Operational expenses,operations
+45,-83905,Estimated tax liability,tax_estimate
+50,-37314,Operational expenses,operations
+50,178907,Industrial asset dividends,dividend
+55,-70000,Emergency repairs,maintenance
+60,-34572,Operational expenses,operations
+60,-92280,Estimated tax liability,tax_estimate
+70,-33358,Operational expenses,operations
+70,-50000,Regulatory filing fees,compliance
+75,-108657,Estimated tax liability,tax_estimate
+75,103478,Industrial asset dividends,dividend
+80,-47870,Operational expenses,operations
+85,-45000,Insurance premiums,operations
+90,-32848,Operational expenses,operations
+90,-110495,Estimated tax liability,tax_estimate
+100,-49349,Operational expenses,operations
