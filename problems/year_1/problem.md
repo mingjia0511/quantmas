@@ -18,11 +18,62 @@ You start with 1 million Frosty Bucks (FSB) straight from Santa's Pole Retiremen
 Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 prices)
 ```
 
+### 🌍 The Macro Environment
+
+The North Pole economy doesn't exist in a vacuum! Real estate values are influenced by broader economic forces. Two key macro indicators drive the market:
+
+**📈 Inflation Index**
+- Measures the general price level in the North Pole economy
+- Rising inflation typically **benefits Residential assets** (housing as inflation hedge)
+- Tracked daily from a base of 100
+
+**💰 Interest Rate Index**
+- The cost of borrowing Frosty Bucks (expressed as %)
+- Rising interest rates typically **pressure Commercial assets** (higher cap rates, lower valuations)
+- Affects financing costs for property acquisitions
+
+**🏭 Industrial Assets**
+- Respond to **both** inflation and interest rate dynamics
+- More complex behavior patterns
+
+💡 **Smart elves study these macro trends when making investment decisions!** The data is provided in `macro_indicators.csv` for your analysis.
+
+### 💸 Transaction Costs
+
+Real estate transactions aren't free! Each trade incurs realistic market costs:
+
+- **Buying**: You pay **1% above** the market valuation
+- **Selling**: You receive **1% below** the market valuation
+
+**Example:**
+If `asset_1` has a market valuation of 100,000 FSB on day 50:
+- **Buy price**: 101,000 FSB (100,000 × 1.01)
+- **Sell proceeds**: 99,000 FSB (100,000 × 0.99)
+- **Round-trip cost**: 2,000 FSB (2% total)
+
+🎯 **Trade wisely—frequent trading eats into your returns!** Transaction costs reflect broker fees, legal costs, and market friction in real estate deals.
+
+### ⏳ Illiquidity & Holding Periods
+
+Real estate is not like stocks—you can't flip properties overnight! The North Pole real estate market has realistic settlement and due diligence periods.
+
+**Rule**: You must hold any purchased asset for **at least 10 days** before selling it.
+
+**Example:**
+- Buy `asset_1` on day 5
+- ❌ Cannot sell on days 5-14
+- ✅ Earliest sale date: day 15
+
+🏠 **This reflects the reality of property transactions**: inspections, legal reviews, closing periods, and settlement times. Plan your strategy accordingly!
+
+### 📊 Market Dynamics
+
 The market is volatile - asset valuations change daily based on factors like:
 - 🎅 Holiday shopping trends
 - 🦌 Reindeer migration patterns
 - ❄️ Blizzard insurance premiums
 - 🎁 Gift production forecasts
+- 📈 Inflation and interest rate movements
 
 **Warning:** The North Pole real estate market can be unpredictable! Some assets may soar to new heights, while others might crash harder than Rudolph on an icy rooftop. Not every investment is a winner - choose wisely!
 
@@ -33,6 +84,7 @@ The market is volatile - asset valuations change daily based on factors like:
 **📁 Data Files:**
 - 🏠 `assets.csv` - 15 magical properties with details (id, name, type, sub_type, available_on_day, region)
 - 📈 `valuations.csv` - Daily market values for all assets across 100 festive days (1,500 rows of data)
+- 🌍 `macro_indicators.csv` - Daily inflation and interest rate indices (100 rows)
 
 **💰 Starting Capital:** 1,000,000 Frosty Bucks (FSB)
 
@@ -57,7 +109,15 @@ The market is volatile - asset valuations change daily based on factors like:
 |--------|-------------|
 | `asset_id` | Asset identifier matching `assets.csv` |
 | `day` | Trading day (1-100) |
-| `valuation` | Market price in Frosty Bucks (FSB) |
+| `valuation` | Market price in Frosty Bucks (FSB) - **before transaction costs** |
+
+### 🌍 `macro_indicators.csv`
+
+| Column | Description |
+|--------|-------------|
+| `day` | Trading day (1-100) |
+| `inflation_index` | Inflation index (base = 100 on day 1) |
+| `interest_rate_index` | Interest rate level (expressed as %) |
 
 ---
 
@@ -81,10 +141,35 @@ Your festive trading decisions should be recorded as a list of daily actions! �
 ## ✅ Validation Rules
 
 🚨 **Important Trading Rules to Follow:**
-- 💰 You must have enough Frosty Bucks to buy an asset
+
+### Basic Rules
+- 💰 You must have enough Frosty Bucks to buy an asset (including the 1% transaction cost)
 - 🏠 You cannot buy an asset you already own (but can sell and re-buy later!)
 - 📅 Asset must be available on the day of purchase (current day ≥ available_on_day)
 - 🤝 You must own the asset to sell it
+
+### Transaction Cost Rules
+- 📈 **Buy Price** = `valuation × 1.01` (you pay 1% above market)
+- 📉 **Sell Proceeds** = `valuation × 0.99` (you receive 1% below market)
+- 💸 Your cash must cover the full buy price (including the 1% premium)
+
+### Holding Period Rules
+- ⏳ You must hold any asset for **at least 10 days** after purchase
+- 🚫 Attempting to sell before the holding period expires is invalid
+- ✅ Track purchase dates: if bought on day X, earliest sale is day X+10
+
+**Example Scenario:**
+```
+Day 5: Buy asset_1 at valuation 100,000 FSB
+       → Cost: 101,000 FSB (100,000 × 1.01)
+       → Cash reduced by 101,000 FSB
+       
+Day 10: Try to sell asset_1 ❌ INVALID (only held 5 days)
+
+Day 15: Sell asset_1 at valuation 105,000 FSB ✅ VALID
+        → Proceeds: 103,950 FSB (105,000 × 0.99)
+        → Net gain: 2,950 FSB (despite 5% valuation increase)
+```
 
 ---
 
@@ -107,13 +192,17 @@ The elf with the highest score wins! 🏆
 ## Tips for Success
 
 - 📊 **Study the trends carefully** - some assets are more volatile than others
+- 🌍 **Watch the macro indicators** - inflation and interest rates drive asset class performance
 - 📉 **Not all assets go up** - some may look good early but crash later
 - ⏰ **Timing matters** - the market has ups and downs throughout the year
 - 💰 **Keep cash reserves** - opportunities may arise when prices dip
 - 🎯 **Remember the goal** - you're scored on day 100, not day 50
 - 🧮 **Track your liquidity** - running out of cash means missing opportunities
 - 🎲 **Diversification helps** - but choose wisely, not all assets are winners
-- 🔄 **Active trading can pay off** - buy low, sell high isn't just a saying!
+- 💸 **Transaction costs add up** - frequent trading (2% round-trip cost) can erode gains
+- ⏳ **Plan for illiquidity** - 10-day holding periods mean you can't react instantly
+- 🏠 **Asset class matters** - Residential, Commercial, and Industrial respond differently to macro conditions
+- 🔄 **Strategic trading beats day-trading** - real estate rewards patience and planning
 
 ## 🎁 Good Luck, Chief Investment Elf!
 
