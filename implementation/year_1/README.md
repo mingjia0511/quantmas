@@ -26,10 +26,10 @@ pytest --cov=src --cov-report=term-missing
 
 ## Strategy
 
-**Approach**: Buy best assets when available, hold until day 100
+**Approach**: Buy top 5 assets by expected return, hold until day 100
 
 **Transactions**: 5  
-**Expected Return**: ~43%
+**Actual Return**: 47.32%
 
 See `docs/strategy-decisions.md` for detailed strategy explanation.
 
@@ -56,7 +56,7 @@ year_1/
 ## Results
 
 **Final Portfolio**:
-- Cash: 119,641 FSB
-- Assets: 5 (asset_1, asset_3, asset_4, asset_10, asset_13)
-- Total Value: 1,430,579 FSB
-- **Return: 43.06%**
+- Cash: 176,181 FSB
+- Assets: 5 (asset_1, asset_3, asset_4, asset_13, asset_14)
+- Total Value: 1,473,231 FSB
+- **Return: 47.32%**

@@ -67,50 +67,42 @@ class TradingStrategy:
         opportunities.sort(key=lambda x: x[1], reverse=True)
         return opportunities
     
-    def should_sell(self, asset_id: str, day: int) -> bool:
-        """Determine if asset should be sold on given day.
-        
-        Args:
-            asset_id: Asset identifier
-            day: Current trading day
-            
-        Returns:
-            True if asset should be sold
-        """
-        if day >= 100:
-            return False  # Hold until end
-        
-        current_price = self.valuations[asset_id][day]
-        future_price = self.valuations[asset_id][day + 1] if day < 100 else current_price
-        
-        # Sell if price will drop tomorrow
-        return future_price < current_price
-    
     def execute_strategy(self) -> Portfolio:
-        """Execute trading strategy across all 100 days.
+        """Execute buy-and-hold strategy.
+        
+        Buy best assets when they become available, hold until day 100.
+        Uses a greedy approach: select top N assets by return that fit within budget.
         
         Returns:
             Portfolio with all transactions
         """
+        # Get all opportunities sorted by return
+        all_opportunities = []
+        for asset_id in self.assets:
+            available_day = self.assets[asset_id]['available_on_day']
+            expected_return = self.calculate_future_return(asset_id, available_day)
+            buy_price = self.valuations[asset_id][available_day]
+            if expected_return > 0:
+                all_opportunities.append((asset_id, available_day, buy_price, expected_return))
+        
+        # Sort by expected return (highest first)
+        all_opportunities.sort(key=lambda x: x[3], reverse=True)
+        
+        # Select assets that fit within budget
+        selected_assets = []
+        total_cost = 0
+        for asset_id, available_day, buy_price, expected_return in all_opportunities:
+            if total_cost + buy_price <= self.portfolio.cash:
+                selected_assets.append((asset_id, available_day))
+                total_cost += buy_price
+        
+        # Execute buys on each day
         for day in range(1, 101):
-            # Check for sell opportunities first
-            assets_to_sell = [
-                asset_id for asset_id in list(self.portfolio.owned_assets)
-                if self.should_sell(asset_id, day)
-            ]
-            
-            for asset_id in assets_to_sell:
-                price = self.valuations[asset_id][day]
-                self.portfolio.sell(asset_id, price, day)
-            
-            # Look for buy opportunities
-            opportunities = self.find_best_opportunities(day)
-            
-            for asset_id, expected_return in opportunities:
-                price = self.valuations[asset_id][day]
-                available_day = self.assets[asset_id]['available_on_day']
-                
-                if self.portfolio.can_buy(asset_id, price, available_day, day):
-                    self.portfolio.buy(asset_id, price, day)
+            # Buy selected assets that become available today
+            for asset_id, available_day in selected_assets:
+                if available_day == day and asset_id not in self.portfolio.owned_assets:
+                    price = self.valuations[asset_id][day]
+                    if self.portfolio.can_buy(asset_id, price, available_day, day):
+                        self.portfolio.buy(asset_id, price, day)
         
         return self.portfolio
