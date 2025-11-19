@@ -31,6 +31,37 @@ Daily Tax Owed = Current Valuation × (Base Tax Rate + (Rate Modifier × Days Si
 - You must pay the **full accumulated tax** when you choose to pay
 - **🆕 You can pay tax and sell an asset on the same day!** (Order doesn't matter)
 
+### 🧠 Why These Tax Rates Exist (Economic Reality)
+
+The PRS tax system isn't just Santa being naughty—it reflects real economic policy across the North Pole's property market!
+
+**🏠 Residential Properties (Lowest Base Tax: 0.10%)**
+- **Politically sensitive**: Families, elves, and reindeer need affordable housing
+- **Stable demand**: Less volatile than other asset classes
+- **Government priority**: PRS keeps taxes gentle to avoid community backlash
+- **Investment implication**: Tax-efficient for long-term holds
+
+**🏢 Commercial Properties (Highest Base Tax: 0.15%)**
+- **Business cycle exposure**: Performance tied to retail sales, workshop productivity, candy-cane consumption
+- **Higher volatility**: Values swing with economic conditions
+- **Speculation deterrent**: PRS uses higher taxes to cool overheated markets
+- **Investment implication**: Need strong gross returns to justify after-tax performance
+
+**🏭 Industrial Properties (Middle Base Tax: 0.12%)**
+- **Strategic infrastructure**: Warehouses, logistics hubs, reindeer hangars
+- **Essential services**: Supply chain backbone of North Pole economy
+- **Government incentive**: PRS encourages long-term investment in critical assets
+- **Investment implication**: Best balance of tax efficiency and growth potential
+
+💡 **This means your portfolio strategy should consider tax efficiency, not just gross returns!** A 10% gain on a high-tax Commercial asset might underperform an 8% gain on a low-tax Residential asset after taxes.
+
+**Tax Burden Comparison** (30-day hold on 100,000 FSB asset):
+- Residential: ~26,250 FSB (26.25% of asset value)
+- Industrial: ~31,500 FSB (31.50% of asset value)
+- Commercial: ~37,050 FSB (37.05% of asset value)
+
+The 10.8% difference between Residential and Commercial tax burden can significantly impact your final score!
+
 ## 🏛️ The Challenge
 
 **Maximize your total wealth by day 100** while managing tax obligations strategically.
@@ -165,22 +196,48 @@ Score = Cash on Hand + Σ(Valuation of Each Owned Asset on Day 100) - Unpaid Tax
 - 📊 **Monitor valuations closely** - falling prices reduce tax burden
 - ⏰ **Time your tax payments** - pay before assets spike in value
 - 💰 **Maintain cash reserves** - tax bills can be substantial
-- 🎯 **Consider tax efficiency** - industrial assets have lower tax rates
+- 🏛️ **Tax efficiency is strategy** - Industrial assets accumulate ~15% less tax than Commercial over 30 days
+- 📊 **After-tax returns matter** - A 10% gross return on Commercial (high tax) may underperform 8% on Residential (low tax)
+- 🎯 **Asset class selection** - Consider tax burden when choosing between similar-valued properties
 - 🔄 **Active trading helps** - sell before tax accumulates too much
 - 📉 **Use market dips** - wait to pay tax if you expect prices to fall
 - 🧮 **Calculate total tax burden** - don't get caught without cash on day 100
+- 🏠 **Long-term holds favor Residential** - Lowest tax rate makes them ideal for buy-and-hold strategies
+- 🏢 **Commercial needs higher returns** - Factor in 50% higher tax burden vs Residential when evaluating trades
 
 ---
 
-## Market Context for Year 2
+## 🌍 Market Context for Year 2
 
-Based on the new tax environment, expect:
+The Year 1 macro environment continues to shape the market, now amplified by tax policy:
 
-- **Residential properties**: Modest growth (+8% from Year 1), tax pressure dampens speculation
-- **Commercial properties**: Continued volatility, higher tax rates hurt performance
-- **Industrial properties**: Defensive plays, lower tax rates make them attractive
-- **Overall market**: More conservative, "flight to quality" behavior
-- **Tax-driven sell-offs**: Watch for dips around days 25, 50, 75 (common payment periods)
+**📈 Residential Properties**
+- Modest growth expected (~8-10% returns, cooled from Year 1's +53% boom)
+- **Tax advantage**: Lowest base rate (0.10%) makes them most tax-efficient
+- Market has matured, but fundamentals remain solid
+- Political sensitivity keeps tax burden low
+- **Best for**: Long-term, tax-conscious investors seeking stable after-tax returns
+
+**🏢 Commercial Properties**
+- Continued volatility from rising interest rates (Year 1 carryover)
+- **Tax disadvantage**: Highest base rate (0.15%) + highest modifier (0.070%)
+- Double headwind: Interest rate pressure + tax burden
+- PRS actively discouraging speculation in this sector
+- **Best for**: Short-term tactical trades only if you can time the market perfectly
+
+**🏭 Industrial Properties**
+- Defensive characteristics with steady performance
+- **Tax sweet spot**: Middle base rate (0.12%) with government incentives
+- Essential infrastructure status provides stability
+- Supply chain importance recognized by PRS policy
+- **Best for**: Balanced risk/return with good tax efficiency
+
+**🎯 Strategic Insight**: Tax policy creates a "hidden cost" that varies by asset class. Over a 30-day hold, Commercial assets face 41% higher tax burden than Residential assets. Smart elves factor this into every buy/hold/sell decision!
+
+**📊 Tax-Driven Market Behavior**:
+- Watch for sell-offs around days 25, 50, 75 (common payment periods)
+- "Flight to quality" = shift toward Residential and Industrial
+- Commercial assets may trade at discounts due to tax inefficiency
 
 ## 🎁 Keep Up the Great Work!
 
