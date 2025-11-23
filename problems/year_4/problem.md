@@ -1,328 +1,230 @@
-# 🗳️ Year 4: Election Year Chaos! 🎄
-## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
+# 💰 Year 4: The Great Cash Caper 🏦
+## Difficulty: ⭐⭐⭐⭐☆ (Master Treasury Elf! 💎)
 
-*"In politics, nothing is certain except uncertainty, volatility, and elves hedging their bets."*  
-— Winston Frost-chill
+*"A Frosty Buck saved is a Frosty Buck earned, but a Frosty Buck sitting idle is a Frosty Buck spurned!"* - Benjamin Frost-lin
 
-BREAKING NEWS FROM THE NORTH POLE! 📰🔥
+🎅 **Ho ho ho, Chief Investment Elf!** 🎅
 
-The biggest political showdown in centuries is HERE! Santa Claus and The Grinch are battling it out for control of the North Pole, and the markets are going ABSOLUTELY BONKERS! 🎢💥
+Your portfolio has been performing well! 🎉 But Santa just burst into your office with a very important question: **"WHY IS THERE CASH JUST SITTING AROUND DOING NOTHING?!"** 😱💸
 
-Every day brings new polls! Shocking scandals! Dramatic debates! And your portfolio is caught right in the middle of this electoral tornado! 🌪️
+Apparently, Mrs. Claus was reviewing the books (she's surprisingly good at spreadsheets) and noticed that sometimes we have piles of Frosty Bucks just... lounging around. Not invested. Not working. Just chilling like a snowman in July! ☃️
 
-**Here's the twist**: YOU get to vote in this election! Your vote will influence who wins (but doesn't guarantee it—this is democracy, baby! 🗳️). And whoever wins will completely reshape Year 5 with their policies!
+This will NOT do! The Glacial ELF Investment Corporation (GEIC) has a new rule: **The Zero-Cash Mandate!** Every single Frosty Buck must be working hard, every single day. No lazy money allowed! 💪💰
 
-Welcome to Election Year Chaos—where political risk meets portfolio management! 🎁✨
+Your new mission: Become the GEIC's first-ever **Chief Treasury Elf**! You'll manage our daily cash like a boss, making sure we never run out of money for important stuff (like elf salaries and reindeer snacks) while also making sure every spare Buck is earning returns! 🦌🎄
 
----
-
-## 🎯 The Challenge
-
-Your mission: Navigate 100 days of election-driven market madness and position your portfolio for whichever candidate wins!
-
-**What's Different This Year**:
-- 📊 **Markets move with the polls** - Assets favored by the leader rise!
-- 📰 **News shocks hit hard** - Scandals and victories cause sudden price swings!
-- 🗳️ **Your vote matters** - Influence the outcome (probabilistically!)
-- 🎁 **Year 5 stakes** - The winner's policies will reshape everything!
-- 💰 **Simple trading** - No taxes! No treasury! Just pure election strategy!
-
-**The Big Question**: Who's going to win? And how do you position for maximum profit? 🤔💰
+Welcome to the wild world of treasury management—where cash is king, but idle cash gets coal! 🏦✨
 
 ---
 
-## 🗳️ Meet the Candidates!
+## 🏦 The Challenge
 
-### 🎅 Santa Claus - "Traditional Values, Cozy Comfort!"
+### The Zero-Cash Mandate (AKA "No Lazy Money!")
 
-**Campaign Platform**:
-- 🏠 **Loves Residential properties** - "Every elf deserves a warm home!"
-- 🏢 **Supports Commercial** - "Small businesses are the heart of Christmas!"
-- 📍 **Favors Frostpeak & Mistletoe Meadows** - Traditional regions
-- ❤️ **Values over economics** - "Some things matter more than money!"
+**Santa's New Rule**: End every day with **ZERO idle cash**. Not a single Frosty Buck can be sitting around twiddling its thumbs!
 
-**If Santa Wins Year 5**:
-- ✅ 20% tax reduction on favored assets
-- ✅ 25% valuation boost for Residential & Commercial
-- ✅ Extra boost for Frostpeak & Mistletoe Meadows regions
+All your cash must be either:
+1. **Invested in Elf Treasury Instruments** 🎁 (earning returns!)
+2. **Reserved for tomorrow's bills** 📅 (taxes, operations, emergency candy cane repairs)
+3. **In transit from selling properties** 🏠 (on its way to your account)
 
-**Santa's Vibe**: Warm, traditional, family-focused. Think cookies, carols, and cozy fireplaces! 🍪🔥
+**The Penalty for Lazy Cash**: Any Frosty Bucks caught napping at end of day get hit with a **0.1% daily laziness tax**! That's 36.5% per year—ouch! 😱
 
-**Santa's Pitch**: "The Grinch offers bigger numbers, but I offer something money can't buy: a North Pole that feels like HOME!" 🏠❤️
+**Why Santa cares**: If you have 1 million FSB sitting idle for just one week, you've lost ~7,000 FSB in potential returns! That's enough to buy 700 candy canes, or one really nice sleigh bell! 🔔
 
----
+### The Elf Treasury Department 🎁
 
-### 😈 The Grinch - "Results Over Feelings - Growth For All!"
+Good news! The North Pole Treasury has created FIVE magical instruments where you can park your cash and earn returns! Each one has different characteristics:
 
-**Campaign Platform**:
-- 🏭 **Loves Industrial properties** - "40% growth + 50% more jobs!"
-- 🏢 **Supports Commercial** - "Business drives prosperity for everyone!"
-- 📍 **Favors Tinseltown & Evergreen Valley** - Modern, dynamic regions
-- 📊 **Data-driven policies** - "Let results speak, not feelings!"
+| Instrument | How Long | Annual Return | Best For |
+|------------|----------|---------------|----------|
+| 🌙 **Overnight Snowbank** | 1 day | 2.50% | When you might need cash tomorrow |
+| 💎 **Frosty Money Market** | 1 day | 2.80% | Daily flexibility with better returns |
+| 📅 **Weekly Icicle Bond** | 7 days | 3.20% | When you know what's happening next week |
+| 🎄 **Fortnight Frost Note** | 14 days | 3.50% | Medium-term planning |
+| ❄️ **Monthly Blizzard Bill** | 30 days | 4.00% | Highest returns, but your cash is frozen! |
 
-**If Grinch Wins Year 5**:
-- ✅ **35% tax reduction** on favored assets (75% MORE than Santa!)
-- ✅ **40% valuation boost** for Industrial & Commercial (60% MORE than Santa!)
-- ✅ Extra boost for Tinseltown & Evergreen Valley regions
-
-**Grinch's Vibe**: Tough but effective, results-driven, economically superior. Not warm and fuzzy, but gets things DONE! 📊🏭💪
-
-**The Grinch's Pitch**: "I know I'm not cuddly. But my policies will make you RICH. Vote with your wallet, not your feelings!" 💰
-
----
-
-## 📊 How Election Dynamics Work
-
-### 1. Polling Influence (The Slow Drift) 📈
-
-Markets drift based on who's winning the polls!
-
-**How it works**:
-- Check `polls.csv` for current polling numbers
-- If Santa is ahead → Residential & Commercial assets rise slowly
-- If Grinch is ahead → Industrial & Commercial assets rise slowly
-- If it's a tie → Markets are uncertain, minimal drift
+**The Trade-off**: Longer lockup = better returns, but you can't touch your money! It's like putting cookies in the oven—you get better results if you wait, but you can't eat them early! 🍪
 
 **Example**:
 ```
-Day 20: Polls show Santa 56%, Grinch 44%
-→ Residential properties trending up! 🏠📈
-→ Industrial properties flat or down 🏭📉
+Day 1: You have 500,000 FSB burning a hole in your pocket
 
-Day 60: Polls show Grinch 54%, Santa 46%
-→ Industrial properties surging! 🏭📈
-→ Residential properties declining 🏠📉
+Option A: Overnight Snowbank (2.50%)
+  - Get your money back tomorrow
+  - Earn: 500,000 × (0.025/365) = 34.25 FSB per day
+  - Like keeping cookies on the counter—available anytime!
+
+Option B: Monthly Blizzard Bill (4.00%)
+  - Money locked for 30 days
+  - Earn: 500,000 × (0.04/365) × 30 = 1,643.84 FSB total
+  - Like baking cookies—better results, but you gotta wait!
+  - Risk: What if you need cash on day 15? 😰
 ```
 
-**Strategy**: Follow the polls and position your portfolio for the likely winner!
+### Cash Flow Chaos! 💸
+
+Running the GEIC isn't just about investing—you've got BILLS to pay! Here's what's coming at you:
+
+**Money Going OUT** 📤 (The scary stuff):
+- 📅 **Elf Salaries & Operations**: Every 10 days (~30-50k FSB) - Elves gotta eat!
+- 💸 **Tax Payments**: From Year 2 (you control when to pay, but you MUST pay!)
+- 🔧 **Emergency Repairs**: Random stuff breaks (20-70k FSB) - Reindeer are clumsy!
+- 🏛️ **Regulatory Fees**: The Polar Revenue Service wants their cut (40-50k FSB)
+
+**Money Coming IN** 📥 (The fun stuff!):
+- 💰 **Selling Properties**: When you sell real estate (you control this!)
+- 📈 **Dividend Checks**: Industrial properties pay you quarterly! (~100-200k FSB) 🎉
+- 💵 **Random Windfalls**: Occasional surprise money (like finding FSB in your coat pocket!)
+
+**Your Job**: Figure out when money's coming and going, keep enough cash for bills, and invest everything else! It's like juggling snowballs while riding a unicycle! 🤹‍♀️❄️
+
+### Daily Treasury Elf Workflow 📋
+
+Every morning, you wake up and:
+
+1. **Check the calendar** 📅 - What bills are coming in the next 7-30 days?
+2. **Count your money** 💰 - How much cash do you have? What's maturing today?
+3. **Decide on property sales** 🏠 - Need to sell anything to raise cash?
+4. **Invest excess cash** 🎁 - Put spare money to work!
+5. **Go to bed with zero idle cash** 😴 - No lazy Bucks allowed!
+
+**Example Day**:
+```
+Day 10 Morning Report:
+- Cash in account: 200,000 FSB
+- Weekly Icicle Bond maturing today: 300,000 FSB
+- Total available: 500,000 FSB ✨
+
+Upcoming bills:
+- Day 15: 135,000 FSB (tax payment - ugh!)
+- Day 20: 90,000 FSB (elf salaries + broken sleigh repair)
+- Day 25: +166,000 FSB (dividend check arrives - yay!)
+
+Your Strategy:
+- Keep 135,000 FSB in Overnight Snowbank (need it on day 15)
+- Put 365,000 FSB in Weekly Icicle Bond (matures day 17, covers day 20)
+- End day with ZERO idle cash ✅
+- Sleep soundly knowing Santa won't yell at you! 😌
+```
 
 ---
 
-### 2. News Sentiment Shocks (The Fast Jumps) 📰
+## 📊 Challenge Files & Info
 
-Breaking news causes SUDDEN price moves!
+**📁 New Magical Files:**
+- 💎 `treasury_products.csv` - All the Elf Treasury instruments you can use
+- 💰 `cash_flows.csv` - Scheduled bills and income (so you can plan ahead!)
 
-**How it works**:
-- Check `news.csv` for today's events
-- Positive news → Immediate price boost for favored assets! 📈
-- Negative news → Sharp price drop! 📉
-- No news → Just normal polling drift
+**🔄 Files from Previous Years:**
+- 🏠 `assets.csv` (Year 1) - Your real estate options
+- 📈 `valuations.csv` (Year 1) - Property values (the market has matured!)
 
-**Example News Events**:
-```
-Day 12: "Santa's viral cookie recipe wins hearts! 🍪"
-→ Sentiment: +15% for Santa
-→ Residential & Commercial spike up!
-
-Day 44: "Grinch's heart measured: still two sizes too small! 💔"
-→ Sentiment: -25% for Grinch
-→ Industrial & Commercial crash!
-```
-
-**Strategy**: React fast to news! Buy on positive, sell on negative, or fade the overreaction!
-
----
-
-### 3. Your Vote! (The Game Theory) 🗳️
-
-At the end of Year 4, YOU cast one vote!
-
-**How voting works**:
-- Every player votes for Santa or Grinch
-- Votes are tallied across all participants
-- Election outcome is **probabilistic** based on vote share
-
-**Example**:
-```
-Total votes:
-- Santa: 70 votes
-- Grinch: 30 votes
-
-Probability:
-- P(Santa wins) = 70%
-- P(Grinch wins) = 30%
-
-Winner = Random draw weighted by these probabilities
-```
-
-**This means**:
-- ✅ Your vote influences the outcome
-- ⚠️ But doesn't guarantee it!
-- 🎯 You must position for uncertainty
-
-**Voting Strategies**:
-1. **Vote for your portfolio** - Align vote with holdings (sincere)
-2. **Vote against your portfolio** - Hedge by voting opposite (insurance)
-3. **Vote for likely winner** - Bandwagon effect (coordination)
-4. **Vote for underdog** - Try to swing the election (kingmaker)
-
-**Game theory at its finest!** 🧠✨
-
----
-
-### 4. Year 5 Policy Stakes (The Payoff) 🎁
-
-The winner's policies reshape Year 5!
-
-**If Santa Wins**:
-- Your Residential assets get 30% valuation boost
-- Your Commercial assets get 30% valuation boost
-- Taxes reduced by 25%
-- Frostpeak & Mistletoe Meadows get extra love
-
-**If Grinch Wins**:
-- Your Industrial assets get 35% valuation boost
-- Your Commercial assets get 35% valuation boost
-- Taxes reduced by 30%
-- Tinseltown & Evergreen Valley get extra love
-
-**Strategic Implications**:
-- 🏠 Own Residential? → Santa gives +25%, Grinch gives 0% (vote Santa)
-- 🏭 Own Industrial? → Grinch gives +40%, Santa gives 0% (vote Grinch!)
-- 🏢 Own Commercial? → Grinch gives +40%, Santa gives +25% (Grinch is 60% better!)
-- 💰 Pure economics? → Grinch offers MORE on everything!
-- ❤️ Emotional attachment? → Santa is warm and fuzzy!
-- 🤷 Uncertain? → Hedge with mixed portfolio!
-
-**The Dilemma**: Vote with your head (Grinch = more money) or your heart (Santa = tradition)? 🧠❤️
-
----
-
-## 📁 Challenge Files & Info
-
-**📁 New Election Files**:
-- 🗳️ `polls.csv` - Daily polling updates (~12 data points)
-- 📰 `news.csv` - Breaking news events (~8 events)
-- 🎯 `election_info.csv` - Candidate policies and Year 5 effects
-
-**🔄 Reused from Previous Years**:
-- 🏠 `assets.csv` (Year 1)
-- 📈 `valuations.csv` (Year 4 with election dynamics baked in!)
-
-**🆕 What's GONE**:
-- ❌ No taxes this year! (PRS is too busy campaigning!)
-- ❌ No treasury management! (Treasury holiday during election!)
-- ✅ Just pure election strategy!
+**🆕 New Elf Powers:**
+- 🏦 Invest in treasury instruments (make your money work!)
+- 💰 Redeem maturing instruments (get your money back!)
+- 📊 Forecast cash needs (be a planning wizard!)
+- ⚖️ Balance returns vs flexibility (the eternal struggle!)
 
 ---
 
 ## 📥 Input Data Format
 
-### 🗳️ `polls.csv`
+### 💎 `treasury_products.csv`
 
 | Column | Description |
 |--------|-------------|
-| `day` | Day of poll release |
-| `poll_santa` | Santa's polling percentage (0.0 to 1.0) |
-| `poll_grinch` | Grinch's polling percentage (0.0 to 1.0) |
-| `description` | What's happening in the race |
+| `product` | Instrument name (e.g., "repo_overnight", "t_bill_7d") |
+| `tenor_days` | How many days your money is locked up |
+| `annual_yield` | Yearly return rate (e.g., 0.025 = 2.5%) |
 
-**Example**:
-```csv
-day,poll_santa,poll_grinch,description
-1,0.52,0.48,Campaign kickoff
-20,0.56,0.44,Santa peaks
-60,0.46,0.54,Grinch extends lead
-100,0.50,0.50,Election day - uncertain!
+**How to Calculate Your Returns**:
+```
+Daily return = annual_yield / 365
+Total return = your_investment × (annual_yield / 365) × tenor_days
+
+Example: 100,000 FSB in Monthly Blizzard Bill (4% annual, 30 days)
+Return = 100,000 × (0.04 / 365) × 30 = 328.77 FSB
+Not bad for just parking your money! 💰
 ```
 
-### 📰 `news.csv`
+### 💰 `cash_flows.csv`
 
 | Column | Description |
 |--------|-------------|
-| `day` | Day of news event |
-| `candidate` | Who the news is about (Santa or Grinch) |
-| `sentiment` | Impact (-1.0 to +1.0, negative = bad news) |
-| `description` | What happened |
+| `day` | When the money moves |
+| `amount` | How much (negative = you pay, positive = you receive) |
+| `description` | What it's for |
+| `type` | Category (operations, tax_estimate, dividend, maintenance, etc.) |
 
-**Example**:
-```csv
-day,candidate,sentiment,description
-12,Santa,0.15,"Santa's viral cookie recipe wins hearts! 🍪"
-44,Grinch,-0.25,"Grinch's heart measured: still two sizes too small! 💔"
-```
-
-### 🎯 `election_info.csv`
-
-| Column | Description |
-|--------|-------------|
-| `candidate` | Candidate name |
-| `favored_asset_types` | Asset types they favor (pipe-separated) |
-| `favored_regions` | Regions they favor (pipe-separated) |
-| `tax_reduction_percent` | Year 5 tax reduction (0.0 to 1.0) |
-| `valuation_boost_percent` | Year 5 valuation boost (0.0 to 1.0) |
-| `slogan` | Campaign slogan |
+**Important Notes**:
+- Tax estimates are just **suggestions** - your actual taxes depend on what you own!
+- You control WHEN to pay taxes (but you must pay within 30 days!)
+- Selling properties gives you cash (you control this!)
+- Dividend checks arrive automatically (free money! 🎉)
 
 ---
 
 ## 📤 Output Format
 
-Your `output.yml` now includes voting! 🗳️✨
+You've got new tricks up your elf sleeves! 🎩✨
 
 ### 📋 `output.yml`
 
 ```yaml
-vote: Santa  # or "Grinch" - cast your vote!
-
 1:
-  - buy: asset_1  # Residential (betting on Santa)
+  - buy: asset_1
+  - invest_treasury: repo_overnight, 500000  # Park 500k in Overnight Snowbank
 
-12:
-  # News: Santa's cookie recipe goes viral!
-  - buy: asset_4  # More Residential (ride the momentum!)
+2:
+  - redeem_treasury: repo_overnight, 500000  # Get your money back
+  - pay_tax: asset_1                         # Pay those taxes
+  - invest_treasury: t_bill_7d, 450000       # Invest the rest
 
-25:
-  # News: Santa caught napping scandal!
-  - sell: asset_1  # Panic sell? Or hold strong?
+10:
+  - redeem_treasury: t_bill_7d, 450000       # Weekly Icicle Bond matures
+  - sell: asset_1                            # Sell property for cash
+  - pay_tax: asset_1                         # Pay accumulated tax
+  - invest_treasury: mmf_fund, 300000        # Park excess in Money Market
 
-40:
-  # Polls show dead heat!
-  - buy: asset_6  # Hedge with Industrial (Grinch's favorite)
-
-60:
-  # Grinch takes lead in polls
-  - buy: asset_12  # More Industrial (follow the leader)
-
-85:
-  # News: Grinch plans to cancel Christmas!
-  - sell: asset_6  # Scandal! Dump Industrial!
-  - buy: asset_14  # Back to Residential (Santa comeback?)
-
-100:
-  # Election day - fingers crossed! 🤞
+15:
+  - redeem_treasury: mmf_fund, 300000        # Get cash for bills
+  # Money automatically used for operations (from cash_flows.csv)
 ```
 
-**Key Points**:
-- ✅ Vote at the top of your file (required!)
-- ✅ Trade anytime during days 1-100
-- ✅ React to polls and news
-- ✅ Position for your expected winner
-- ✅ Or hedge for uncertainty!
+**Your New Actions**:
+- `invest_treasury: <product>, <amount>` - Put cash to work!
+- `redeem_treasury: <product>, <amount>` - Get your money back!
+
+**Pro Tips**:
+- Instruments mature automatically after their tenor
+- You must redeem to get cash back (it doesn't magically appear!)
+- You can invest and redeem on the same day (for overnight stuff)
+- All your Year 1-2 powers still work (buy, sell, pay_tax)
 
 ---
 
 ## ✅ Validation Rules
 
-🚨 **Simple rules this year!**
+🚨 **All Year 1 & 2 rules still apply, PLUS these new ones:**
 
-### Basic Trading Rules (from Year 1)
-- 💰 Must have cash to buy assets
-- 🏠 Can't buy assets you already own
-- 🤝 Must own assets to sell them
-- 📅 10-day holding period (can't sell for 10 days after buying)
-- 💸 1% transaction costs (buy and sell)
+### Treasury Rules
+- 💰 You need cash to invest (can't invest money you don't have!)
+- 📅 Can only redeem instruments that have matured (no early withdrawals!)
+- 🏦 Must redeem the exact amount you invested (no partial redemptions)
+- 💎 You can have multiple investments in the same instrument
 
-### Election Rules
-- 🗳️ **Must cast a vote** - Vote for "Santa" or "Grinch" (case-sensitive!)
-- ✅ Vote can be anywhere in output.yml (top is conventional)
-- ⚠️ Invalid vote = your submission is invalid!
+### Zero-Cash Mandate
+- 🚫 **Idle cash at end of day = 0.1% daily penalty** (Santa's watching!)
+- ✅ Cash reserved for tomorrow's bills doesn't count as idle
+- ✅ Cash in treasury instruments doesn't count (it's working!)
+- ⚠️ Not enough cash for bills = 2× the shortfall as penalty (OUCH!)
 
-### What's GONE
-- ❌ No tax rules (PRS holiday!)
-- ❌ No treasury rules (treasury holiday!)
-- ❌ No settlement delays
-
-**This is the SIMPLEST year yet!** 🎉
+### Cash Flow Rules
+- 📊 Bills from `cash_flows.csv` happen automatically (no escaping them!)
+- 💸 Tax payments are YOUR choice (but must pay within 30 days!)
+- 🔄 Selling properties gives you cash (you control this!)
+- 📈 Dividend checks arrive automatically (cha-ching! 💰)
 
 ---
 
@@ -332,77 +234,82 @@ Your performance is measured by **Total Wealth on Day 100**:
 
 ```
 Score = Cash on Hand 
-      + Σ(Asset Valuations at day 100)
-      - Transaction Costs
+      + Σ(Asset Valuations at Day 100) 
+      + Treasury Instrument Values
+      + All Treasury Returns You Earned
+      - Tax Penalties 
+      - Idle Cash Penalties (the laziness tax!)
+      - Liquidity Shortfall Penalties (running out of money!)
 ```
 
-**That's it!** No tax penalties, no idle cash penalties, just pure portfolio value! 💰
+**Penalties** (The stuff that hurts):
+- Unpaid taxes: 2× the tax owed (from Year 2)
+- Idle cash: 0.1% per day on lazy money
+- Running out of cash: 2× the shortfall (VERY painful!)
 
-**Note**: The election outcome is determined AFTER scoring, so you won't know the winner when you're scored. You must position for the probabilistic outcome!
+**Treasury Returns** (The good stuff!):
+- All the returns from your treasury investments
+- Calculated as: investment × (annual_yield / 365) × tenor_days
+- Free money for being smart! 🎉
 
 ---
 
 ## Tips for Success
 
-### Polling Strategy 📊
-- 📈 **Follow the leader** - Buy assets favored by polling leader
-- 🎯 **Watch for momentum shifts** - Polls can swing dramatically!
-- 📉 **Don't overreact** - Polling drift is slow, not instant
-- 🔮 **Look at trends** - Is Santa surging or fading?
+### Treasury Elf Wisdom 🧙‍♂️
+- 💎 **Ladder your investments** - Don't put all eggs in one basket (or all FSB in one instrument!)
+- 📊 **Look ahead 30 days** - Know what bills are coming!
+- 🎯 **Match timing** - Use Weekly Icicle Bonds for bills due in 7-10 days
+- 🔄 **Stay flexible when uncertain** - Overnight Snowbank is your friend!
+- 💰 **Maximize Monthly Blizzard Bills** - Highest returns when you're sure you won't need cash
 
-### News Trading 📰
-- ⚡ **React fast** - News shocks are immediate!
-- 💰 **Buy on positive news** - Ride the sentiment wave!
-- 📉 **Sell on negative news** - Or hold if you think it's overblown
-- 🎭 **Fade the overreaction** - Contrarian plays can work!
-- 🧘 **Or ignore noise** - Long-term view beats panic trading
+### Cash Management Magic ✨
+- 📅 **Plan tax payments** - Pay when treasury instruments mature!
+- 🏠 **Time property sales** - Sell BEFORE you desperately need cash
+- 💵 **Keep an emergency fund** - 50-100k in Overnight Snowbank for surprises
+- 📈 **Love those dividends** - Industrial properties = free money!
+- ⚠️ **Never go idle** - Even ONE day of lazy cash costs you!
 
-### Scenario Planning 🎯
-- 🧮 **Calculate expected value** - Weight outcomes by poll probabilities
-- 🛡️ **Hedge uncertainty** - Mixed portfolio reduces risk
-- 🎲 **Or go all-in** - High risk, high reward if you're right!
-- 📊 **Commercial is safe** - Both candidates favor it!
+### Portfolio Coordination 🎯
+- 🔄 **Sell underperformers** - Get cash AND improve your portfolio!
+- 💸 **Pay taxes strategically** - Right before treasury instruments mature
+- 🎯 **Hold tax-efficient assets** - Residential properties (from Year 2)
+- 📊 **Watch valuations** - Higher values = more taxes = more cash needed
 
-### Voting Strategy 🗳️
-- 🎯 **Vote for your portfolio** - Maximize your outcome (sincere)
-- 🛡️ **Vote against your portfolio** - Insurance strategy (hedge)
-- 👥 **Vote for likely winner** - Coordination game (bandwagon)
-- 🎲 **Vote for underdog** - Try to swing it (kingmaker)
-- 🤔 **Game theory matters** - What will others do?
-
-### Advanced Tactics 🧙‍♀️
-- 📅 **Track poll release days** - Big moves on poll days!
-- 📰 **Anticipate news** - Scandals often come in clusters
-- ⏰ **Remember holding periods** - 10 days = can't react instantly!
-- 💸 **Transaction costs matter** - 2% round-trip adds up!
-- 🎁 **Think about Year 5** - Winner's policies are HUGE!
+### Advanced Elf Tactics 🎓
+- 🧮 **Calculate break-evens** - Is Monthly Blizzard Bill worth the risk?
+- 📈 **Optimize every Buck** - Every 0.5% matters over 100 days!
+- 💰 **Zero idle cash = maximum returns** - Be ruthless!
+- 🎯 **Stress test** - What if a property sale gets delayed?
 
 ---
 
-## Market Context for Year 4
+## 🌍 Market Context for Year 4
 
-**📊 Starting Point** (from Year 3):
-- Residential: Moderate valuations
-- Commercial: Mixed performance
-- Industrial: Steady valuations
+The market continues to evolve:
 
-**🗳️ Election Dynamics**:
-- Close race throughout (maximum uncertainty!)
-- Multiple momentum shifts (Santa → Grinch → Santa)
-- News shocks create volatility
-- Final outcome: Too close to call!
+**📈 Property Performance** (from Year 2):
+- 🏠 Residential: ~9-10% returns (tax-efficient, stable)
+- 🏢 Commercial: ~-7% returns (still struggling, avoid these!)
+- 🏭 Industrial: ~13% returns (steady Eddie, pays dividends!)
+
+**💰 Treasury Environment**:
+- Normal yield curve (longer lockup = better returns)
+- 🌙 Overnight Snowbank: 2.50% (safest, most flexible)
+- ❄️ Monthly Blizzard Bill: 4.00% (best returns, least flexible)
+- 🚫 Idle cash penalty: 36.5% annualized (YIKES!)
 
 **🎯 Strategic Implications**:
-- No "safe" bet (both candidates viable)
-- Hedging is smart (mixed portfolio)
-- News trading opportunities (8 major events)
-- Voting matters (your vote influences outcome)
-- Year 5 stakes are HUGE (30-35% boosts!)
+- Treasury returns (2.5-4%) can add 2-4% to your total score!
+- Idle cash penalties can DESTROY you (10-20% loss if you're sloppy!)
+- Running out of cash is catastrophic (2× penalty = game over!)
+- Good treasury management = 15-25% score advantage! 💪
 
-**💡 Key Insight**: This year is about managing political risk, not optimizing taxes or treasury. Focus on the election, position for uncertainty, and vote strategically! 🎯✨
+**💡 Key Insight**: In Year 4, managing your cash is just as important as picking good properties! A great portfolio with terrible cash management will LOSE to a good portfolio with excellent cash management. Don't let your Frosty Bucks get lazy! 💰✨
 
 ---
 
-## 🎄🗳️ **May Your Polls Be Favorable and Your Vote Be Strategic!** 🗳️🎄
+## 🎄💰 **May Your Cash Always Be Working and Your Liquidity Never Run Dry!** 💰🎄
 
-*P.S. - Remember: In democracy, everyone's vote counts... but some portfolios count more than others! 😉💰*
+*P.S. - Santa's watching your idle cash levels. Don't disappoint him! 🎅👀*
+

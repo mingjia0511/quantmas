@@ -1,276 +1,406 @@
-# 🏆 Year 5: Election Aftermath - The Final Chapter!
+# 🗳️ Year 5: Election Year Chaos! 🎄
 ## Difficulty: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
 
-*"This is it. Five years of trading, taxing, and political maneuvering come down to this final year. Don't blow it."* - Your inner voice
+*"In politics, nothing is certain except uncertainty, volatility, and elves hedging their bets."*  
+— Winston Frost-chill
 
-🎅 **THE MOMENT OF TRUTH HAS ARRIVED!** 🎅
+BREAKING NEWS FROM THE NORTH POLE! 📰🔥
 
-Chief Investment Elf, you've made it to the final year! 🎉🎊 The election results are in, and the North Pole has been transformed! Whether Santa's traditional values prevailed or the Grinch's industrial revolution won the day, the investment landscape has shifted dramatically.
+The biggest political showdown in centuries is HERE! Santa Claus and The Grinch are battling it out for control of the North Pole, and the markets are going ABSOLUTELY BONKERS! 🎢💥
 
-This is your ultimate test—the culmination of everything you've learned! 🎓✨ With new tax rates, boosted asset valuations, and the weight of 5 years of experience on your shoulders, it's time to prove you deserve to keep your position as Chief Investment Elf.
+Every day brings new polls! Shocking scandals! Dramatic debates! And your portfolio is caught right in the middle of this electoral tornado! 🌪️
 
-The GIC, the entire North Pole, and children everywhere are counting on you! No pressure! 😅🎄
+**Here's the twist**: YOU get to vote in this election! Your vote will influence who wins (but doesn't guarantee it—this is democracy, baby! 🗳️). The winner will be determined by the collective votes of all participants!
 
----
-
-## 🌟 The Final Challenge
-
-This is your **final year** as Chief Investment Elf. Your 5-year probation period ends on day 100, and your performance will be evaluated based on your total portfolio value. Succeed, and you'll be promoted to permanent CIE with a corner office and unlimited hot cocoa. Fail, and it's back to the coal mines.
-
-The winning candidate's policies are now in full effect:
-- **Tax cuts** for favored asset types
-- **Valuation boosts** for favored assets
-- **Stagnation or decline** for non-favored assets
-
-The market has stabilized after Year 4's volatility. Clear winners and losers have emerged. Your job: maximize returns in this new reality.
-
-## 📊 Challenge Files & Info - Two Possible Scenarios!
-
-**🗳️ How to Know Which Scenario:** The challenge organizers will announce the election winner at the start of Year 5. Use the corresponding data folder for your solution.
-
-### 🎅 Scenario 1: If Santa Claus Wins (`santa_wins/`)
-*"Cozy Christmas Values Reign Supreme!"*
-
-**📁 New/Modified Files:**
-- 📈 `valuations.csv` - Boosted valuations (+30%) for Residential/Commercial in Frostpeak/Mistletoe Meadows
-- 💸 `tax_rates.csv` - Reduced tax rates (-25%) for Residential/Commercial assets
-- 🗺️ `regional_tax_rates.csv` - Reduced rates (-25%) for Frostpeak/Mistletoe Meadows regions
-
-**🔄 Reused from Previous Years:**
-- 🏠 `assets.csv` (Year 1)
-- 📋 `compliance_requirements.csv` (Year 3)
-
-
-**Policy Impact:**
-- **Favored Assets**: Residential & Commercial in Frostpeak & Mistletoe Meadows
-  - Tax rates: -25% reduction
-  - Valuations: +30% boost from Year 4
-
-- **Non-Favored Assets**: Everything else
-  - Tax rates: Unchanged
-  - Valuations: Stagnant or declining
-
-**Market Narrative:**
-Santa's "Housing First" agenda is driving a residential boom. Frostpeak and Mistletoe Meadows are experiencing unprecedented growth. Commercial properties in these regions are thriving on increased consumer spending.
-
-Industrial properties and Tinseltown/Evergreen assets are being left behind as policy focus shifts to housing and family-friendly development.
-
-**Winning Strategy:**
-- Heavy exposure to Residential in Frostpeak/Mistletoe
-- Commercial properties in favored regions
-- Exit or minimize Industrial and non-favored regions
+Welcome to Election Year Chaos—where political risk meets portfolio management! 🎁✨
 
 ---
 
-### 😈 Scenario 2: If The Grinch Wins (`grinch_wins/`)
-*"Industrial Progress and Business Growth!"*
+## 🎯 The Challenge
 
-**📁 New/Modified Files:**
-- 📈 `valuations.csv` - Boosted valuations (+35%) for Industrial/Commercial in Tinseltown/Evergreen Valley
-- 💸 `tax_rates.csv` - Reduced tax rates (-30%) for Industrial/Commercial assets
-- 🗺️ `regional_tax_rates.csv` - Reduced rates (-30%) for Tinseltown/Evergreen Valley regions
+Your mission: Navigate 100 days of election-driven market madness and position your portfolio for whichever candidate wins!
 
-**🔄 Reused from Previous Years:**
+**What's Different This Year**:
+- 📊 **Markets move with the polls** - Assets favored by the leader rise!
+- 📰 **News shocks hit hard** - Scandals and victories cause sudden price swings!
+- 🗳️ **Your vote matters** - Influence the outcome (probabilistically!)
+- 🎁 **Stakes are high** - The winner's policies will affect your final score!
+- 💰 **Simple trading** - No taxes! No treasury! Just pure election strategy!
+
+**The Big Question**: Who's going to win? And how do you position for maximum profit? 🤔💰
+
+---
+
+## 🗳️ Meet the Candidates!
+
+### 🎅 Santa Claus - "Traditional Values, Cozy Comfort!"
+
+**Campaign Platform**:
+- 🏠 **Loves Residential properties** - "Every elf deserves a warm home!"
+- 🏢 **Supports Commercial** - "Small businesses are the heart of Christmas!"
+- 📍 **Favors Frostpeak & Mistletoe Meadows** - Traditional regions
+- ❤️ **Values over economics** - "Some things matter more than money!"
+
+**If Santa Wins**:
+- ✅ 20% bonus on final score for Residential & Commercial assets
+- ✅ 25% valuation boost for Residential & Commercial
+- ✅ Extra boost for Frostpeak & Mistletoe Meadows regions
+
+**Santa's Vibe**: Warm, traditional, family-focused. Think cookies, carols, and cozy fireplaces! 🍪🔥
+
+**Santa's Pitch**: "The Grinch offers bigger numbers, but I offer something money can't buy: a North Pole that feels like HOME!" 🏠❤️
+
+---
+
+### 😈 The Grinch - "Results Over Feelings - Growth For All!"
+
+**Campaign Platform**:
+- 🏭 **Loves Industrial properties** - "40% growth + 50% more jobs!"
+- 🏢 **Supports Commercial** - "Business drives prosperity for everyone!"
+- 📍 **Favors Tinseltown & Evergreen Valley** - Modern, dynamic regions
+- 📊 **Data-driven policies** - "Let results speak, not feelings!"
+
+**If Grinch Wins**:
+- ✅ **35% bonus on final score** for Industrial & Commercial assets (75% MORE than Santa!)
+- ✅ **40% valuation boost** for Industrial & Commercial (60% MORE than Santa!)
+- ✅ Extra boost for Tinseltown & Evergreen Valley regions
+
+**Grinch's Vibe**: Tough but effective, results-driven, economically superior. Not warm and fuzzy, but gets things DONE! 📊🏭💪
+
+**The Grinch's Pitch**: "I know I'm not cuddly. But my policies will make you RICH. Vote with your wallet, not your feelings!" 💰
+
+---
+
+## 📊 How Election Dynamics Work
+
+### 1. Polling Influence (The Slow Drift) 📈
+
+Markets drift based on who's winning the polls!
+
+**How it works**:
+- Check `polls.csv` for current polling numbers
+- If Santa is ahead → Residential & Commercial assets rise slowly
+- If Grinch is ahead → Industrial & Commercial assets rise slowly
+- If it's a tie → Markets are uncertain, minimal drift
+
+**Example**:
+```
+Day 20: Polls show Santa 56%, Grinch 44%
+→ Residential properties trending up! 🏠📈
+→ Industrial properties flat or down 🏭📉
+
+Day 60: Polls show Grinch 54%, Santa 46%
+→ Industrial properties surging! 🏭📈
+→ Residential properties declining 🏠📉
+```
+
+**Strategy**: Follow the polls and position your portfolio for the likely winner!
+
+---
+
+### 2. News Sentiment Shocks (The Fast Jumps) 📰
+
+Breaking news causes SUDDEN price moves!
+
+**How it works**:
+- Check `news.csv` for today's events
+- Positive news → Immediate price boost for favored assets! 📈
+- Negative news → Sharp price drop! 📉
+- No news → Just normal polling drift
+
+**Example News Events**:
+```
+Day 12: "Santa's viral cookie recipe wins hearts! 🍪"
+→ Sentiment: +15% for Santa
+→ Residential & Commercial spike up!
+
+Day 44: "Grinch's heart measured: still two sizes too small! 💔"
+→ Sentiment: -25% for Grinch
+→ Industrial & Commercial crash!
+```
+
+**Strategy**: React fast to news! Buy on positive, sell on negative, or fade the overreaction!
+
+---
+
+### 3. Your Vote! (The Game Theory) 🗳️
+
+At the end of Year 5, YOU cast one vote!
+
+**How voting works**:
+- Every player votes for Santa or Grinch
+- Votes are tallied across all participants
+- Election outcome is **probabilistic** based on vote share
+
+**Example**:
+```
+Total votes:
+- Santa: 70 votes
+- Grinch: 30 votes
+
+Probability:
+- P(Santa wins) = 70%
+- P(Grinch wins) = 30%
+
+Winner = Random draw weighted by these probabilities
+```
+
+**This means**:
+- ✅ Your vote influences the outcome
+- ⚠️ But doesn't guarantee it!
+- 🎯 You must position for uncertainty
+
+**Voting Strategies**:
+1. **Vote for your portfolio** - Align vote with holdings (sincere)
+2. **Vote against your portfolio** - Hedge by voting opposite (insurance)
+3. **Vote for likely winner** - Bandwagon effect (coordination)
+4. **Vote for underdog** - Try to swing the election (kingmaker)
+
+**Game theory at its finest!** 🧠✨
+
+---
+
+### 4. Policy Stakes (The Payoff) 🎁
+
+The winner's policies affect your final score!
+
+**If Santa Wins**:
+- Your Residential assets get 20% bonus on final score
+- Your Commercial assets get 20% bonus on final score
+- Frostpeak & Mistletoe Meadows get extra love
+
+**If Grinch Wins**:
+- Your Industrial assets get 35% bonus on final score
+- Your Commercial assets get 35% bonus on final score
+- Tinseltown & Evergreen Valley get extra love
+
+**Strategic Implications**:
+- 🏠 Own Residential? → Santa gives +20%, Grinch gives 0% (vote Santa)
+- 🏭 Own Industrial? → Grinch gives +35%, Santa gives 0% (vote Grinch!)
+- 🏢 Own Commercial? → Grinch gives +35%, Santa gives +20% (Grinch is 75% better!)
+- 💰 Pure economics? → Grinch offers MORE on everything!
+- ❤️ Emotional attachment? → Santa is warm and fuzzy!
+- 🤷 Uncertain? → Hedge with mixed portfolio!
+
+**The Dilemma**: Vote with your head (Grinch = more money) or your heart (Santa = tradition)? 🧠❤️
+
+---
+
+## 📊 Challenge Files & Info
+
+**📁 New Election Files**:
+- 🗳️ `polls.csv` - Daily polling updates (~12 data points)
+- 📰 `news.csv` - Breaking news events (~8 events)
+- 🎯 `election_info.csv` - Candidate policies and effects
+
+**🔄 Reused from Previous Years**:
 - 🏠 `assets.csv` (Year 1)
-- 📋 `compliance_requirements.csv` (Year 3)
+- 📈 `valuations.csv` (Year 5 with election dynamics baked in!)
 
-**Policy Impact:**
-- **Favored Assets**: Industrial & Commercial in Tinseltown & Evergreen Valley
-  - Tax rates: -30% reduction
-  - Valuations: +35% boost from Year 4
+**🆕 What's GONE**:
+- ❌ No taxes this year! (PRS is too busy campaigning!)
+- ❌ No treasury management! (Treasury holiday during election!)
+- ✅ Just pure election strategy!
 
-- **Non-Favored Assets**: Everything else
-  - Tax rates: Unchanged
-  - Valuations: Stagnant or declining
+---
 
-**Market Narrative:**
-The Grinch's "Industry & Commerce" platform is supercharging production and trade. Tinseltown is experiencing a renaissance as industrial policy drives investment. Evergreen Valley's factories are running at full capacity.
+## 📥 Input Data Format
 
-Residential properties are being neglected as policy focus shifts to economic growth and industrial development.
+### 🗳️ `polls.csv`
 
-**Winning Strategy:**
-- Heavy exposure to Industrial properties
-- Commercial properties in Tinseltown/Evergreen
-- Exit or minimize Residential and Frostpeak/Mistletoe
+| Column | Description |
+|--------|-------------|
+| `day` | Day of poll release |
+| `poll_santa` | Santa's polling percentage (0.0 to 1.0) |
+| `poll_grinch` | Grinch's polling percentage (0.0 to 1.0) |
+| `description` | What's happening in the race |
+
+**Example**:
+```csv
+day,poll_santa,poll_grinch,description
+1,0.52,0.48,Campaign kickoff
+20,0.56,0.44,Santa peaks
+60,0.46,0.54,Grinch extends lead
+100,0.50,0.50,Election day - uncertain!
+```
+
+### 📰 `news.csv`
+
+| Column | Description |
+|--------|-------------|
+| `day` | Day of news event |
+| `candidate` | Who the news is about (Santa or Grinch) |
+| `sentiment` | Impact (-1.0 to +1.0, negative = bad news) |
+| `description` | What happened |
+
+**Example**:
+```csv
+day,candidate,sentiment,description
+12,Santa,0.15,"Santa's viral cookie recipe wins hearts! 🍪"
+44,Grinch,-0.25,"Grinch's heart measured: still two sizes too small! 💔"
+```
+
+### 🎯 `election_info.csv`
+
+| Column | Description |
+|--------|-------------|
+| `candidate` | Candidate name |
+| `favored_asset_types` | Asset types they favor (pipe-separated) |
+| `favored_regions` | Regions they favor (pipe-separated) |
+| `tax_reduction_percent` | Tax reduction if candidate wins (0.0 to 1.0) |
+| `valuation_boost_percent` | Valuation boost if candidate wins (0.0 to 1.0) |
+| `slogan` | Campaign slogan |
 
 ---
 
 ## 📤 Output Format
 
-Same trusty format as always! Use all the actions you've mastered over the years:
+Your `output.yml` now includes voting! 🗳️✨
 
 ### 📋 `output.yml`
 
 ```yaml
+vote: Santa  # or "Grinch" - cast your vote!
+
 1:
-  - buy: asset_1  # Completes day 31, price locked at day 1
-10:
-  - sell: asset_2  # Completes day 40, price locked at day 10
-31:
-  - pay_tax: asset_1  # Now own it, taxes start
+  - buy: asset_1  # Residential (betting on Santa)
+
+12:
+  # News: Santa's cookie recipe goes viral!
+  - buy: asset_4  # More Residential (ride the momentum!)
+
+25:
+  # News: Santa caught napping scandal!
+  - sell: asset_1  # Panic sell? Or hold strong?
+
 40:
-  - pay_region_tax: Frostpeak
-70:
-  - buy: asset_5  # Last chance! Completes day 100
+  # Polls show dead heat!
+  - buy: asset_6  # Hedge with Industrial (Grinch's favorite)
+
+60:
+  # Grinch takes lead in polls
+  - buy: asset_12  # More Industrial (follow the leader)
+
+85:
+  # News: Grinch plans to cancel Christmas!
+  - sell: asset_6  # Scandal! Dump Industrial!
+  - buy: asset_14  # Back to Residential (Santa comeback?)
+
+100:
+  # Election day - fingers crossed! 🤞
 ```
 
-**Remember:** 30-day delays still apply! Plan your final moves carefully.
+**Key Points**:
+- ✅ Vote at the top of your file (required!)
+- ✅ Trade anytime during days 1-100
+- ✅ React to polls and news
+- ✅ Position for your expected winner
+- ✅ Or hedge for uncertainty!
 
 ---
 
 ## ✅ Validation Rules
 
-🚨 **ALL rules from Years 1-4 still apply!** This includes:
-- All basic trading rules
-- Asset and regional tax requirements
-- Regional compliance limits
-- **⏰ 30-day transaction delays (Reindeer Protection Act still in effect!)**
-- **🚫 No trading after day 70**
+🚨 **Simple rules this year!**
 
-**📋 Key Reminders:**
-- Buy/sell transactions take 30 days to complete
-- Prices locked at initiation day
-- Taxes owed during sell processing periods
-- Plan 30 days ahead for all trades
+### Basic Trading Rules (from Year 1)
+- 💰 Must have cash to buy assets
+- 🏠 Can't buy assets you already own
+- 🤝 Must own assets to sell them
+- 📅 10-day holding period (can't sell for 10 days after buying)
+- 💸 1% transaction costs (buy and sell)
 
-No new rules—just mastery of everything you've learned! 🎯
+### Election Rules
+- 🗳️ **Must cast a vote** - Vote for "Santa" or "Grinch" (case-sensitive!)
+- ✅ Vote can be anywhere in output.yml (top is conventional)
+- ⚠️ Invalid vote = your submission is invalid!
+
+### What's GONE
+- ❌ No tax rules (PRS holiday!)
+- ❌ No treasury rules (treasury holiday!)
+- ❌ No settlement delays
+
+**This is the SIMPLEST year yet!** 🎉
 
 ---
 
 ## Scoring
 
-Your **FINAL SCORE** for the entire 5-year challenge:
+Your performance is measured by **Total Wealth on Day 100**:
 
 ```
-Final Score = Cash on Hand + Σ(Asset Valuations at day 100) - Tax Penalties - Compliance Penalties
+Score = Cash on Hand 
+      + Σ(Asset Valuations at Day 100)
+      - Transaction Costs
 ```
 
-This is it. This number determines everything:
-- Your promotion (or demotion)
-- Your ranking against other elves
-- Your legacy at GIC
+**That's it!** No tax penalties, no idle cash penalties, just pure portfolio value! 💰
 
-**Penalties:**
-- Unpaid taxes: 2× the tax owed
-- Compliance violations: 10% of excess value
-- Don't let penalties ruin 5 years of work!
+**Note**: The election outcome is determined AFTER scoring, so you won't know the winner when you're scored. You must position for the probabilistic outcome!
 
 ---
 
 ## Tips for Success
 
-- 🎯 **Adapt to the winner** - your Year 4 bets pay off (or don't)
-- 📊 **Maximize favored assets** - they have the best returns
-- 💰 **Exit non-favored assets** - they're dead weight
-- 🗺️ **Regional focus** - concentrate in winning regions
-- ⏰ **30-day delays still apply** - plan ahead, day 70 is your last chance!
-- 📈 **Time the market** - lock in prices before peaks/crashes
-- 🧮 **Final tax settlement** - don't leave money on the table
-- 🏆 **This is your legacy** - make every trade count
+### Polling Strategy 📊
+- 📈 **Follow the leader** - Buy assets favored by polling leader
+- 🎯 **Watch for momentum shifts** - Polls can swing dramatically!
+- 📉 **Don't overreact** - Polling drift is slow, not instant
+- 🔮 **Look at trends** - Is Santa surging or fading?
+
+### News Trading 📰
+- ⚡ **React fast** - News shocks are immediate!
+- 💰 **Buy on positive news** - Ride the sentiment wave!
+- 📉 **Sell on negative news** - Or hold if you think it's overblown
+- 🎭 **Fade the overreaction** - Contrarian plays can work!
+- 🧘 **Or ignore noise** - Long-term view beats panic trading
+
+### Scenario Planning 🎯
+- 🧮 **Calculate expected value** - Weight outcomes by poll probabilities
+- 🛡️ **Hedge uncertainty** - Mixed portfolio reduces risk
+- 🎲 **Or go all-in** - High risk, high reward if you're right!
+- 📊 **Commercial is safe** - Both candidates favor it!
+
+### Voting Strategy 🗳️
+- 🎯 **Vote for your portfolio** - Maximize your outcome (sincere)
+- 🛡️ **Vote against your portfolio** - Insurance strategy (hedge)
+- 👥 **Vote for likely winner** - Coordination game (bandwagon)
+- 🎲 **Vote for underdog** - Try to swing it (kingmaker)
+- 🤔 **Game theory matters** - What will others do?
+
+### Advanced Tactics 🧙‍♀️
+- 📅 **Track poll release days** - Big moves on poll days!
+- 📰 **Anticipate news** - Scandals often come in clusters
+- ⏰ **Remember holding periods** - 10 days = can't react instantly!
+- 💸 **Transaction costs matter** - 2% round-trip adds up!
+- 🎁 **Think strategically** - Winner's policies are HUGE!
 
 ---
 
-## Market Context for Year 5
+## 🌍 Market Context for Year 5
 
-### If Santa Wins:
+**📊 Starting Point**:
+- Residential: Moderate valuations
+- Commercial: Mixed performance
+- Industrial: Steady valuations
 
-**🚀 Booming (Favored Assets):**
-- Residential properties: +30% boost, -25% taxes
-- Commercial in Frostpeak/Mistletoe: +30% boost, -25% taxes
-- **Best performers**: asset_1, asset_4, asset_5, asset_9, asset_13
-- **Pattern**: Rally to day 40 (PEAK), dip to day 60, strong rally to day 100
-- **⏰ Timing Strategy**: 
-  - Sell at day 10 to lock in day 40 peak prices (+55% from start)
-  - OR hold through dip and sell at day 70 for final rally (completes day 100)
-  - Buy at day 30 (completes day 60) to catch the dip before final rally
+**🗳️ Election Dynamics**:
+- Close race throughout (maximum uncertainty!)
+- Multiple momentum shifts (Santa → Grinch → Santa)
+- News shocks create volatility
+- Final outcome: Too close to call!
 
-**📉 Declining (Non-Favored Assets):**
-- Industrial properties: Brief rally, then steady decline
-- **Underperformers**: asset_2, asset_6, asset_11
-- **Pattern**: Rally to day 30 (peak +15%), then decline to day 100 (-20% from peak)
-- **⏰ Timing Strategy**: 
-  - Sell at day 1 to lock in day 31 prices (near peak, avoid decline)
-  - DO NOT hold past day 30 - values crash!
-  - Exit these immediately if you own them from Year 4
+**🎯 Strategic Implications**:
+- No "safe" bet (both candidates viable)
+- Hedging is smart (mixed portfolio)
+- News trading opportunities (8 major events)
+- Voting matters (your vote influences outcome)
+- Year 5 stakes are HUGE (30-35% boosts!)
 
-**Mixed:**
-- Commercial in Tinseltown/Evergreen: Moderate growth
-- Residential in other regions: Slow steady growth
-
-### If Grinch Wins:
-
-**🚀 Booming (Favored Assets):**
-- Industrial properties: +35% boost, -30% taxes
-- Commercial in Tinseltown/Evergreen: +35% boost, -30% taxes
-- **Best performers**: asset_2, asset_6, asset_8, asset_11, asset_14, asset_15
-- **Pattern**: Strong rally to day 45 (PEAK), dip to day 65, recovery to day 100
-- **⏰ Timing Strategy**:
-  - Sell at day 15 to lock in day 45 peak prices (+65% from start)
-  - OR hold through dip and sell at day 70 for final rally (completes day 100)
-  - Buy at day 35 (completes day 65) to catch the dip before recovery
-
-**📉 Declining (Non-Favored Assets):**
-- Residential properties: Brief rally, then decline
-- **Underperformers**: asset_1, asset_4, asset_5, asset_7, asset_9, asset_13
-- **Pattern**: Rally to day 25 (peak +12%), then decline to day 100 (-26% from peak)
-- **⏰ Timing Strategy**:
-  - Sell immediately (day 1) to lock in day 31 prices before decline
-  - DO NOT hold past day 25 - values crash!
-  - Exit these immediately if you own them from Year 4
+**💡 Key Insight**: This year is about managing political risk, not optimizing taxes or treasury. Focus on the election, position for uncertainty, and vote strategically! 🎯✨
 
 ---
 
-## 🎯 Critical Timing Insights
+## 🎄🗳️ **May Your Polls Be Favorable and Your Vote Be Strategic!** 🗳️🎄
 
-**The 30-day delay creates MASSIVE opportunities:**
-
-1. **Lock in Peak Prices**: Sell 30 days before the peak to capture maximum value
-2. **Avoid Crashes**: Exit declining assets immediately to lock in prices before they fall
-3. **Buy the Dip**: Initiate buys 30 days before valleys to catch recovery rallies
-4. **Day 70 Deadline**: Last chance to trade - plan your final positions carefully!
-
-**Example (Santa Wins):**
-```
-Day 1: Own asset_2 (Industrial) worth 328,382 FSB
-       → Sell immediately! (completes day 31 at ~372,000 FSB)
-       → If you wait until day 31 to sell, it completes day 61 at ~320,000 FSB
-       → Timing difference: +52,000 FSB (+16% gain from good timing!)
-
-Day 10: Sell asset_1 (Residential) at 451,478 FSB
-        → Completes day 40 at peak (516,336 FSB locked in!)
-        → If you sell at day 40, it completes day 70 at 483,767 FSB
-        → Timing difference: +32,569 FSB (+7% gain from good timing!)
-```
-
-**Master the timing, master Year 5!** ⏰💰
-
----
-
-## The Final Word
-
-Five years ago, you started with 1,000,000 FSB and a dream. You've navigated:
-- Year 1: A volatile housing boom
-- Year 2: The introduction of taxes
-- Year 3: Regional divergence and compliance
-- Year 4: Election chaos and transaction delays
-- Year 5: The final reckoning
-
-Your decisions over these five years have led to this moment. The market has spoken. The election has decided. Now it's time to prove you deserve to be the Chief Investment Elf.
-
-**Good luck. The North Pole is counting on you.** 🎄
-
----
-
-## Post-Challenge
-
-After day 100, your final score will be calculated and you'll see:
-- Your total wealth
-- Your ranking among all participants
-- Whether you kept your job (or got promoted!)
-
-🎄👑 **You are truly a LEGENDARY Chief Investment Elf!** 👑🎄
-
-*May your portfolio bring joy to the North Pole for generations to come!* 🌟❄️🎅
-
-
-
+*P.S. - Remember: In democracy, everyone's vote counts... but some portfolios count more than others! 😉💰*

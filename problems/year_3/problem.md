@@ -1,231 +1,305 @@
-# 💰 Year 3: The Great Cash Caper 🏦
-## Difficulty: ⭐⭐⭐⭐☆ (Master Treasury Elf! 💎)
+# 🏢 Year 3: The Tax SPV Dilemma 💼
+## Difficulty: ⭐⭐⭐⭐☆ (Senior Elf — Structuring Specialist)
 
-*"A Frosty Buck saved is a Frosty Buck earned, but a Frosty Buck sitting idle is a Frosty Buck spurned!"* - Benjamin Frost-lin
+*"Real estate is owned by taxpayers. Sovereign wealth funds own SPVs."* — Frosty Munger
 
-🎅 **Ho ho ho, Chief Investment Elf!** 🎅
+🎅 **Breaking News from the Polar Revenue Service!** 🎅
 
-Your portfolio has been absolutely CRUSHING IT over Years 1 and 2! 🎉 But Santa just burst into your office with a very important question: **"WHY IS THERE CASH JUST SITTING AROUND DOING NOTHING?!"** 😱💸
+The Polar Revenue Service (PRS) has begun cracking down on direct ownership structures after discovering that Santa has been using highly "creative" accounting to deduct expenses for gingerbread snow-blowers and elf latte machines! ☕❄️
 
-Apparently, Mrs. Claus was reviewing the books (she's surprisingly good at spreadsheets) and noticed that sometimes we have piles of Frosty Bucks just... lounging around. Not invested. Not working. Just chilling like a snowman in July! ☃️
+To ensure tax fairness and transparency, the PRS now requires large institutional investors — including YOU, the Chief Investment Elf — to hold qualifying assets through **Special Purpose Vehicles (SPVs)**.
 
-This will NOT do! The Glacial ELF Investment Corporation (GEIC) has a new rule: **The Zero-Cash Mandate!** Every single Frosty Buck must be working hard, every single day. No lazy money allowed! 💪💰
+This means your investment strategy must now account for:
+- 🏛️ SPV-level tax rules
+- 💰 SPV-level cashflow constraints
+- 📊 Minimum SPV capitalization requirements
+- 🔄 SPV consolidation rules
+- 🎯 Asset grouping decisions
+- ⏰ SPV liquidation timing
 
-Your new mission: Become the GEIC's first-ever **Chief Treasury Elf**! You'll manage our daily cash like a boss, making sure we never run out of money for important stuff (like elf salaries and reindeer snacks) while also making sure every spare Buck is earning returns! 🦌🎄
-
-Welcome to the wild world of treasury management—where cash is king, but idle cash gets coal! 🏦✨
+You are no longer just a clever trader. **You are now a structuring elf.** 🧙‍♂️✨
 
 ---
 
-## 🏦 The Challenge
+## 🎯 What's Different in This Challenge
 
-### The Zero-Cash Mandate (AKA "No Lazy Money!")
+In Year 2, tax was calculated **per asset**. Now, taxes (and some constraints) apply **per SPV**, based on the assets held inside.
 
-**Santa's New Rule**: End every day with **ZERO idle cash**. Not a single Frosty Buck can be sitting around twiddling its thumbs!
+You must group assets into SPVs strategically to optimize:
+- 💸 Tax leakage
+- 📈 Dividend withholding
+- 🔄 Consolidation benefits
+- 💰 Minimum cash requirements
+- 🛡️ Ability to shelter or delay taxes
 
-All your cash must be either:
-1. **Invested in Elf Treasury Instruments** 🎁 (earning returns!)
-2. **Reserved for tomorrow's bills** 📅 (taxes, operations, emergency candy cane repairs)
-3. **In transit from selling properties** 🏠 (on its way to your account)
+This introduces **portfolio-level structuring** without heavy math — just smart organizational strategy! 🎯
 
-**The Penalty for Lazy Cash**: Any Frosty Bucks caught napping at end of day get hit with a **0.1% daily laziness tax**! That's 36.5% per year—ouch! 😱
+---
 
-**Why Santa cares**: If you have 1 million FSB sitting idle for just one week, you've lost ~7,000 FSB in potential returns! That's enough to buy 700 candy canes, or one really nice sleigh bell! 🔔
+## 🏗️ Core Mechanics
 
-### The Elf Treasury Department 🎁
+### 1️⃣ SPV Ownership Structure
 
-Good news! The North Pole Treasury has created FIVE magical instruments where you can park your cash and earn returns! Each one has different characteristics:
+You must assign each acquired asset to an SPV:
 
-| Instrument | How Long | Annual Return | Best For |
-|------------|----------|---------------|----------|
-| 🌙 **Overnight Snowbank** | 1 day | 2.50% | When you might need cash tomorrow |
-| 💎 **Frosty Money Market** | 1 day | 2.80% | Daily flexibility with better returns |
-| 📅 **Weekly Icicle Bond** | 7 days | 3.20% | When you know what's happening next week |
-| 🎄 **Fortnight Frost Note** | 14 days | 3.50% | Medium-term planning |
-| ❄️ **Monthly Blizzard Bill** | 30 days | 4.00% | Highest returns, but your cash is frozen! |
-
-**The Trade-off**: Longer lockup = better returns, but you can't touch your money! It's like putting cookies in the oven—you get better results if you wait, but you can't eat them early! 🍪
-
-**Example**:
-```
-Day 1: You have 500,000 FSB burning a hole in your pocket
-
-Option A: Overnight Snowbank (2.50%)
-  - Get your money back tomorrow
-  - Earn: 500,000 × (0.025/365) = 34.25 FSB per day
-  - Like keeping cookies on the counter—available anytime!
-
-Option B: Monthly Blizzard Bill (4.00%)
-  - Money locked for 30 days
-  - Earn: 500,000 × (0.04/365) × 30 = 1,643.84 FSB total
-  - Like baking cookies—better results, but you gotta wait!
-  - Risk: What if you need cash on day 15? 😰
+**Example:**
+```yaml
+spv_alpha:
+  - asset_1
+  - asset_3
+  
+spv_bravo:
+  - asset_2
 ```
 
-### Cash Flow Chaos! 💸
+You may create as many SPVs as you want — but each SPV behaves like a separate "mini-company."
 
-Running the GEIC isn't just about investing—you've got BILLS to pay! Here's what's coming at you:
+**Key Rules:**
+- ✅ Each asset must be assigned to exactly one SPV
+- ✅ You can create SPVs on-the-fly when buying assets
+- ✅ Assets can be transferred between SPVs (with a 0.5% transfer cost)
+- ✅ Empty SPVs have no costs (but also no benefits!)
 
-**Money Going OUT** 📤 (The scary stuff):
-- 📅 **Elf Salaries & Operations**: Every 10 days (~30-50k FSB) - Elves gotta eat!
-- 💸 **Tax Payments**: From Year 2 (you control when to pay, but you MUST pay!)
-- 🔧 **Emergency Repairs**: Random stuff breaks (20-70k FSB) - Reindeer are clumsy!
-- 🏛️ **Regulatory Fees**: The Polar Revenue Service wants their cut (40-50k FSB)
+---
 
-**Money Coming IN** 📥 (The fun stuff!):
-- 💰 **Selling Properties**: When you sell real estate (you control this!)
-- 📈 **Dividend Checks**: Industrial properties pay you quarterly! (~100-200k FSB) 🎉
-- 💵 **Random Windfalls**: Occasional surprise money (like finding FSB in your coat pocket!)
+### 2️⃣ SPV-Level Taxation
 
-**Your Job**: Figure out when money's coming and going, keep enough cash for bills, and invest everything else! It's like juggling snowballs while riding a unicycle! 🤹‍♀️❄️
+Instead of paying tax per asset, you now pay tax **per SPV**:
 
-### Daily Treasury Elf Workflow 📋
-
-Every morning, you wake up and:
-
-1. **Check the calendar** 📅 - What bills are coming in the next 7-30 days?
-2. **Count your money** 💰 - How much cash do you have? What's maturing today?
-3. **Decide on property sales** 🏠 - Need to sell anything to raise cash?
-4. **Invest excess cash** 🎁 - Put spare money to work!
-5. **Go to bed with zero idle cash** 😴 - No lazy Bucks allowed!
-
-**Example Day**:
 ```
-Day 10 Morning Report:
-- Cash in account: 200,000 FSB
-- Weekly Icicle Bond maturing today: 300,000 FSB
-- Total available: 500,000 FSB ✨
-
-Upcoming bills:
-- Day 15: 135,000 FSB (tax payment - ugh!)
-- Day 20: 90,000 FSB (elf salaries + broken sleigh repair)
-- Day 25: +166,000 FSB (dividend check arrives - yay!)
-
-Your Strategy:
-- Keep 135,000 FSB in Overnight Snowbank (need it on day 15)
-- Put 365,000 FSB in Weekly Icicle Bond (matures day 17, covers day 20)
-- End day with ZERO idle cash ✅
-- Sleep soundly knowing Santa won't yell at you! 😌
+Daily SPV Tax = (Sum of all asset valuations in SPV) × (Base SPV Tax Rate + Tax Modifier × Days Since Last SPV Tax Payment)
 ```
+
+**Tax Parameters:**
+- Base SPV Tax Rate: **0.8%** (8 basis points per day)
+- Tax Modifier: **0.4%** (4 basis points per day of delay)
+- Maximum delay: **30 days** (same as Year 2)
+
+**Why This Matters:**
+- SPVs accumulate tax **together**, not individually
+- This creates structural optimization opportunities:
+  - 🎯 Put volatile assets in separate SPVs
+  - 📊 Group stable assets to minimize modifier impact
+  - 🛡️ Isolate high-tax assets
+
+**Example:**
+```
+Day 1: SPV Alpha owns asset_1 (100k) and asset_3 (200k)
+       Total SPV value = 300k
+       Daily tax = 300,000 × 0.008 = 2,400 FSB
+
+Day 10: Haven't paid tax yet (9 days since last payment)
+        SPV value now = 320k (assets appreciated)
+        Daily tax = 320,000 × (0.008 + 0.004 × 9) = 2,560 + 11,520 = 14,080 FSB
+        Total accumulated tax = ~80,000 FSB
+```
+
+---
+
+### 3️⃣ SPV Minimum Capital Requirement
+
+Every SPV must hold a minimum amount of cash:
+
+```
+Minimum Cash = 2% of Total SPV Asset Value
+```
+
+This mirrors:
+- 💰 Liquidity buffers
+- 📊 Regulatory capital
+- 🏛️ Working capital requirements
+
+**If the SPV falls below minimum cash → 5% penalty on the shortfall!**
+
+**Example:**
+```
+SPV Alpha owns assets worth 500,000 FSB
+Minimum cash required = 500,000 × 0.02 = 10,000 FSB
+
+If SPV only has 7,000 FSB:
+Shortfall = 3,000 FSB
+Penalty = 3,000 × 0.05 = 150 FSB per day
+```
+
+**Strategic Implications:**
+- 💵 Must inject capital into SPVs regularly
+- 📊 Larger SPVs need more cash reserves
+- 🎯 Smaller SPVs are more capital-efficient
+
+---
+
+### 4️⃣ SPV Cashflow Restriction
+
+Cash can move in specific ways:
+
+**Allowed Movements:**
+- 💰 **Portfolio → SPV** (capital injection) - anytime
+- 💵 **SPV → Portfolio** (dividend) - only if all SPV taxes are paid
+- 🏠 **Asset sale proceeds** - go to the SPV that owns the asset
+- 💸 **Tax payments** - paid from SPV cash
+
+**This tests liquidity planning across a multi-entity structure!**
+
+**Example:**
+```yaml
+1:
+  - buy: asset_1
+  - assign_spv: { asset: asset_1, spv: alpha }
+  - inject_capital: { spv: alpha, amount: 50000 }  # Fund the SPV
+
+10:
+  - spv_tax: alpha  # Pay accumulated tax
+  - dividend: { spv: alpha, amount: 30000 }  # Extract cash (only after tax paid!)
+
+20:
+  - sell: asset_1  # Proceeds go to SPV alpha
+  - spv_tax: alpha
+  - dividend: { spv: alpha, amount: 100000 }  # Extract sale proceeds
+```
+
+---
+
+### 5️⃣ SPV Liquidation
+
+At any time, you may liquidate an entire SPV:
+
+**Liquidation Process:**
+1. Must pay all accumulated taxes
+2. All assets must be sold
+3. Cash flows back to portfolio
+4. Liquidation incurs **1% cost** on total SPV value
+
+**When to Liquidate:**
+- 🎯 Consolidate multiple small SPVs
+- 💰 Exit underperforming asset groups
+- 📊 Simplify structure before year-end
+
+**Example:**
+```yaml
+50:
+  - liquidate_spv: bravo  # Sells all assets, pays taxes, returns cash minus 1%
+```
+
+---
+
+### 6️⃣ Consolidated Scoring
+
+At the end of Year 3 (day 100):
+
+```
+Final Score = Portfolio Cash 
+            + Sum(SPV Cash) 
+            + Sum(All Asset Valuations) 
+            - Tax Penalties 
+            - Capital Requirement Penalties
+            - Liquidation Costs
+```
+
+**All SPVs are consolidated for final scoring!**
 
 ---
 
 ## 📊 Challenge Files & Info
 
-**📁 New Magical Files:**
-- 💎 `treasury_products.csv` - All the Elf Treasury instruments you can use
-- 💰 `cash_flows.csv` - Scheduled bills and income (so you can plan ahead!)
+### 📄 New Files
 
-**🔄 Files from Previous Years:**
-- 🏠 `assets.csv` (Year 1) - Your real estate options
-- 📈 `valuations.csv` (Year 2) - Property values (the market has matured!)
-- 💸 `tax_rates.csv` (Year 2) - Those pesky taxes are still here
-
-**🆕 New Elf Powers:**
-- 🏦 Invest in treasury instruments (make your money work!)
-- 💰 Redeem maturing instruments (get your money back!)
-- 📊 Forecast cash needs (be a planning wizard!)
-- ⚖️ Balance returns vs flexibility (the eternal struggle!)
-
----
-
-## 📥 Input Data Format
-
-### 💎 `treasury_products.csv`
+**📊 `spv_rules.csv`**
 
 | Column | Description |
 |--------|-------------|
-| `product` | Instrument name (e.g., "repo_overnight", "t_bill_7d") |
-| `tenor_days` | How many days your money is locked up |
-| `annual_yield` | Yearly return rate (e.g., 0.025 = 2.5%) |
+| `rule` | Rule type (always "SPV" for this challenge) |
+| `tax_rate` | Base SPV tax rate (0.008 = 0.8%) |
+| `base_rate_modifier` | Tax modifier per day of delay (0.004 = 0.4%) |
+| `min_capital_ratio` | Minimum cash as % of SPV value (0.02 = 2%) |
+| `liquidation_cost` | Cost to liquidate SPV (0.01 = 1%) |
 
-**How to Calculate Your Returns**:
-```
-Daily return = annual_yield / 365
-Total return = your_investment × (annual_yield / 365) × tenor_days
-
-Example: 100,000 FSB in Monthly Blizzard Bill (4% annual, 30 days)
-Return = 100,000 × (0.04 / 365) × 30 = 328.77 FSB
-Not bad for just parking your money! 💰
+**Example:**
+```csv
+rule,tax_rate,base_rate_modifier,min_capital_ratio,liquidation_cost
+SPV,0.008,0.004,0.02,0.01
 ```
 
-### 💰 `cash_flows.csv`
+### 🔄 Reused from Previous Years
 
-| Column | Description |
-|--------|-------------|
-| `day` | When the money moves |
-| `amount` | How much (negative = you pay, positive = you receive) |
-| `description` | What it's for |
-| `type` | Category (operations, tax_estimate, dividend, maintenance, etc.) |
-
-**Important Notes**:
-- Tax estimates are just **suggestions** - your actual taxes depend on what you own!
-- You control WHEN to pay taxes (but you must pay within 30 days!)
-- Selling properties gives you cash (you control this!)
-- Dividend checks arrive automatically (free money! 🎉)
+- 🏠 **`assets.csv`** (Year 1) - Same assets available
+- 📈 **`valuations.csv`** (Year 2) - Asset valuations over 100 days
+- 💸 **`tax_rates.csv`** (Year 2) - Asset-level tax rates (now applied at SPV level)
 
 ---
 
 ## 📤 Output Format
 
-You've got new tricks up your elf sleeves! 🎩✨
+You now specify SPV operations in your `output.yml`:
 
 ### 📋 `output.yml`
 
 ```yaml
 1:
   - buy: asset_1
-  - invest_treasury: repo_overnight, 500000  # Park 500k in Overnight Snowbank
+  - assign_spv: { asset: asset_1, spv: alpha }
+  - inject_capital: { spv: alpha, amount: 50000 }
 
-2:
-  - redeem_treasury: repo_overnight, 500000  # Get your money back
-  - pay_tax: asset_1                         # Pay those taxes
-  - invest_treasury: t_bill_7d, 450000       # Invest the rest
+5:
+  - spv_tax: alpha
+  - buy: asset_3
+  - assign_spv: { asset: asset_3, spv: alpha }
 
 10:
-  - redeem_treasury: t_bill_7d, 450000       # Weekly Icicle Bond matures
-  - sell: asset_1                            # Sell property for cash
-  - pay_tax: asset_1                         # Pay accumulated tax
-  - invest_treasury: mmf_fund, 300000        # Park excess in Money Market
+  - buy: asset_2
+  - assign_spv: { asset: asset_2, spv: bravo }
+  - inject_capital: { spv: bravo, amount: 30000 }
 
 15:
-  - redeem_treasury: mmf_fund, 300000        # Get cash for bills
-  # Money automatically used for operations (from cash_flows.csv)
+  - transfer_asset: { asset: asset_3, from_spv: alpha, to_spv: bravo }  # 0.5% cost
+
+20:
+  - spv_tax: bravo
+  - dividend: { spv: bravo, amount: 40000 }
+
+30:
+  - liquidate_spv: alpha  # Sells all assets, pays taxes, returns cash
 ```
 
-**Your New Actions**:
-- `invest_treasury: <product>, <amount>` - Put cash to work!
-- `redeem_treasury: <product>, <amount>` - Get your money back!
+### 🆕 New Actions
 
-**Pro Tips**:
-- Instruments mature automatically after their tenor
-- You must redeem to get cash back (it doesn't magically appear!)
-- You can invest and redeem on the same day (for overnight stuff)
-- All your Year 1-2 powers still work (buy, sell, pay_tax)
+| Action | Description | Example |
+|--------|-------------|---------|
+| `assign_spv` | Assign asset to SPV | `assign_spv: { asset: asset_1, spv: alpha }` |
+| `inject_capital` | Move cash from portfolio to SPV | `inject_capital: { spv: alpha, amount: 50000 }` |
+| `spv_tax` | Pay accumulated SPV tax | `spv_tax: alpha` |
+| `dividend` | Extract cash from SPV (only if taxes paid) | `dividend: { spv: alpha, amount: 30000 }` |
+| `transfer_asset` | Move asset between SPVs (0.5% cost) | `transfer_asset: { asset: asset_1, from_spv: alpha, to_spv: bravo }` |
+| `liquidate_spv` | Liquidate entire SPV (1% cost) | `liquidate_spv: alpha` |
+
+### ✅ Existing Actions (from Year 1-2)
+
+- `buy: asset_id` - Purchase asset
+- `sell: asset_id` - Sell asset (proceeds go to SPV)
+- `pay_tax: asset_id` - ❌ **REMOVED** (now use `spv_tax`)
 
 ---
 
 ## ✅ Validation Rules
 
-🚨 **All Year 1 & 2 rules still apply, PLUS these new ones:**
+### SPV Rules
+- 💰 Each asset must be assigned to exactly one SPV
+- 🏛️ SPVs must maintain minimum capital (2% of asset value)
+- 💸 Can only extract dividends if SPV taxes are paid
+- 🔄 Asset transfers cost 0.5% of asset value
+- ⚠️ SPV liquidation costs 1% of total SPV value
 
-### Treasury Rules
-- 💰 You need cash to invest (can't invest money you don't have!)
-- 📅 Can only redeem instruments that have matured (no early withdrawals!)
-- 🏦 Must redeem the exact amount you invested (no partial redemptions)
-- 💎 You can have multiple investments in the same instrument
+### Tax Rules (from Year 2, now at SPV level)
+- 📊 Tax calculated on total SPV asset value
+- ⏰ Tax can be delayed up to 30 days
+- 💰 Tax modifier increases with delay
+- 🚫 Must pay all taxes by day 100
 
-### Zero-Cash Mandate
-- 🚫 **Idle cash at end of day = 0.1% daily penalty** (Santa's watching!)
-- ✅ Cash reserved for tomorrow's bills doesn't count as idle
-- ✅ Cash in treasury instruments doesn't count (it's working!)
-- ⚠️ Not enough cash for bills = 2× the shortfall as penalty (OUCH!)
-
-### Cash Flow Rules
-- 📊 Bills from `cash_flows.csv` happen automatically (no escaping them!)
-- 💸 Tax payments are YOUR choice (but must pay within 30 days!)
-- 🔄 Selling properties gives you cash (you control this!)
-- 📈 Dividend checks arrive automatically (cha-ching! 💰)
+### Trading Rules (from Year 1)
+- 💵 Must have cash to buy assets
+- 🏠 Can't buy assets you already own
+- 🤝 Must own assets to sell them
+- 💸 1% transaction costs (buy and sell)
+- ⏳ 10-day holding period (must hold assets for at least 10 days before selling)
 
 ---
 
@@ -234,83 +308,70 @@ You've got new tricks up your elf sleeves! 🎩✨
 Your performance is measured by **Total Wealth on Day 100**:
 
 ```
-Score = Cash on Hand 
-      + Σ(Property Values at day 100) 
-      + Treasury Instrument Values
-      + All Treasury Returns You Earned
-      - Tax Penalties 
-      - Idle Cash Penalties (the laziness tax!)
-      - Liquidity Shortfall Penalties (running out of money!)
+Score = Portfolio Cash 
+      + Σ(SPV Cash) 
+      + Σ(Asset Valuations at Day 100)
+      - Tax Penalties (2× unpaid taxes)
+      - Capital Requirement Penalties (5% per day on shortfalls)
+      - Transaction Costs (1% buy/sell, 0.5% transfers, 1% liquidations)
 ```
 
-**Penalties** (The stuff that hurts):
-- Unpaid taxes: 2× the tax owed (from Year 2)
-- Idle cash: 0.1% per day on lazy money
-- Running out of cash: 2× the shortfall (VERY painful!)
-
-**Treasury Returns** (The good stuff!):
-- All the returns from your treasury investments
-- Calculated as: investment × (annual_yield / 365) × tenor_days
-- Free money for being smart! 🎉
+**Penalties:**
+- Unpaid SPV taxes: **2× the tax owed**
+- Capital shortfalls: **5% per day** on the shortfall amount
+- Liquidation costs: **1%** of SPV value
 
 ---
 
 ## Tips for Success
 
-### Treasury Elf Wisdom 🧙‍♂️
-- 💎 **Ladder your investments** - Don't put all eggs in one basket (or all FSB in one instrument!)
-- 📊 **Look ahead 30 days** - Know what bills are coming!
-- 🎯 **Match timing** - Use Weekly Icicle Bonds for bills due in 7-10 days
-- 🔄 **Stay flexible when uncertain** - Overnight Snowbank is your friend!
-- 💰 **Maximize Monthly Blizzard Bills** - Highest returns when you're sure you won't need cash
+### SPV Structuring Strategy 🏗️
+- 🎯 **Group similar assets** - Residential in one SPV, Industrial in another
+- 📊 **Isolate volatile assets** - Separate SPVs for high-risk holdings
+- 💰 **Minimize SPV count** - Fewer SPVs = less capital tied up
+- 🔄 **Use transfers strategically** - Rebalance SPVs as market changes
 
-### Cash Management Magic ✨
-- 📅 **Plan tax payments** - Pay when treasury instruments mature!
-- 🏠 **Time property sales** - Sell BEFORE you desperately need cash
-- 💵 **Keep an emergency fund** - 50-100k in Overnight Snowbank for surprises
-- 📈 **Love those dividends** - Industrial properties = free money!
-- ⚠️ **Never go idle** - Even ONE day of lazy cash costs you!
+### Tax Optimization 💸
+- 📅 **Pay SPV taxes together** - Consolidate tax payments to reduce modifier impact
+- 🛡️ **Delay strategically** - Only delay if asset appreciation exceeds tax cost
+- 🎯 **Time liquidations** - Liquidate before taxes accumulate too much
 
-### Portfolio Coordination 🎯
-- 🔄 **Sell underperformers** - Get cash AND improve your portfolio!
-- 💸 **Pay taxes strategically** - Right before treasury instruments mature
-- 🎯 **Hold tax-efficient assets** - Residential properties (from Year 2)
-- 📊 **Watch valuations** - Higher values = more taxes = more cash needed
+### Capital Management 💰
+- 💵 **Inject capital early** - Avoid daily penalties
+- 📊 **Monitor SPV sizes** - Larger SPVs need more reserves
+- 🔄 **Extract dividends wisely** - Only after paying taxes
 
-### Advanced Elf Tactics 🎓
-- 🧮 **Calculate break-evens** - Is Monthly Blizzard Bill worth the risk?
-- 📈 **Optimize every Buck** - Every 0.5% matters over 100 days!
-- 💰 **Zero idle cash = maximum returns** - Be ruthless!
-- 🎯 **Stress test** - What if a property sale gets delayed?
+### Advanced Tactics 🧙‍♂️
+- 🎯 **Tax-efficient grouping** - Put low-tax assets together
+- 📊 **Liquidation timing** - Consolidate SPVs mid-year to free up capital
+- 💰 **Transfer vs liquidate** - Transfers (0.5%) cheaper than liquidation (1%)
+- 🔄 **SPV lifecycle** - Create → grow → extract → liquidate
 
 ---
 
-## Market Context for Year 3
+## 🎯 Market Context for Year 3
 
-The Year 2 market continues (it's still pretty chill):
-
-**📈 Property Performance** (from Year 2):
+**📈 Asset Performance** (from Year 2):
 - 🏠 Residential: ~9-10% returns (tax-efficient, stable)
-- 🏢 Commercial: ~-7% returns (still struggling, avoid these!)
-- 🏭 Industrial: ~13% returns (steady Eddie, pays dividends!)
+- 🏢 Commercial: ~-7% returns (still struggling)
+- 🏭 Industrial: ~13% returns (steady, reliable)
 
-**💰 Treasury Environment**:
-- Normal yield curve (longer lockup = better returns)
-- 🌙 Overnight Snowbank: 2.50% (safest, most flexible)
-- ❄️ Monthly Blizzard Bill: 4.00% (best returns, least flexible)
-- 🚫 Idle cash penalty: 36.5% annualized (YIKES!)
+**🏛️ SPV Environment**:
+- Base SPV tax: 0.8% per day (higher than Year 2 asset taxes)
+- Tax modifier: 0.4% per day (aggressive penalty for delays)
+- Minimum capital: 2% (ties up cash)
+- Liquidation cost: 1% (expensive to restructure)
 
 **🎯 Strategic Implications**:
-- Treasury returns (2.5-4%) can add 2-4% to your total score!
-- Idle cash penalties can DESTROY you (10-20% loss if you're sloppy!)
-- Running out of cash is catastrophic (2× penalty = game over!)
-- Good treasury management = 15-25% score advantage! 💪
+- SPV structure matters as much as asset selection!
+- Good structuring can save 10-15% in taxes and penalties
+- Poor capital management can destroy returns
+- Timing of SPV operations is critical
 
-**💡 Key Insight**: In Year 3, managing your cash is just as important as picking good properties! A great portfolio with terrible cash management will LOSE to a good portfolio with excellent cash management. Don't let your Frosty Bucks get lazy! 💰✨
+**💡 Key Insight**: Year 3 is about **organizational efficiency**. The best portfolio with terrible SPV structure will lose to a good portfolio with excellent structure. Master the art of structuring! 🏗️✨
 
 ---
 
-## 🎄💰 **May Your Cash Always Be Working and Your Liquidity Never Run Dry!** 💰🎄
+## 🎄💼 **May Your SPVs Be Efficient and Your Structure Be Sound!** 💼🎄
 
-*P.S. - Santa's watching your idle cash levels. Don't disappoint him! 🎅👀*
-
+*P.S. - The PRS is watching your SPV structures. Don't give them a reason to audit! 🎅👀*

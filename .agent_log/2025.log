@@ -1,5 +1,325 @@
 # Agent Activity Log - 2025
 
+## Session: Restructure Years 3-5 (2025-11-23)
+
+### User Instructions
+- Remove current Year 5 (not much happening)
+- Move current Year 4 to Year 5
+- Move current Year 3 to Year 4
+- Ensure new Year 4 and Year 5 are standalone challenges (don't build on each other)
+- Create new Year 3 building on Year 2 with SPV (Special Purpose Vehicle) mechanics
+
+### User's Initial Concept for New Year 3
+- SPV-level tax rules (instead of per-asset)
+- SPV-level cashflow constraints
+- Minimum SPV capitalization requirements
+- SPV consolidation rules
+- Asset grouping decisions
+- SPV liquidation timing
+
+### Changes Made
+
+#### 1. Removed Current Year 5
+- Deleted `problems/year_5/` directory entirely
+
+#### 2. Moved Year 4 → Year 5
+- Renamed `problems/year_4/` to `problems/year_5/`
+- Updated problem title from "Year 4: Election Year Chaos" to "Year 5: Election Year Chaos"
+- Updated internal references:
+  - Changed "At the end of Year 4" to "At the end of Year 5"
+  - Changed "Year 4 with election dynamics" to "Year 5 with election dynamics"
+  - Changed "Year 5 stakes" to just "stakes" (standalone challenge)
+  - Removed references to Year 5 policies reshaping future years
+
+#### 3. Moved Year 3 → Year 4
+- Renamed `problems/year_3/` to `problems/year_4/`
+- Updated problem title from "Year 3: The Great Cash Caper" to "Year 4: The Great Cash Caper"
+- Updated internal references:
+  - Changed "Years 1 and 2" to just general "portfolio performing well"
+  - Changed "Market Context for Year 3" to "Market Context for Year 4"
+  - Changed "In Year 3" to "In Year 4" in key insights
+
+#### 4. Created New Year 3: The Tax SPV Dilemma
+
+**New Challenge Structure:**
+- Title: "Year 3: The Tax SPV Dilemma"
+- Difficulty: ⭐⭐⭐⭐☆ (Senior Elf — Structuring Specialist)
+- Theme: Portfolio structuring through Special Purpose Vehicles
+
+**Core Mechanics Implemented:**
+
+1. **SPV Ownership Structure**
+   - Assets must be assigned to SPVs
+   - Multiple SPVs allowed
+   - Each SPV acts as separate entity
+
+2. **SPV-Level Taxation**
+   - Tax calculated on total SPV asset value (not per asset)
+   - Formula: `Daily SPV Tax = (Sum of SPV assets) × (0.008 + 0.004 × days_since_last_payment)`
+   - Base rate: 0.8% per day
+   - Modifier: 0.4% per day of delay
+   - Max delay: 30 days
+
+3. **SPV Minimum Capital Requirement**
+   - Each SPV must hold 2% of total asset value in cash
+   - Penalty: 5% per day on shortfall
+   - Mirrors real-world liquidity buffers
+
+4. **SPV Cashflow Restrictions**
+   - Portfolio → SPV: Capital injection (anytime)
+   - SPV → Portfolio: Dividend (only if taxes paid)
+   - Asset sales: Proceeds go to owning SPV
+   - Tax payments: Paid from SPV cash
+
+5. **SPV Liquidation**
+   - Can liquidate entire SPV anytime
+   - Must pay all taxes first
+   - All assets sold
+   - Cash returned to portfolio
+   - Cost: 1% of SPV value
+
+6. **Consolidated Scoring**
+   - Final score = Portfolio cash + SPV cash + Asset values - Penalties
+
+**New Actions Added:**
+- `assign_spv: { asset: asset_id, spv: spv_name }`
+- `inject_capital: { spv: spv_name, amount: X }`
+- `spv_tax: spv_name`
+- `dividend: { spv: spv_name, amount: X }`
+- `transfer_asset: { asset: asset_id, from_spv: X, to_spv: Y }` (0.5% cost)
+- `liquidate_spv: spv_name` (1% cost)
+
+**Data Files Created:**
+- `spv_rules.csv` - SPV parameters (tax rates, capital requirements, costs)
+- Reused: `assets.csv`, `valuations.csv`, `tax_rates.csv` from Year 2
+
+**Strategic Elements:**
+- Asset grouping optimization (similar assets together)
+- Tax efficiency through SPV structure
+- Capital management across entities
+- Transfer vs liquidation decisions
+- Timing of SPV operations
+
+### Assumptions Made
+
+1. **SPV Tax Rates**: Set higher than Year 2 asset taxes (0.8% vs 0.1-0.15%) to create meaningful trade-offs
+2. **Capital Requirements**: 2% chosen to be significant but not overwhelming
+3. **Penalties**: 5% per day on capital shortfalls to enforce discipline
+4. **Transfer Cost**: 0.5% (cheaper than liquidation at 1%)
+5. **Liquidation Cost**: 1% to make restructuring decisions meaningful
+6. **Builds on Year 2**: Uses same assets and valuations, adds SPV layer on top
+
+### Design Decisions
+
+1. **Standalone Years 4 & 5**: 
+   - Year 4 (Treasury) focuses on cash management
+   - Year 5 (Election) focuses on political risk
+   - Neither requires the other to understand or solve
+
+2. **Year 3 Complexity**:
+   - Builds directly on Year 2 tax mechanics
+   - Adds organizational layer without complex math
+   - Tests portfolio structuring skills
+   - Maintains consistency with existing data
+
+3. **Difficulty Progression**:
+   - Year 1: ⭐⭐☆☆☆ (Basic trading)
+   - Year 2: ⭐⭐⭐⭐⭐ (Taxes)
+   - Year 3: ⭐⭐⭐⭐☆ (SPV structuring)
+   - Year 4: ⭐⭐⭐⭐☆ (Treasury management)
+   - Year 5: ⭐⭐⭐⭐☆ (Political risk)
+
+### Files Modified/Created
+
+**Modified:**
+- `problems/year_4/problem.md` (formerly year_3)
+- `problems/year_5/problem.md` (formerly year_4)
+
+**Created:**
+- `problems/year_3/problem.md` (new SPV challenge)
+- `problems/year_3/data/spv_rules.csv`
+- `problems/year_3/data/assets.csv` (copied from year_1)
+- `problems/year_3/data/valuations.csv` (copied from year_2)
+- `problems/year_3/data/tax_rates.csv` (copied from year_2)
+- `problems/year_3/sample_output.yml`
+- `problems/year_3/output/` (directory)
+
+**Deleted:**
+- Original `problems/year_5/` (entire directory)
+
+### Verification
+
+✅ All 5 years now exist with proper structure
+✅ Year 3 builds on Year 2 (SPV layer on tax mechanics)
+✅ Year 4 and Year 5 are standalone challenges
+✅ Consistent data files across years
+✅ Difficulty progression maintained
+✅ Sample outputs provided
+
+### Issues Encountered
+
+None - restructuring completed successfully.
+
+---
+
+## Session: Consistency Review Across All Years (2025-11-23)
+
+### User Instructions
+- Review all 5 problem.md files for consistency
+- Standardize formatting, terminology, and structure
+
+### Changes Made
+
+#### 1. Section Header Standardization
+
+**Fixed Inconsistent Headers:**
+- Year 3: Changed "📁 Challenge Files & Info" → "📊 Challenge Files & Info"
+- Year 3: Changed "📊 Scoring" → "Scoring"
+- Year 3: Changed "💡 Tips for Success" → "Tips for Success"
+- Year 4: Changed "Market Context for Year 4" → "🌍 Market Context for Year 4"
+- Year 5: Changed "Market Context for Year 5" → "🌍 Market Context for Year 5"
+- Year 5: Changed "📁 Challenge Files & Info" → "📊 Challenge Files & Info"
+
+**Standard Section Order (now consistent):**
+1. Title and Difficulty
+2. Introduction/Story
+3. Challenge Description
+4. Core Mechanics (if applicable)
+5. 📊 Challenge Files & Info
+6. 📥 Input Data Format
+7. 📤 Output Format
+8. ✅ Validation Rules
+9. Scoring
+10. Tips for Success
+11. 🌍 Market Context
+12. Closing Message
+
+#### 2. Terminology Standardization
+
+**Organization Name:**
+- Changed "Glacial Investment Corporation (GIC)" → "Glacial ELF Investment Corporation (GEIC)"
+- Now consistent across all years
+
+**Scoring Terminology:**
+- Standardized "day 100" → "Day 100" (capitalized)
+- Year 3: "Asset Valuations at day 100" → "Asset Valuations at Day 100"
+- Year 4: "Property Values at day 100" → "Asset Valuations at Day 100"
+- Year 5: "Asset Valuations at day 100" → "Asset Valuations at Day 100"
+
+**Currency:**
+- Consistently use "Frosty Bucks (FSB)" across all years
+- Consistently use "FSB" in formulas and examples
+
+#### 3. Data File References
+
+**Fixed Year 4:**
+- Removed incorrect reference to `tax_rates.csv` (file doesn't exist in Year 4)
+- Changed "Year 2" reference to "Year 1" for valuations.csv
+
+**Verified All Years:**
+- Year 1: assets.csv, valuations.csv, macro_indicators.csv ✅
+- Year 2: assets.csv, valuations.csv, tax_rates.csv ✅
+- Year 3: assets.csv, valuations.csv, tax_rates.csv, spv_rules.csv ✅
+- Year 4: assets.csv, valuations.csv, treasury_products.csv, cash_flows.csv ✅
+- Year 5: assets.csv, valuations.csv, polls.csv, news.csv, election_info.csv ✅
+
+#### 4. Validation Rules Consistency
+
+**Added Missing Rule to Year 3:**
+- Added "⏳ 10-day holding period" to Trading Rules section
+- Now consistent with Year 1, 2, and 5
+
+**Verified Rule Inheritance:**
+- Year 2: "All Year 1 rules still apply" ✅
+- Year 3: Explicitly lists Year 1 and Year 2 rules ✅
+- Year 4: "All Year 1 & 2 rules still apply" ✅
+- Year 5: "Basic Trading Rules (from Year 1)" ✅
+
+#### 5. Scoring Formula Consistency
+
+**Standardized Format:**
+All years now use consistent scoring formula structure:
+```
+Score = Cash on Hand 
+      + Σ(Asset Valuations at Day 100)
+      - Penalties (if applicable)
+      + Additional Components (if applicable)
+```
+
+**Year-Specific Components:**
+- Year 1: Basic (cash + assets)
+- Year 2: + Tax penalties
+- Year 3: + SPV cash, SPV penalties
+- Year 4: + Treasury values and returns, idle cash penalties
+- Year 5: + Transaction costs
+
+#### 6. Difficulty Ratings
+
+**Verified Progression:**
+- Year 1: ⭐⭐☆☆☆ (Elf-level Easy!)
+- Year 2: ⭐⭐⭐⭐⭐ (Legendary Master Elf! 👑)
+- Year 3: ⭐⭐⭐⭐☆ (Senior Elf — Structuring Specialist)
+- Year 4: ⭐⭐⭐⭐☆ (Master Treasury Elf! 💎)
+- Year 5: ⭐⭐⭐⭐☆ (Expert Elf Territory! 🧙‍♀️)
+
+Progression makes sense: Easy → Very Hard → Hard (3 variations)
+
+#### 7. Cross-References Verified
+
+**Year 1:**
+- Mentions 5-year probation period ✅
+- Standalone challenge ✅
+
+**Year 2:**
+- References Year 1 market conditions ✅
+- Builds on Year 1 mechanics ✅
+
+**Year 3:**
+- References Year 2 tax mechanics ✅
+- Builds on Year 2 ✅
+
+**Year 4:**
+- Standalone challenge ✅
+- References Year 1-2 rules for validation ✅
+- Includes taxes as cash flow items (correct) ✅
+
+**Year 5:**
+- Standalone challenge ✅
+- References Year 1 rules for validation ✅
+- No taxes or treasury (correct) ✅
+
+### Summary of Consistency Improvements
+
+✅ **Formatting**: All section headers now consistent
+✅ **Terminology**: GEIC, FSB, Day 100 standardized
+✅ **Data Files**: All references verified and corrected
+✅ **Validation Rules**: 10-day holding period added to Year 3
+✅ **Scoring**: Consistent formula structure across all years
+✅ **Cross-References**: All year references verified
+✅ **Structure**: Consistent section ordering
+
+### Files Modified
+
+- `problems/year_1/problem.md` - Organization name
+- `problems/year_3/problem.md` - Headers, scoring terminology, holding period
+- `problems/year_4/problem.md` - Headers, data file references, scoring terminology
+- `problems/year_5/problem.md` - Headers, scoring terminology
+
+### Verification
+
+All 5 years now follow consistent patterns for:
+- Section structure and ordering
+- Header formatting (with appropriate emojis)
+- Terminology (GEIC, FSB, Day 100)
+- Data file documentation
+- Validation rules
+- Scoring formulas
+- Cross-year references
+
+---
+
+# Agent Activity Log - 2025
+
 ## Session: Fix Year 2 Tax Example Timing (2025-11-14)
 
 ### User Instructions
@@ -594,3 +914,199 @@ This log was recreated after being deleted. Previous sessions included:
 - Year 4 news sentiment and reputation risk
 - Year 5 Reindeer Protection Act retention and timing enhancement
 - Removal of "pay tax before sell" restriction
+
+## Session: Data Consistency Review (2025-11-23)
+
+### User Instructions
+- Review all data files across years for consistency
+- Ensure valuations.csv progression is logical and justified
+- Fix any drastic changes without justifiable cause
+
+### Analysis Performed
+
+#### 1. Assets.csv Review
+**Status**: ✅ Perfect consistency
+- All 5 years have identical assets.csv files
+- MD5 Hash: `140dda04da4687be69d75297cef53ae4`
+- 15 assets: 7 Residential, 5 Commercial, 3 Industrial
+- 4 regions: Frostpeak, Tinseltown, Evergreen Valley, Mistletoe Meadows
+
+#### 2. Valuations.csv Analysis
+
+**Initial State:**
+- Year 1: Unique data (housing boom)
+- Year 2: Continuous from Year 1
+- Year 3: ❌ **ISSUE** - Using Year 2 data (should be continuous)
+- Year 4: Using Year 2 data (standalone - OK)
+- Year 5: Continuous from Year 4
+
+**Continuity Check:**
+```
+Year 1 → Year 2: ✅ Continuous
+  asset_1: 245,469 → 245,679 (smooth transition)
+  
+Year 2 → Year 3: ❌ BROKEN
+  asset_1: 270,495 → 245,679 (reset to Year 2 start!)
+  
+Year 4 → Year 5: ✅ Continuous
+  asset_1: 270,495 → 270,095 (smooth transition)
+```
+
+**Performance Analysis:**
+
+Year 1 (Volatile Boom):
+- Residential: +51.7%
+- Industrial: +13.9%
+- Commercial: -19.4%
+
+Year 2 (Matured Market):
+- Residential: +10.1%
+- Industrial: +13.0%
+- Commercial: -12.7%
+
+Year 3 (Before Fix):
+- Using Year 2 data (incorrect)
+
+Year 4 (Treasury Focus):
+- Using Year 2 data (intentional - standalone)
+
+Year 5 (Election):
+- Residential: -8.6% (Santa loses)
+- Industrial: +23.4% (Grinch wins)
+- Commercial: +19.5% (both favor)
+
+#### 3. Issue Identified
+
+**Problem**: Year 3 was using Year 2 valuations.csv instead of continuing from Year 2 ending values.
+
+**Impact**: 
+- Year 3 should build on Year 2 (per problem description)
+- Players would see asset values "reset" to Year 2 starting prices
+- Breaks narrative continuity
+- Inconsistent with problem statement
+
+**Root Cause**: When creating new Year 3, valuations.csv was copied from Year 2 instead of being generated as a continuation.
+
+#### 4. Fix Applied
+
+**Generated New Year 3 Valuations:**
+
+Starting from Year 2 ending values (Day 100):
+- asset_1 (Residential): 270,495 FSB
+- asset_6 (Industrial): 564,189 FSB
+- asset_2 (Commercial): 220,544 FSB
+
+Applied growth rates matching problem description:
+- Residential: +9.5% (stable growth)
+- Industrial: +13.0% (steady performance)
+- Commercial: -7.0% (continued struggles)
+
+**Results:**
+```
+Asset Type    | Start      | End        | Growth
+--------------|------------|------------|--------
+Residential   | 270,495    | 296,227    | +9.5%
+Industrial    | 564,189    | 637,884    | +13.0%
+Commercial    | 220,544    | 205,210    | -7.0%
+```
+
+**Method:**
+- Used compound daily growth rate: `(1 + total_growth)^(1/100) - 1`
+- Added small Gaussian noise for realism (0.3-0.5% volatility)
+- Seed: 123 (reproducible)
+- Verified all 15 assets match target growth rates
+
+#### 5. Other Data Files Verified
+
+**tax_rates.csv (Years 2-3):**
+✅ Identical (correct - Year 3 builds on Year 2)
+- Base rates: 0.10%-0.18% per day
+- Modifiers: 0.05%-0.085% per day
+
+**spv_rules.csv (Year 3):**
+✅ Balanced
+- SPV tax: 0.8% per day (8x higher than asset rates)
+- Justification: Reflects SPV complexity and regulatory burden
+- Creates meaningful structuring trade-offs
+
+**treasury_products.csv (Year 4):**
+✅ Realistic yield curve
+- 1-day: 2.5%-2.8%
+- 7-day: 3.2%
+- 14-day: 3.5%
+- 30-day: 4.0%
+- Normal curve (longer = higher yield)
+
+**cash_flows.csv (Year 4):**
+✅ Creates liquidity challenge
+- Total income: 598,622 FSB
+- Total expenses: -1,256,618 FSB
+- Net: -657,996 FSB (forces active management)
+
+**Election Data (Year 5):**
+✅ Balanced and fair
+- polls.csv: 12 polls, close race, 50-50 final
+- news.csv: 8 events, balanced sentiment
+- election_info.csv: Grinch offers better economics, Santa offers tradition
+
+#### 6. Continuity Validation
+
+**Sequential Years (Should Continue):**
+- Year 1 → Year 2: ✅ Continuous
+- Year 2 → Year 3: ✅ **FIXED** - Now continuous
+- Year 4 → Year 5: ✅ Continuous
+
+**Standalone Years (Can Reset):**
+- Year 4: ✅ Intentionally uses Year 2 data (treasury focus)
+
+#### 7. Justification for Data Patterns
+
+**Year 1 → Year 2:**
+- Market maturation after boom
+- Tax introduction dampens speculation
+- Returns normalize
+
+**Year 2 → Year 3:**
+- Continued stability
+- SPV structure adds organizational complexity
+- Market fundamentals unchanged
+
+**Year 4 (Standalone):**
+- Treasury management challenge
+- Market secondary to cash flow
+- Reusing Year 2 allows focus on liquidity
+
+**Year 4 → Year 5:**
+- Election introduces volatility
+- Asset classes respond to political winds
+- Residential down (Santa loses)
+- Industrial up (Grinch wins)
+
+### Files Modified
+
+**Created:**
+- `problems/year_3/data/valuations.csv` (new, continuous from Year 2)
+- `problems/DATA_CONSISTENCY.md` (documentation)
+
+**Backed Up:**
+- `problems/year_3/data/valuations_old.csv` (original Year 2 copy)
+
+### Verification
+
+✅ All assets.csv files identical (MD5 verified)
+✅ Year 3 valuations now continuous from Year 2
+✅ All growth rates match problem descriptions
+✅ Tax rates consistent where intended
+✅ Treasury data realistic and balanced
+✅ Election data fair and balanced
+✅ All CSV files have correct row counts (1,501 for valuations)
+✅ No missing or duplicate data
+
+### Summary
+
+**Key Fix**: Generated proper Year 3 valuations that continue from Year 2 ending values with appropriate growth rates (+9.5% Residential, +13% Industrial, -7% Commercial).
+
+**Impact**: Year 3 now properly builds on Year 2, maintaining narrative and data continuity while providing the intended market environment for SPV structuring challenges.
+
+**Documentation**: Created DATA_CONSISTENCY.md to document standards and rationale for all data files across years.
+

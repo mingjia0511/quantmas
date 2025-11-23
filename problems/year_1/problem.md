@@ -3,7 +3,7 @@
 
 🎄 **Ho ho ho, new Chief Investment Elf!** 🎄
 
-Welcome to your first year at the Glacial Investment Corporation (GIC)! The world is changing rapidly—children are increasingly glued to their magical glowing rectangles, and traditional toys are becoming less popular. But fear not! To ensure the prosperity of the North Pole for generations to come, the GIC has been established to manage and grow our festive investments.
+Welcome to your first year at the Glacial ELF Investment Corporation (GEIC)! The world is changing rapidly—children are increasingly glued to their magical glowing rectangles, and traditional toys are becoming less popular. But fear not! To ensure the prosperity of the North Pole for generations to come, the GEIC has been established to manage and grow our festive investments.
 
 YOU have been chosen as our Chief Investment Elf (CIE) to save Christmas for many years ahead! Consider this your probationary period—you have 5 magical years to prove your worth. Each year consists of 100 merry days (represented with integer values from 1-100). Your performance will be evaluated at the end of Year 5 based on your total portfolio value.
 
