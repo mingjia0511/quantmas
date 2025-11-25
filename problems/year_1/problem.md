@@ -85,6 +85,7 @@ The market is volatile - asset valuations change daily based on factors like:
 - 🏠 `assets.csv` - 15 magical properties with details (id, name, type, sub_type, available_on_day, region)
 - 📈 `valuations.csv` - Daily market values for all assets across 100 festive days (1,500 rows of data)
 - 🌍 `macro_indicators.csv` - Daily inflation and interest rate indices (100 rows)
+- 📊 `scoring_methodology.md` - **NEW!** Detailed explanation of multi-objective scoring
 
 **💰 Starting Capital:** 1,000,000 Frosty Bucks (FSB)
 
@@ -173,36 +174,93 @@ Day 15: Sell asset_1 at valuation 105,000 FSB ✅ VALID
 
 ---
 
-## Scoring
+## 🎯 Multi-Objective Scoring (NEW!)
 
-Your performance is measured by **Total Wealth on Day 100**:
+**Year 1 introduces a critical investing concept:** Returns aren't everything—**risk-adjusted returns** matter!
 
+Your performance is evaluated across **THREE dimensions**:
+
+### 1. Terminal Wealth (60 points)
 ```
-Score = Cash on Hand + Σ(Valuation of Each Owned Asset on Day 100)
+Terminal Wealth = Cash on Hand + Σ(Valuation of Each Owned Asset on Day 100)
+Wealth Score = (Terminal Wealth / 1,500,000) × 60
 ```
 
-**Example:**
-- Cash remaining: 200,000 FSB
-- Own asset_5 (day 100 value: 325,983 FSB)
-- Own asset_12 (day 100 value: 564,589 FSB)
-- **Total Score: 1,090,572 FSB**
+**Target:** 1,500,000 FSB (50% gain from starting capital)
 
-The elf with the highest score wins! 🏆
+### 2. Sharpe Ratio (25 points)
+```
+Sharpe Ratio = (Mean Daily Return / StdDev Daily Return) × √100
+Sharpe Score = min(Sharpe Ratio × 10, 25)
+```
+
+**What it measures:** Risk-adjusted returns (reward per unit of risk)
+- Higher Sharpe = More consistent returns with less volatility
+- Improved by diversification and avoiding large drawdowns
+
+### 3. Max Drawdown (15 points)
+```
+Max Drawdown = Worst peak-to-trough decline during the year
+Drawdown Score = 15 × (1 - Max Drawdown)
+```
+
+**What it measures:** Portfolio resilience
+- Lower drawdown = Better risk management
+- Improved by diversification and maintaining cash buffers
+
+### Final Score
+```
+Total Score = Wealth Score + Sharpe Score + Drawdown Score
+Maximum: 100 points
+```
+
+### 📊 Strategy Comparison
+
+**Aggressive (All-in on one asset):**
+- Wealth: 1,600,000 → 64 pts | Sharpe: 0.8 → 8 pts | Drawdown: 45% → 8.25 pts
+- **Total: 80.25 points**
+
+**Balanced (Diversified portfolio):**
+- Wealth: 1,450,000 → 58 pts | Sharpe: 1.5 → 15 pts | Drawdown: 20% → 12 pts
+- **Total: 85 points** ✅ **Often wins despite lower wealth!**
+
+**Conservative (Mostly cash):**
+- Wealth: 1,100,000 → 44 pts | Sharpe: 0.3 → 3 pts | Drawdown: 5% → 14.25 pts
+- **Total: 61.25 points**
+
+📖 **For detailed scoring methodology, see `scoring_methodology.md`**
+
+---
 
 ## Tips for Success
 
+### For Terminal Wealth (60 points):
 - 📊 **Study the trends carefully** - some assets are more volatile than others
 - 🌍 **Watch the macro indicators** - inflation and interest rates drive asset class performance
 - 📉 **Not all assets go up** - some may look good early but crash later
 - ⏰ **Timing matters** - the market has ups and downs throughout the year
-- 💰 **Keep cash reserves** - opportunities may arise when prices dip
 - 🎯 **Remember the goal** - you're scored on day 100, not day 50
-- 🧮 **Track your liquidity** - running out of cash means missing opportunities
-- 🎲 **Diversification helps** - but choose wisely, not all assets are winners
+
+### For Sharpe Ratio (25 points):
+- 🎲 **Diversify across 5-8 assets** - reduces volatility and improves risk-adjusted returns
+- 🔄 **Avoid over-concentration** - don't put all eggs in one basket
+- 📈 **Seek consistent growth** - smooth returns beat erratic swings
+- 🏠 **Mix asset types** - Residential, Commercial, and Industrial respond differently to macro conditions
+- 💰 **Maintain some cash** - reduces portfolio volatility
+
+### For Max Drawdown (15 points):
+- 🛡️ **Never go all-in** - concentration risk leads to large drawdowns
+- 💵 **Keep 10-20% cash buffer** - provides cushion against market drops
+- 🌍 **Diversify across regions** - Frostpeak, Tinseltown, Evergreen Valley, Mistletoe Meadows
+- 📉 **Avoid buying at peaks** - wait for better entry points
+- ⚖️ **Balance your portfolio** - don't let one asset dominate
+
+### General Strategy:
 - 💸 **Transaction costs add up** - frequent trading (2% round-trip cost) can erode gains
 - ⏳ **Plan for illiquidity** - 10-day holding periods mean you can't react instantly
-- 🏠 **Asset class matters** - Residential, Commercial, and Industrial respond differently to macro conditions
 - 🔄 **Strategic trading beats day-trading** - real estate rewards patience and planning
+- 🧮 **Track your liquidity** - running out of cash means missing opportunities
+- 📊 **Monitor all three metrics** - optimize for total score, not just wealth
 
 ## 🎁 Good Luck, Chief Investment Elf!
 

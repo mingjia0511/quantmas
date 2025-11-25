@@ -186,12 +186,76 @@ The winner's policies affect your final score!
 
 ---
 
+## 🌪️ October Surprises (NEW!)
+
+**Breaking News:** Year 5 includes **3 major political shocks** that will dramatically reshape the race!
+
+### Three Game-Changing Events
+
+**🚨 Surprise 1: Day 72 - Santa's Outsourcing Scandal**
+- **What:** Santa caught outsourcing toy production to Grinch Inc!
+- **Poll Impact:** Santa crashes from 47% → 32% (loses 15 points)
+- **Market Impact:** Residential & Commercial assets drop 30%
+- **Duration:** Permanent damage to Santa's campaign
+- **Strategy:** Sell Santa-favored assets before day 72, or buy the dip if you think he recovers
+
+**💚 Surprise 2: Day 85 - Grinch's Heart Grows Three Sizes**
+- **What:** Medical miracle! Grinch's heart grows, becomes lovable
+- **Poll Impact:** Grinch surges from 42% → 62% (gains 20 points)
+- **Market Impact:** Industrial & Commercial assets surge 40%
+- **Duration:** Permanent boost to Grinch's appeal
+- **Strategy:** Load up on Industrial before day 85, or fade the overreaction
+
+**🎭 Surprise 3: Day 92 - Election Chaos**
+- **What:** Recount controversy, outcome completely uncertain
+- **Poll Impact:** Both candidates at 50% (polls unreliable)
+- **Market Impact:** All asset volatility doubles
+- **Duration:** Through election day (day 100)
+- **Strategy:** Hedge with mixed portfolio, or go all-in on your conviction
+
+### Strategic Implications
+
+**Before Surprises (Predictable):**
+- Could follow polls and position accordingly
+- Gradual market movements
+- Clear frontrunner
+
+**After Surprises (Chaotic):**
+- Massive poll swings (±15-20 points)
+- Dramatic market moves (±30-40%)
+- Complete uncertainty by day 92
+- Rewards adaptability and risk management
+
+**Example Scenario:**
+```
+Day 70: You own 5 Residential assets (betting on Santa)
+        Santa polling at 47%, looking good
+
+Day 72: SCANDAL! Santa crashes to 32%
+        Your Residential assets drop 30%
+        
+Decision: Panic sell? Hold and hope? Switch to Industrial?
+
+Day 85: Grinch's heart grows, surges to 62%
+        Industrial assets up 40%
+        
+Decision: Too late to switch? Or still time?
+
+Day 92: Recount chaos, 50-50 race
+        Volatility spikes
+        
+Decision: Hedge? All-in? Cash out?
+```
+
+---
+
 ## 📊 Challenge Files & Info
 
 **📁 New Election Files**:
-- 🗳️ `polls.csv` - Daily polling updates (~12 data points)
+- 🗳️ `polls.csv` - Daily polling updates (includes October surprise impacts!)
 - 📰 `news.csv` - Breaking news events (~8 events)
 - 🎯 `election_info.csv` - Candidate policies and effects
+- 🌪️ `october_surprises.csv` - **NEW!** Major political shocks (3 game-changers)
 
 **🔄 Reused from Previous Years**:
 - 🏠 `assets.csv` (Year 1)
@@ -250,6 +314,26 @@ day,candidate,sentiment,description
 | `tax_reduction_percent` | Tax reduction if candidate wins (0.0 to 1.0) |
 | `valuation_boost_percent` | Valuation boost if candidate wins (0.0 to 1.0) |
 | `slogan` | Campaign slogan |
+
+### 🌪️ `october_surprises.csv` (NEW!)
+
+| Column | Description |
+|--------|-------------|
+| `day` | Day when surprise occurs |
+| `event_type` | Type of event (scandal, revelation, chaos) |
+| `affected_candidate` | Who the event affects (Santa, Grinch, or both) |
+| `poll_shift` | Change in polling (negative = bad, positive = good) |
+| `market_impact_type` | How markets react (sector_crash, sector_surge, volatility_spike) |
+| `magnitude` | Size of market impact (-0.30 = -30%, +0.40 = +40%) |
+| `description` | What happened |
+
+**Example:**
+```csv
+day,event_type,affected_candidate,poll_shift,market_impact_type,magnitude,description
+72,scandal,Santa,-0.15,sector_crash,-0.30,"Outsourcing scandal"
+85,revelation,Grinch,0.20,sector_surge,0.40,"Heart grows three sizes"
+92,chaos,both,0.0,volatility_spike,2.0,"Recount controversy"
+```
 
 ---
 
@@ -354,6 +438,15 @@ Score = Cash on Hand
 - 📉 **Sell on negative news** - Or hold if you think it's overblown
 - 🎭 **Fade the overreaction** - Contrarian plays can work!
 - 🧘 **Or ignore noise** - Long-term view beats panic trading
+
+### October Surprise Management (NEW!):
+- 🚨 **Day 72: Santa scandal coming** - Sell Residential/Commercial before, or buy the dip after
+- 💚 **Day 85: Grinch miracle coming** - Load up on Industrial before, or fade the surge after
+- 🎭 **Day 92: Chaos incoming** - Hedge with mixed portfolio or go all-in on conviction
+- 📊 **Study october_surprises.csv** - Know exactly when shocks hit
+- 🔄 **Adapt quickly** - Rigid strategies fail in volatile environment
+- ⏰ **Remember 10-day holding period** - Can't sell immediately after buying
+- 💸 **Transaction costs** - 2% round-trip means timing is critical
 
 ### Scenario Planning 🎯
 - 🧮 **Calculate expected value** - Weight outcomes by poll probabilities

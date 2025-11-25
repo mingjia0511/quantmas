@@ -7,7 +7,12 @@ day,poll_santa,poll_grinch,description
 50,0.48,0.52,Grinch pulls ahead again
 60,0.45,0.55,Grinch surges to biggest lead
 70,0.47,0.53,Santa narrows gap
-80,0.49,0.51,Race tightens
-90,0.5,0.5,Too close to call
-95,0.49,0.51,Grinch slight edge in final poll
-100,0.5,0.5,Election day - coin flip!
+72,0.32,0.68,SCANDAL! Santa crashes after outsourcing revelation
+75,0.35,0.65,Santa still reeling from scandal
+80,0.38,0.62,Santa begins slow recovery
+85,0.38,0.62,MIRACLE! Grinch's heart grows - Grinch surges to 62%
+88,0.35,0.65,Grinch extends lead further
+90,0.40,0.60,Grinch maintains strong advantage
+92,0.5,0.5,CHAOS! Recount controversy - polls unreliable
+95,0.5,0.5,Uncertainty continues
+100,0.5,0.5,Election day - complete toss-up!

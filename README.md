@@ -33,6 +33,11 @@ You are *strongly* encouraged to use AI coding agents. We’ll provide starter A
 These are not ordinary coding problems—there is **no single correct answer**.
 You will be competing against your fellow elves for glory, creativity, and style points.
 
+**🆕 NEW: Multi-Objective Optimization & Black Swan Events!**
+- Years 1 & 4 include multi-objective scoring (risk-adjusted returns!)
+- Years 2, 4 & 5 include unexpected shocks (adapt or fail!)
+- Multiple strategies can win - creativity and risk management matter!
+
 ### 🧹 3. **Keep Things North-Pole Clean**
 
 Even though agents are involved, you must ensure your code stays clean, safe, and well-tested.

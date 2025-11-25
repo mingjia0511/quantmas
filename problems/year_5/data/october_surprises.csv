@@ -1,0 +1,4 @@
+day,event_type,affected_candidate,poll_shift,market_impact_type,magnitude,description
+72,scandal,Santa,-0.15,sector_crash,-0.30,"Santa caught outsourcing toy production to Grinch Inc - residential and commercial crash"
+85,revelation,Grinch,0.20,sector_surge,0.40,"Grinch's heart grows three sizes - medical miracle boosts industrial and commercial"
+92,chaos,both,0.0,volatility_spike,2.0,"Recount controversy - polls unreliable, all asset volatility doubles"

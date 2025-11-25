@@ -15,6 +15,53 @@ Your new mission: Become the GEIC's first-ever **Chief Treasury Elf**! You'll ma
 
 Welcome to the wild world of treasury management—where cash is king, but idle cash gets coal! 🏦✨
 
+**⚠️ NEW: Liquidity Crises!** Year 4 includes unexpected liquidity shocks that will test your treasury management skills. Stay prepared! 🚨
+
+---
+
+## 🌪️ Liquidity Crises (NEW!)
+
+**Breaking News:** The treasury market is NOT always smooth! Year 4 includes **4 major liquidity shocks** that will test your cash management skills.
+
+### Four Liquidity Events
+
+**🚨 Event 1: Day 30 - Credit Market Freeze**
+- **What:** Cannot redeem 7-day, 14-day, or 30-day treasury instruments for 5 days
+- **Duration:** Days 30-34
+- **Impact:** Cash locked in long-term instruments is inaccessible
+- **Strategy:** Maintain overnight instruments or cash buffer before day 30
+
+**💸 Event 2: Day 45 - Emergency Expense**
+- **What:** Unexpected 250,000 FSB bill (reindeer hospital repairs)
+- **Duration:** Must pay immediately on day 45
+- **Impact:** If insufficient cash → forced asset sales at 5% discount
+- **Strategy:** Plan ahead, maintain liquidity, or sell assets before day 45
+
+**📈 Event 3: Day 65 - Yield Spike**
+- **What:** All treasury yields increase by 1.5% for 15 days
+- **Duration:** Days 65-79
+- **Impact:** Opportunity to lock in higher rates (e.g., Monthly Blizzard Bill → 5.5%)
+- **Strategy:** Have cash ready to invest when yields spike
+
+**📉 Event 4: Day 85 - Flash Crash**
+- **What:** All assets drop 22% at market open, recover by close
+- **Duration:** Intraday on day 85
+- **Impact:** Opportunity to buy assets at 22% discount if you have cash
+- **Strategy:** Maintain cash buffer to exploit the dislocation
+
+### Strategic Implications
+
+**Before Crises (Predictable):**
+- Could optimize for maximum yield
+- Lock all cash in Monthly Blizzard Bills
+- Minimal cash buffers
+
+**After Crises (Adaptive):**
+- Must maintain flexibility
+- Balance yield vs liquidity
+- Plan for unexpected shocks
+- Rewards preparation and adaptability
+
 ---
 
 ## 🏦 The Challenge
@@ -115,6 +162,8 @@ Your Strategy:
 **📁 New Magical Files:**
 - 💎 `treasury_products.csv` - All the Elf Treasury instruments you can use
 - 💰 `cash_flows.csv` - Scheduled bills and income (so you can plan ahead!)
+- 🌪️ `liquidity_events.csv` - **NEW!** Liquidity crisis events (4 major shocks)
+- 📊 `scoring_methodology.md` - **NEW!** Detailed multi-objective scoring explanation
 
 **🔄 Files from Previous Years:**
 - 🏠 `assets.csv` (Year 1) - Your real estate options
@@ -125,6 +174,7 @@ Your Strategy:
 - 💰 Redeem maturing instruments (get your money back!)
 - 📊 Forecast cash needs (be a planning wizard!)
 - ⚖️ Balance returns vs flexibility (the eternal struggle!)
+- 🌪️ Survive liquidity crises (the ultimate test!)
 
 ---
 
@@ -162,6 +212,18 @@ Not bad for just parking your money! 💰
 - You control WHEN to pay taxes (but you must pay within 30 days!)
 - Selling properties gives you cash (you control this!)
 - Dividend checks arrive automatically (free money! 🎉)
+- **Day 45 includes 250k emergency expense** - plan ahead!
+
+### 🌪️ `liquidity_events.csv` (NEW!)
+
+| Column | Description |
+|--------|-------------|
+| `day` | Day when liquidity event occurs |
+| `event_type` | Type of event (redemption_freeze, emergency_expense, yield_spike, flash_crash) |
+| `restriction` | What's restricted or changed |
+| `amount` | Amount involved (for emergency_expense) |
+| `duration_days` | How many days the event lasts |
+| `description` | What's happening |
 
 ---
 
@@ -228,59 +290,104 @@ You've got new tricks up your elf sleeves! 🎩✨
 
 ---
 
-## Scoring
+## 🎯 Multi-Objective Scoring (NEW!)
 
-Your performance is measured by **Total Wealth on Day 100**:
+**Year 4 is the ultimate challenge:** Treasury management requires balancing **returns, liquidity, and efficiency**!
 
+Your performance is evaluated across **THREE dimensions**:
+
+### 1. Terminal Wealth (40 points)
 ```
-Score = Cash on Hand 
-      + Σ(Asset Valuations at Day 100) 
-      + Treasury Instrument Values
-      + All Treasury Returns You Earned
-      - Tax Penalties 
-      - Idle Cash Penalties (the laziness tax!)
-      - Liquidity Shortfall Penalties (running out of money!)
+Terminal Wealth = Cash + Assets + Treasury Values + Treasury Returns - Penalties
+Wealth Score = (Terminal Wealth / 1,600,000) × 40
 ```
 
-**Penalties** (The stuff that hurts):
-- Unpaid taxes: 2× the tax owed (from Year 2)
-- Idle cash: 0.1% per day on lazy money
-- Running out of cash: 2× the shortfall (VERY painful!)
+**Target:** 1,600,000 FSB (60% gain)
 
-**Treasury Returns** (The good stuff!):
-- All the returns from your treasury investments
-- Calculated as: investment × (annual_yield / 365) × tenor_days
-- Free money for being smart! 🎉
+### 2. Liquidity Management (30 points)
+```
+Daily Liquidity Ratio = Available Cash / Next 7 Days Bills
+Target Ratio = 1.2 (20% buffer)
+
+Daily Score:
+  - Ratio ≥ 1.2 → 1.0 (perfect)
+  - 1.0 ≤ Ratio < 1.2 → Ratio/1.2 (adequate)
+  - Ratio < 1.0 → 0.5 × Ratio (danger!)
+
+Liquidity Score = 30 × Average(Daily Scores)
+```
+
+**What it measures:** How well you maintain cash buffers for upcoming bills
+
+### 3. Yield Optimization (30 points)
+```
+Actual Yield = (Total Treasury Returns / Avg Cash Invested) × (365/100)
+Optimal Yield = 4.0% (Monthly Blizzard Bills)
+Efficiency = Actual Yield / Optimal Yield
+
+Yield Score = 30 × Efficiency
+```
+
+**What it measures:** How efficiently you deploy cash to earn returns
+
+### Final Score
+```
+Total Score = Wealth Score + Liquidity Score + Yield Score
+Maximum: 100 points
+```
+
+### 📊 Strategy Comparison
+
+**Aggressive (Max yield, minimal buffers):**
+- Wealth: 1,650k → 41.25 pts | Liquidity: 0.75 ratio → 22.5 pts | Yield: 3.8% → 28.5 pts
+- **Total: 92.25 points** (risky!)
+
+**Balanced (Good mix):**
+- Wealth: 1,580k → 39.5 pts | Liquidity: 1.15 ratio → 28.75 pts | Yield: 3.2% → 24 pts
+- **Total: 92.25 points** ✅ **Often wins!**
+
+**Conservative (Max liquidity, low yield):**
+- Wealth: 1,480k → 37 pts | Liquidity: 1.35 ratio → 30 pts | Yield: 2.6% → 19.5 pts
+- **Total: 86.5 points**
+
+📖 **For detailed scoring methodology, see `scoring_methodology.md`**
 
 ---
 
 ## Tips for Success
 
-### Treasury Elf Wisdom 🧙‍♂️
-- 💎 **Ladder your investments** - Don't put all eggs in one basket (or all FSB in one instrument!)
-- 📊 **Look ahead 30 days** - Know what bills are coming!
-- 🎯 **Match timing** - Use Weekly Icicle Bonds for bills due in 7-10 days
-- 🔄 **Stay flexible when uncertain** - Overnight Snowbank is your friend!
-- 💰 **Maximize Monthly Blizzard Bills** - Highest returns when you're sure you won't need cash
+### For Terminal Wealth (40 points):
+- 📈 **Maximize treasury returns** - Every 0.5% matters over 100 days!
+- 🏠 **Invest in high-performing assets** - Real estate still matters
+- ⚠️ **Avoid idle cash penalties** - 36.5% annualized cost!
+- 💸 **Minimize transaction costs** - Don't overtrade
 
-### Cash Management Magic ✨
-- 📅 **Plan tax payments** - Pay when treasury instruments mature!
-- 🏠 **Time property sales** - Sell BEFORE you desperately need cash
-- 💵 **Keep an emergency fund** - 50-100k in Overnight Snowbank for surprises
-- 📈 **Love those dividends** - Industrial properties = free money!
-- ⚠️ **Never go idle** - Even ONE day of lazy cash costs you!
+### For Liquidity Management (30 points):
+- 📊 **Maintain 20% buffer** - Target ratio = 1.2 (Available Cash / Next 7 Days Bills)
+- 🌙 **Use overnight instruments** - For near-term bills
+- 📅 **Plan ahead** - Study cash_flows.csv carefully
+- 🚫 **Never let ratio drop below 1.0** - Running out of cash is catastrophic
+- 🏠 **Sell assets BEFORE crisis** - Don't wait until you're desperate
 
-### Portfolio Coordination 🎯
-- 🔄 **Sell underperformers** - Get cash AND improve your portfolio!
-- 💸 **Pay taxes strategically** - Right before treasury instruments mature
-- 🎯 **Hold tax-efficient assets** - Residential properties (from Year 2)
-- 📊 **Watch valuations** - Higher values = more taxes = more cash needed
+### For Yield Optimization (30 points):
+- ❄️ **Use Monthly Blizzard Bills** - 4.0% when you don't need cash for 30+ days
+- 💎 **Ladder investments** - Match instruments to cash needs
+- 📈 **Exploit yield spike** - Day 65 offers 5.5% rates!
+- 🌙 **Minimize Overnight Snowbank** - Only 2.5% yield
+- 💰 **Zero idle cash daily** - Every Buck must work
 
-### Advanced Elf Tactics 🎓
-- 🧮 **Calculate break-evens** - Is Monthly Blizzard Bill worth the risk?
-- 📈 **Optimize every Buck** - Every 0.5% matters over 100 days!
-- 💰 **Zero idle cash = maximum returns** - Be ruthless!
-- 🎯 **Stress test** - What if a property sale gets delayed?
+### Liquidity Crisis Management (NEW!):
+- 🚨 **Day 30: Hold cash before credit freeze** - Can't redeem long-term instruments days 30-34
+- 💸 **Day 45: Prepare 250k for emergency** - Or sell assets before day 45
+- 📈 **Day 65: Have cash ready for yield spike** - Lock in 5.5% rates!
+- 📉 **Day 85: Maintain buffer for flash crash** - Buy assets at 22% discount
+
+### General Strategy:
+- 💎 **Ladder your investments** - Diversify across tenors
+- 🔄 **Balance liquidity vs yield** - The fundamental trade-off
+- 📊 **Forecast 30 days ahead** - Know what's coming
+- 🎯 **Adapt to shocks** - Rigid strategies fail
+- 🧮 **Optimize all three metrics** - Not just wealth!
 
 ---
 

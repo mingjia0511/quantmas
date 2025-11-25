@@ -1,0 +1,4 @@
+day,shock_type,affected_types,rate_multiplier,duration_days,description
+40,emergency_tax_hike,all,2.0,10,"PRS Emergency Revenue Act - all tax rates double for 10 days"
+65,tax_holiday,Residential,0.0,7,"Housing Stimulus Act - residential property tax waived for 1 week"
+82,audit_wave,Commercial,1.5,18,"Compliance Crackdown - commercial tax rates increase 50% through year-end"

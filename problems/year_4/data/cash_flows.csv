@@ -10,6 +10,7 @@ day,amount,description,type
 35,-40000,Compliance audit fees,compliance
 40,-38024,Operational expenses,operations
 45,-83905,Estimated tax liability,tax_estimate
+45,-250000,Emergency reindeer hospital repairs,emergency
 50,-37314,Operational expenses,operations
 50,178907,Industrial asset dividends,dividend
 55,-70000,Emergency repairs,maintenance

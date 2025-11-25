@@ -1,0 +1,5 @@
+day,event_type,restriction,amount,duration_days,description
+30,redemption_freeze,cannot_redeem_7d_14d_30d,0,5,"Credit market freeze - long-term treasury instruments cannot be redeemed"
+45,emergency_expense,immediate_payment,250000,1,"Emergency reindeer hospital repairs - must pay 250k FSB immediately"
+65,yield_spike,rate_increase_1.5pct,0,15,"PRS rate hike - all treasury yields increase by 1.5% for 15 days"
+85,flash_crash,asset_drop_22pct_same_day,0,1,"Algorithm error causes 22% asset crash at open, recovers by close"

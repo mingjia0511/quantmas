@@ -13,6 +13,76 @@ But wait—there's a twist! 🎭 You can play the postponement game for up to 30
 
 The market has also matured since Year 1. The wild housing boom has cooled, retail remains volatile, and industrial properties continue their steady performance. Tax pressure is dampening speculation - investors are fleeing to quality. 📉💭
 
+**⚠️ NEW: Tax Policy Risk!** The PRS has warned that tax rates may change unexpectedly during the year due to economic conditions. Stay alert! 🚨
+
+---
+
+## 🌪️ Tax Policy Shocks (NEW!)
+
+**Breaking News:** The Polar Revenue Service (PRS) has announced that tax policy is **no longer static**! Economic conditions may force emergency tax changes during the year.
+
+### What This Means
+
+Tax rates can change **unexpectedly** at any time due to:
+- 📉 Budget shortfalls requiring emergency revenue
+- 🏛️ Political pressure for tax relief
+- 📊 Sector-specific compliance crackdowns
+- 🎁 Election-year stimulus measures
+
+**You cannot predict these shocks in advance!** The data in `policy_shocks.csv` reveals when and how tax policy changes during Year 2.
+
+### Three Major Policy Shocks
+
+**🚨 Shock 1: Day 40 - Emergency Revenue Act**
+- **What:** All tax rates **double** for 10 days (days 40-49)
+- **Why:** PRS budget crisis requires emergency revenue
+- **Impact:** 
+  - Residential: 0.10% → 0.20% base rate
+  - Industrial: 0.12% → 0.24% base rate
+  - Commercial: 0.15% → 0.30% base rate
+- **Strategy:** Pay taxes before day 40, or hold cash and wait it out
+
+**🎁 Shock 2: Day 65 - Housing Stimulus Act**
+- **What:** Residential property tax **waived** for 7 days (days 65-71)
+- **Why:** Election-year gift to voters
+- **Impact:** Residential tax = 0% for one week
+- **Strategy:** Load up on residential before day 65, delay residential tax payments
+
+**🔍 Shock 3: Day 82 - Commercial Compliance Crackdown**
+- **What:** Commercial tax rates increase **50%** through year-end (days 82-100)
+- **Why:** PRS audit wave targeting commercial sector
+- **Impact:** Commercial: 0.15% → 0.225% base rate (18 days)
+- **Strategy:** Sell commercial assets before day 82, or accept higher tax burden
+
+### Strategic Implications
+
+**Before Shocks (Predictable):**
+- You could pre-optimize tax payment timing
+- Plan entire year in advance
+- Minimize tax through perfect timing
+
+**After Shocks (Adaptive):**
+- Must maintain flexibility
+- Can't just pre-optimize
+- Rewards adaptive strategies
+- Timing becomes critical
+
+**Example Scenario:**
+```
+Day 35: You own 3 commercial assets, haven't paid tax in 20 days
+        Accumulated tax: ~150,000 FSB
+
+Day 40: SHOCK! Tax rates double for 10 days
+        If you don't pay immediately, your tax burden explodes
+
+Day 41-49: Each day of delay now costs 2× normal rate
+           Your 150k tax bill could become 300k+
+
+Decision: Pay immediately on day 40? Or sell assets to avoid the shock?
+```
+
+---
+
 ## Tax Mechanics
 
 ### How Taxes Work
@@ -76,7 +146,8 @@ Total Wealth = Cash on Hand + Sum of All Owned Asset Valuations (at day 100 pric
 ## 📊 Challenge Files & Info
 
 **📁 New Data Files:**
-- 💸 `tax_rates.csv` - Tax rates by asset type/subtype that change throughout the year
+- 💸 `tax_rates.csv` - Tax rates by asset type/subtype that change throughout the year (includes shock periods!)
+- 🌪️ `policy_shocks.csv` - **NEW!** Tax policy shock events (3 major shocks)
 
 **🔄 Reused from Year 1:**
 - 🏠 `assets.csv`
@@ -144,6 +215,27 @@ Total: 1,100 FSB (saved 150 by waiting!)
 | `tax_rate` | Base daily tax rate (as decimal, e.g., 0.01 = 1%) |
 | `base_rate_modifier` | Additional rate per day of delay (as decimal) |
 
+**Note:** Tax rates change on days 40, 50, 65, 72, 75, and 82 due to policy shocks and normal adjustments.
+
+### 🌪️ `policy_shocks.csv` (NEW!)
+
+| Column | Description |
+|--------|-------------|
+| `day` | Day when policy shock occurs |
+| `shock_type` | Type of shock (emergency_tax_hike, tax_holiday, audit_wave) |
+| `affected_types` | Which asset types are affected (all, Residential, Commercial, Industrial) |
+| `rate_multiplier` | How rates change (2.0 = double, 0.0 = waived, 1.5 = 50% increase) |
+| `duration_days` | How many days the shock lasts |
+| `description` | What's happening |
+
+**Example:**
+```csv
+day,shock_type,affected_types,rate_multiplier,duration_days,description
+40,emergency_tax_hike,all,2.0,10,"PRS Emergency Revenue Act"
+65,tax_holiday,Residential,0.0,7,"Housing Stimulus Act"
+82,audit_wave,Commercial,1.5,18,"Compliance Crackdown"
+```
+
 ---
 
 ## 📤 Output Format
@@ -193,17 +285,31 @@ Score = Cash on Hand + Σ(Valuation of Each Owned Asset on Day 100) - Unpaid Tax
 
 ## Tips for Success
 
+### Tax Management (General):
 - 📊 **Monitor valuations closely** - falling prices reduce tax burden
 - ⏰ **Time your tax payments** - pay before assets spike in value
 - 💰 **Maintain cash reserves** - tax bills can be substantial
 - 🏛️ **Tax efficiency is strategy** - Industrial assets accumulate ~15% less tax than Commercial over 30 days
 - 📊 **After-tax returns matter** - A 10% gross return on Commercial (high tax) may underperform 8% on Residential (low tax)
 - 🎯 **Asset class selection** - Consider tax burden when choosing between similar-valued properties
+- 🧮 **Calculate total tax burden** - don't get caught without cash on day 100
+
+### Policy Shock Management (NEW!):
+- 🚨 **Study policy_shocks.csv carefully** - know when shocks hit
+- 📅 **Pay taxes before day 40** - avoid the emergency tax hike (days 40-49)
+- 🏠 **Load up on residential before day 65** - benefit from tax holiday (days 65-71)
+- 🏢 **Sell commercial before day 82** - avoid compliance crackdown (days 82-100)
+- 💵 **Maintain flexibility** - can't pre-optimize entire year anymore
+- 🔄 **Adapt to shocks** - rigid strategies will fail
+- ⚡ **React quickly** - shocks create opportunities for those prepared
+- 🛡️ **Hedge with diversification** - don't be over-exposed to one asset type
+
+### Strategic Timing:
 - 🔄 **Active trading helps** - sell before tax accumulates too much
 - 📉 **Use market dips** - wait to pay tax if you expect prices to fall
-- 🧮 **Calculate total tax burden** - don't get caught without cash on day 100
 - 🏠 **Long-term holds favor Residential** - Lowest tax rate makes them ideal for buy-and-hold strategies
 - 🏢 **Commercial needs higher returns** - Factor in 50% higher tax burden vs Residential when evaluating trades
+- ⏰ **Shock windows are critical** - days 40-49, 65-71, 82-100 require special attention
 
 ---
 
@@ -238,6 +344,12 @@ The Year 1 macro environment continues to shape the market, now amplified by tax
 - Watch for sell-offs around days 25, 50, 75 (common payment periods)
 - "Flight to quality" = shift toward Residential and Industrial
 - Commercial assets may trade at discounts due to tax inefficiency
+
+**🌪️ Policy Shock Impact**:
+- **Days 40-49**: Emergency tax hike creates panic selling and cash hoarding
+- **Days 65-71**: Residential tax holiday sparks buying frenzy in housing sector
+- **Days 82-100**: Commercial crackdown drives investors away from retail properties
+- **Adaptive strategies win**: Those who anticipate and react to shocks outperform rigid plans
 
 ## 🎁 Keep Up the Great Work!
 
